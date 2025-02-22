@@ -212,7 +212,7 @@ the K''ad T''eira. To the east, the jungle gives way to tropical plains known as
 >![Swamp Village](images/tsintah/tsintah_3.jpg)
 >*The villages of the Naakai Lizhinii tribes build their homes (palafitos) on piles in the swamps.*
 
-# Flag and Symbols
+# Flags and Symbols
 ## Aho''diilya
 
 The flag of the Aho''diilya tribe features two tyrannosaurs rex heads facing opposite directions on a red background
@@ -231,7 +231,7 @@ The flag of the Kintichii tribe features a blue background with gold and green c
 Important symbols include the golden sun disc (Inti), the royal scepter, the rainbow (Wiraqocha), the chakana, and the puma, all of which 
 represent power, divinity, and prosperity.
 
-## Naakai Lizinii
+## Naakai Lizhinii
 
 The flag of the Naakai Lizhinii tribe features a jaguar pattern with a ceiba tree.
 Prominent symbols include the hieroglyphs for water, sweet potatoes, jaguar, and sun, as well as the sacred ceiba tree, the feathered 
@@ -243,7 +243,8 @@ The flag of the Halgai Hoteelni tribe incorporates a white background with a sto
 Key symbols include the statues, the sea turtle, the palm tree, the ocean waves, and the sun, all of which represent strength, endurance, 
 resilience, and connection to the land and sea.
 
-![Tsintan Flags and Symbols](images/tsintah/placeholders.jpeg)
+![Tsintan Flags and Symbols 1](images/tsintah/tsintah_flags_1.png)
+![Tsintan Flags and Symbols 2](images/tsintah/tsintah_flags_2.png)
 
 [Return to Top](#top)
 
@@ -349,7 +350,7 @@ maintaining communal infrastructure such as irrigation systems and buildings.
 * **Scribes and Scholars (Ah Tz''ib):** Educated individuals trained in writing, astronomy, and other intellectual pursuits essential for 
 recording historical events, tracking celestial movements, and preserving cultural knowledge.
 
-Halgai Hoteelni
+## Halgai Hoteelni
 * **Chiefs and Elders (Moa''i Ariki):** Tribal leaders and elders entrusted with making decisions, resolving disputes, and guiding the 
 community in matters of governance, tradition, and spirituality.
 * **Farmers and Fishermen (Matai''a):** Agricultural workers and fishermen responsible for cultivating crops, harvesting food, and fishing 
@@ -654,9 +655,14 @@ waters during the annual Floating Lantern Ritual. Each lantern carries a candle 
 connection to the spirit world and the cycle of life and death.
 
 ## Halgai Hoteelni
-* **AddLater:** Placeholder
-* **AddLater:** Placeholder
-* **AddLater:** Placeholder 
+* **The Gilded Ancestors:** When a revered elder or leader passes, their face is cast in gold and placed in a sacred ancestral shrine. 
+The golden masks hold the wisdom of the past and serve as conduits for guidance. During times when the borders between Gaea and Ethereus 
+are thinner, they can actually talk to their ancestors though them.
+* **Lion''s Reckoning:** During Tobadzichini''s Descent, they hold competitions for three days testing the participants'' endurance, 
+wisdom, and courage. Those who prove themselves are likely to receive higher positions of power. Those that fail, will typically see their 
+social standing reduced.
+* **Pact of the Sun and Stone:** Every 10 years, the [[Halgai Hoteelni]] erect a gold-plated stone monolith in the savanna that is engraved 
+with past and present leaders. It is a pact that cements their agreement with the spirits of the land and secures their wealth.
 
 [Return to Top](#top)
 
