@@ -11,7 +11,6 @@ select
     JSON('{"title":"Currency","icon": "coins","link":"/index_currency.sql"}') as menu_item,
     JSON('{"title":"Piety","icon": "flask-2","link":"/index_piety.sql"}') as menu_item,
     JSON('{"title":"Narcotics","icon": "brain","link":"/index_narcotics.sql"}') as menu_item,
-    JSON('{"title":"Narcotics","icon": "brain","link":"/index_narcotics.sql"}') as menu_item,
     'dark' as theme;
 select
     'hero' as component,
