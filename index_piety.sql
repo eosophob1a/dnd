@@ -189,10 +189,10 @@ select
     '[Fortuna](#fortuna)' as "God",
     '-' as "Aelin Helskar",
     '-' as "Gao Yao",
-    '5' as "Kairo Janus",
-    '-' as "Augustus Valerius",
+    '-' as "Kairo Janus",
+    '5' as "Augustus Valerius",
     '-' as "Maestro",
-    '-' as "Yuma";
+    '5' as "Yuma";
 select
     '[Janus](#janus)' as "God",
     '-' as "Aelin Helskar",
@@ -1015,6 +1015,7 @@ The middle brother of Saturn and Opis. Neptune laid claim to the sea after the w
 - Offering treasure to the sea
 - Sacrifices before sailing
 - Taking care of a horse
+
 Individuals can lose piety with Neptune through such actions as:
 - Using magic to calm the seas
 - Polluting waters
