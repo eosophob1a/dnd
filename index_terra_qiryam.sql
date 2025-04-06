@@ -5,7 +5,7 @@ select
     TRUE as fixed_top_menu,
     JSON('{"title":"Alchemy","icon": "flask-2","link":"/index_alchemy.sql"}') as menu_item,
     JSON('{"title":"Warrior","icon": "swords","link":"/index_warrior.sql"}') as menu_item,
-    JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_Tsintah.sql","title":"Tsintah"}]}') as menu_item,
+    JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_tsintah.sql","title":"Tsintah"}]}') as menu_item,
     JSON('{"title":"Subclasses","icon": "feather","link":"/index_subclasses.sql"}') as menu_item,
     JSON('{"title":"Spells","icon": "wand","link":"/index_spells.sql"}') as menu_item,
     JSON('{"title":"Currency","icon": "coins","link":"/index_currency.sql"}') as menu_item,
@@ -37,6 +37,44 @@ select
     'text' as component,
     TRUE as article,
     '
+# Table of Contents
+- [Worldview](#worldview)
+- [History](#history)
+- [Folk Heroes](#folk_heroes)
+- [Geography](#geography)
+- [Food Staples](#food_staples)
+- [Flags and Symbols](#symbols)
+- [Leadership Structure](#leadership_structure)
+- [Class Structure](#class_structure)
+- [Stance on Poverty](#stance_on_poverty)
+- [Legal Structure](#legal_structure)
+- [Language](#language)
+- [Insults, Swears, Idioms, and Sayings](#idioms)
+- [Currency](#currency)
+- [Resources](#resources)
+- [Education](#education)
+- [Military & Defense](#military_defense)
+- [Traditions](#traditions)
+- [Taboos](#taboos)
+- [Death Rituals](#death_rituals)
+- [Fashion](#fashion)
+- [Stance on Slavery](#stance_on_slavery)
+- [Marriage](#marriage)
+- [Religion](#religion)
+- [Subcultures and Countercultures](#subcultures_countercultures)
+- [Art and Music](#art_music)
+- [Attitudes Toward Magic](#attitudes_magic)
+- [Attitudes Toward Drugs](#attitudes_drugs)
+- [Attitudes Toward Gender Roles](#attitudes_gender)
+- [Attitudes Toward Other Regions](#attitudes_regions)
+' as contents_md;
+
+
+select
+    'text' as component,
+    'worldview' as id,
+    TRUE as article,
+    '
 # Worldview
 Qiryamites are deeply shaped by their monotheistic faith and the teachings of the Testament of Absolution. They perceive themselves as the 
 chosen people of Oren, entrusted with a sacred mission to uphold the divine order and combat the forces of evil represented by Artus. 
@@ -51,7 +89,13 @@ superior to other nations and cultures due to their special relationship with Or
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'history' as id,
+    TRUE as article,
+    '
 # History
 ## Founding of the Indigenous Tribes
 Indigenous tribes settle in the land of Qiryam, establishing small communities and living in harmony with nature. The tribes develop a 
@@ -86,7 +130,13 @@ their faith, drawing strength from their devotion to Oren and their solidarity a
 
 >![Sheol Portal](images/qiryam/qiryam_2.jpg)
 >*With the help of the clerics and divine mages of the Yarukumah assisted the natives in sealing many of the portals to Sheol.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'folk_heroes' as id,
+    TRUE as article,
+    '
 # Folk Heroes
 **Ezra the Brave:** A legendary warrior who defended Qiryam from demonic invasions during times of great peril. He is said to have wielded 
 a magical sword blessed by Oren himself.
@@ -107,7 +157,13 @@ becoming a bastion of culture, knowledge, and prosperity. Solomon''s legacy live
 
 >![Gideon](images/qiryam/qiryam_3.jpg)
 >*It is believed among the Yarokumah, that if Gideon wasn''t assassinated, Yarok would''ve survived the Imperian invasion.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'geography' as id,
+    TRUE as article,
+    '
 # Geography
 Qiryam is a country dominated by the snow-capped mountains of the Etsba Shayma. This mountain range protects its southern, western, and 
 eastern borders. On its side of the mountains is the Preada Horesh with the Levent River flowing through it. Out from the river is the 
@@ -124,7 +180,13 @@ frozen sea of Myrshym Kain and the three major islands of David''s Stone, Solomo
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'food_staples' as id,
+    TRUE as article,
+    '
 # Food Staples
 In Qiryam, food staples encompass a diverse array of ingredients drawn from the region''s rich natural resources. Fish, including salmon, 
 cod, herring, and trout, sourced from coastal waters and freshwater lakes, form a fundamental part of the Qiryamite diet and are prepared 
@@ -146,14 +208,26 @@ touches to meats, sauces, and marinades, contributing to the country''s culinary
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'symbols' as id,
+    TRUE as article,
+    '
 # Flag and Symbols
 The flag is white with a sun in the center and set of balanced scales. Symbols that are commonly found are the sun, doves, and scales.
 
 ![Qiryamite Flag](images/qiryam/qiryamite_flag.jpeg)
 
 [Return to Top](#top)
+    ' as contents_md;
 
+select
+    'text' as component,
+    'leadership_structure' as id,
+    TRUE as article,
+    '
 # Leadership Structure
 **Kadosh Melech:** At the apex of the leadership structure is the Kadosh Melech, who serves as the ultimate authority and spiritual leader 
 of Qiryam. The monarch is believed to be divinely ordained and chosen by the gods to rule over the kingdom. The divine monarch holds 
@@ -191,7 +265,13 @@ challenges.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'class_structure' as id,
+    TRUE as article,
+    '
 # Class Structure
 **Kadosh Melech:** At the top of the social hierarchy is the divine monarch, who holds ultimate authority and power in Qiryam. The monarch 
 is believed to be chosen by Oren to rule over the land and guide the people according to divine will. The monarch''s decisions are 
@@ -224,7 +304,13 @@ communities and support networks to help each other endure their challenging cir
 >![Mountain Fortress](images/qiryam/qiryam_4.jpg)
 >*The fortress stronghold and town of Qafuadem is officially part of Qiryam, but the Swords of Purity ran settlement is mostly left to 
 their own devices because of the services they provide.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'stance_on_poverty' as id,
+    TRUE as article,
+    '
 # Stance on Poverty
 In Qiryam, the handling of the poor and impoverished is deeply rooted in religious and moral principles, reflecting the nation''s 
 commitment to compassion, charity, and communal support. The society places a strong emphasis on caring for those in need and ensuring that 
@@ -241,7 +327,13 @@ welfare of all citizens, ensuring that no one is left behind or forgotten.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'legal_structure' as id,
+    TRUE as article,
+    '
 # Legal Structure
 **Divine Law:** The foundation of Qiryam''s legal system is the Testament of Absolution, the sacred text that outlines the moral and 
 ethical principles governing Qiryamite society. Divine law, as interpreted from the Testament, serves as the ultimate authority in legal 
@@ -298,7 +390,13 @@ prosperity of the kingdom.
 
 >![Dark Forest](images/qiryam/qiryam_5.jpg)
 >*Banishment to the Preda Horesh is a common punishment for committing minor crimes.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'language' as id,
+    TRUE as article,
+    '
 # Language
 The gnomes and halflings of Yarok use their language and the Ezrah Sigils script. The natives of Qiryam, the goliath and silver dragonborn 
 speak the giant language and use the Titan Sigils script.
@@ -306,7 +404,13 @@ speak the giant language and use the Titan Sigils script.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'idioms' as id,
+    TRUE as article,
+    '
 # Insults, Swears, Idioms, and Sayings
 * *Heretic spawn:* Used to denounce someone who deviates from the teachings of the Testament of Absolution, implying they are born of 
 heretical beliefs and ideologies.
@@ -349,7 +453,13 @@ importance of repentance and redemption.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'currency' as id,
+    TRUE as article,
+    '
 # Currency
 The Golden Thaler is the primary currency used in Qiryam, consisting of finely crafted gold coins adorned with intricate castings of 
 religious symbols and motifs from the Testament of Absolution. These coins are highly valued for their purity and craftsmanship, reflecting 
@@ -362,9 +472,15 @@ patterns etched onto their surfaces. Due to the time and skill required to carve
 ![Malach Currency](images/qiryam/qiryam_coins.jpg)
 
 [Return to Top](#top)
+    ' as contents_md;
 
+select
+    'text' as component,
+    'resources' as id,
+    TRUE as article,
+    '
 # Resources
-* Qafuadem - lead, gold, lumber, potash, asbestos, arsenic, leather, vegetables, marl, limestone
+* Qaduadem - lead, gold, lumber, potash, asbestos, arsenic, leather, vegetables, marl, limestone
 * Mafseq - grains, tobacco, wool, paper, vegetables, gold, whales
 * Ila''I Ironi - hot springs, spices, wool, vegetables, whales, fur, ivory
 * Gideoneer - coal, salt, ivory, tobacco, wood, dyes, lead, whales, chromite, gems, granite, 
@@ -373,7 +489,13 @@ patterns etched onto their surfaces. Due to the time and skill required to carve
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'education' as id,
+    TRUE as article,
+    '
 # Education
 In Qiryam, education and literacy are intertwined with religious indoctrination, with the primary focus being on instilling adherence to 
 the principles outlined in "The Testament of Absolution." Children from affluent families receive religious instruction from an early age, 
@@ -394,7 +516,13 @@ exist within Qiryamite society, offering hope for greater educational opportunit
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'military_defense' as id,
+    TRUE as article,
+    '
 # Military & Defense
 **Angelic Sentinels:** The Royal Guard serves as the elite protectors of the monarch and key government officials. Comprised of highly 
 trained warriors and divine spellcasters, the Royal Guard is entrusted with safeguarding the capital city and important landmarks.
@@ -421,7 +549,13 @@ Qiryam''s security.
 
 >![Mountain Pass](images/qiryam/qiryam_6.jpg)
 >*The fortress of Gideoneer is the most well-known of the Qiryamite castles.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'traditions' as id,
+    TRUE as article,
+    '
 # Traditions
 In addition to the observance of Shabbat and the celebration of festivals, Qiryamites have developed several unique traditions that reflect 
 their cultural and religious identity. One such tradition is the practice of mikveh, a ritual immersion in a natural body of water or 
@@ -437,7 +571,13 @@ connection among its members.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'taboos' as id,
+    TRUE as article,
+    '
 # Taboos
 **Arcane Magic:** The use of arcane magic is strictly prohibited in Qiryamite society, as it is seen as a direct affront to the divine 
 order established by Oren. Practitioners of arcane magic are considered heretics and are subject to severe punishment, including exile 
@@ -472,7 +612,13 @@ punishable by severe penalties, including death.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'death_rituals' as id,
+    TRUE as article,
+    '
 # Death Rituals
 In Qiryam, death rituals are conducted with solemnity and reverence, reflecting the cultural beliefs and spiritual traditions of the 
 society. Upon the death of an individual, the body undergoes a careful preparation process, where it is washed, purified, and anointed with 
@@ -493,7 +639,13 @@ that the memory of the departed loved one lives on in the hearts and minds of th
 >![Snowy Town](images/qiryam/qiryam_7.jpg)
 >*The dead of Qiryam will sometimes be paraded through the city on the way to their final resting place. As the procession passes by, those 
 that see it are expected to bow their head in mourning.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'fashion' as id,
+    TRUE as article,
+    '
 # Fashion
 **Fur Clothing:** Due to the cold climate, fur clothing is a staple of Qiryam fashion. Garments made from the pelts of arctic animals such 
 as foxes, wolves, bears, and deer are highly prized for their insulation properties and luxurious texture. Fur coats, hats, gloves, and 
@@ -526,7 +678,13 @@ catering to the needs of an active and outdoors-oriented population.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'stance_on_slavery' as id,
+    TRUE as article,
+    '
 # Stance on Slavery
 Qiryam maintains a strict stance against slavery, viewing it as a violation of fundamental rights and dignity. The kingdom''s legal system 
 explicitly prohibits the ownership, sale, and exploitation of individuals as slaves. Anyone found engaging in the slave trade or holding 
@@ -542,7 +700,13 @@ community initiatives aimed at providing assistance and opportunities for those 
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'marriage' as id,
+    TRUE as article,
+    '
 # Marriage
 **Ketubah Signing:** Before the wedding ceremony, the couple participates in the signing of the Ketubah, a marriage contract outlining 
 their mutual obligations and responsibilities. The Ketubah is signed by the couple, witnesses, and officiant, and serves as a legal 
@@ -571,7 +735,13 @@ this meal, blessings are recited, songs are sung, and traditional foods are shar
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'religion' as id,
+    TRUE as article,
+    '
 # Religion
 In Qiryam, religious practices revolve around the worship of Oren, the deity representing goodness, light, and divine order, and the 
 opposition of Artus, the embodiment of evil, darkness, and chaos. The central tenet of Qiryamite belief is the eternal struggle between 
@@ -606,7 +776,13 @@ fulfill their sacred duty as stewards of the divine order.
 
 >![Frozen Temple](images/qiryam/qiryam_8.jpg)
 >*The qnesiyas of Qiryam are extremely important and function as places of worship and fellowship.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'subcultures_countercultures' as id,
+    TRUE as article,
+    '
 # Subcultures and Countercultures
 **Ascetics:** Ascetics withdraw from mainstream society, seeking spiritual enlightenment through austerity, self-discipline, and 
 meditation. They renounce material possessions and worldly pleasures, devoting themselves entirely to the pursuit of divine wisdom and 
@@ -627,7 +803,13 @@ strengthen their bond with the natural world.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'art_music' as id,
+    TRUE as article,
+    '
 # Art and Music
 Qiryamite art embraces simplicity and austerity, reflecting the society''s rejection of excess and opulence. Artworks are characterized by 
 clean lines, subdued colors, and minimalist compositions. Religious symbols and motifs are depicted with precision and clarity, conveying 
@@ -644,7 +826,13 @@ enlightenment, and reaffirming one''s faith in Oren''s grace.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_magic' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Magic
 In Qiryam, the use of magic is strictly regulated and controlled by the religious authorities. Magic is seen as a divine gift from Oren, 
 to be used solely for the purpose of serving his will and furthering his divine plan. Only individuals authorized by the religious 
@@ -661,7 +849,13 @@ chosen to undergo training as priests or clerics, where they learn to harness th
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_drugs' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Drugs
 In Qiryam, the use of drugs is heavily frowned upon and strictly regulated by both religious and secular authorities. The consumption of 
 mind-altering substances is viewed as a violation of the sacred trust between individuals and Oren and is considered a sin against the 
@@ -695,7 +889,13 @@ allure of Soulfire Dust, willing to risk their very souls for a taste of its tra
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_gender' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Gender Roles
 In Qiryam, traditional gender roles are deeply ingrained in society, and women are revered for their ability to create life and uphold the 
 sanctity of the family unit. While women are highly respected for their contributions to the home and community, they are not permitted to 
@@ -719,7 +919,13 @@ culture, shaping the spiritual and moral landscape of the nation.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_regions' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Other Regions
 Mahthir, while considered a reliable trade partner, is viewed with a degree of distrust due to their religious practices, which differ 
 significantly from those of Qiryam. The Qiryamites may harbor suspicions about Mahthir''s intentions and beliefs, leading to cautious 
@@ -748,7 +954,6 @@ inhospitable.
 
 [Return to Top](#top)
 ' as contents_md;
-
 
 
 select

@@ -5,7 +5,7 @@ select
     TRUE as fixed_top_menu,
     JSON('{"title":"Alchemy","icon": "flask-2","link":"/index_alchemy.sql"}') as menu_item,
     JSON('{"title":"Warrior","icon": "swords","link":"/index_warrior.sql"}') as menu_item,
-    JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_Tsintah.sql","title":"Tsintah"}]}') as menu_item,
+    JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_tsintah.sql","title":"Tsintah"}]}') as menu_item,
     JSON('{"title":"Subclasses","icon": "feather","link":"/index_subclasses.sql"}') as menu_item,
     JSON('{"title":"Spells","icon": "wand","link":"/index_spells.sql"}') as menu_item,
     JSON('{"title":"Currency","icon": "coins","link":"/index_currency.sql"}') as menu_item,
@@ -39,6 +39,44 @@ select
     'text' as component,
     TRUE as article,
     '
+# Table of Contents
+- [Worldview](#worldview)
+- [History](#history)
+- [Folk Heroes](#folk_heroes)
+- [Geography](#geography)
+- [Food Staples](#food_staples)
+- [Flags and Symbols](#symbols)
+- [Leadership Structure](#leadership_structure)
+- [Class Structure](#class_structure)
+- [Stance on Poverty](#stance_on_poverty)
+- [Legal Structure](#legal_structure)
+- [Language](#language)
+- [Insults, Swears, Idioms, and Sayings](#idioms)
+- [Currency](#currency)
+- [Resources](#resources)
+- [Education](#education)
+- [Military & Defense](#military_defense)
+- [Traditions](#traditions)
+- [Taboos](#taboos)
+- [Death Rituals](#death_rituals)
+- [Fashion](#fashion)
+- [Stance on Slavery](#stance_on_slavery)
+- [Marriage](#marriage)
+- [Religion](#religion)
+- [Subcultures and Countercultures](#subcultures_countercultures)
+- [Art and Music](#art_music)
+- [Attitudes Toward Magic](#attitudes_magic)
+- [Attitudes Toward Drugs](#attitudes_drugs)
+- [Attitudes Toward Gender Roles](#attitudes_gender)
+- [Attitudes Toward Other Regions](#attitudes_regions)
+' as contents_md;
+
+
+select
+    'text' as component,
+    'worldview' as id,
+    TRUE as article,
+    '
 # Worldview
 **Aho''diilya:** The Aho''diilya tribe holds a worldview deeply rooted in nature and the interconnectedness of all living beings. They 
 believe in living in harmony with the jungle and its creatures, seeing themselves as caretakers of the land. Warfare is seen as a necessary 
@@ -64,7 +102,13 @@ world around them.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'history' as id,
+    TRUE as article,
+    '
 # History
 ## Early Years
 The history of the Tsintan tribes is shrouded in myth and legend. According to oral tradition, the tribes originated from the depths of the 
@@ -100,7 +144,13 @@ deep-rooted divisions and rivalries persist, posing challenges to the dream of a
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'folk_heroes' as id,
+    TRUE as article,
+    '
 # Folk Heroes
 ## **Aho''diilya**
 
@@ -146,7 +196,13 @@ innovative farming techniques and social reforms that improved the lives of the 
 
 >![Jungle Cliffs](images/tsintah/tsintah_2.jpg)
 >*The hills and cliffs of Kokopelli''s Steps form massive ravines in Hozshona.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'geography' as id,
+    TRUE as article,
+    '
 # Geography
 The Tsintans are blocked from the mainland of Terra by the Anaa To Be''ek''id with the Bik''a Dziw being the highest point. From this 
 mountain is where the Aiyana Nááwta flows over the Niwkit Deesk''id into the massive swamps of the Bito''dzann. Among the swamps are the 
@@ -165,7 +221,13 @@ the K''ad T''eira. To the east, the jungle gives way to tropical plains known as
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'food_staples' as id,
+    TRUE as article,
+    '
 # Food Staples
 ## Aho''diilya
 
@@ -211,7 +273,13 @@ the K''ad T''eira. To the east, the jungle gives way to tropical plains known as
 
 >![Swamp Village](images/tsintah/tsintah_3.jpg)
 >*The villages of the Naakai Lizhinii tribes build their homes (palafitos) on piles in the swamps.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'symbols' as id,
+    TRUE as article,
+    '
 # Flags and Symbols
 ## Aho''diilya
 
@@ -247,7 +315,13 @@ resilience, and connection to the land and sea.
 ![Tsintan Flags and Symbols 2](images/tsintah/tsintah_flags_2.png)
 
 [Return to Top](#top)
+    ' as contents_md;
 
+select
+    'text' as component,
+    'leadership_structure' as id,
+    TRUE as article,
+    '
 # Leadership Structure
 ## Aho''diilya
 
@@ -314,7 +388,13 @@ members.
 
 >![Jungle Temple](images/tsintah/tsintah_4.jpg)
 >*Leaders of the various tribes will meet at sacred locations such as this overgrown temple from before the giants tore Terra.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'class_structure' as id,
+    TRUE as article,
+    '
 # Class Structure
 ## Aho''diilya
 * **Spiritual Leaders (Hatałii):** Highly respected individuals responsible for conducting religious ceremonies, healing rituals, and 
@@ -362,7 +442,13 @@ tools representing ancestral spirits and cultural motifs.
 
 >![Jungle Pyramid](images/tsintah/tsintah_5.jpg)
 >*The lower classes of the Ninada Niyesh tribes are forced to live farther from their sacred sites often making them less favored by the gods.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'stance_on_poverty' as id,
+    TRUE as article,
+    '
 # Stance on Poverty
 The **Aho''diilya** tribe values community solidarity and cooperation, with resources often shared among members to ensure that no one goes 
 without basic necessities. Poor individuals are typically supported by extended family networks, with community elders playing a 
@@ -394,7 +480,13 @@ members of society are included and supported.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'legal_structure' as id,
+    TRUE as article,
+    '
 # Legal Structure
 The legal system of the **Aho''diilya** tribe is based on traditional laws and customs, which emphasize principles of harmony, balance, 
 and community consensus. Disputes and conflicts are typically resolved through mediation and negotiation, with tribal elders serving as 
@@ -426,7 +518,13 @@ tribe.
 
 >![Dusk Savannah](images/tsintah/tsintah_6.jpg)
 >*It is common for those repeat offenders in the Halgai Hoteelni tribe to be banished to the Ho''kee Niwtsoz.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'language' as id,
+    TRUE as article,
+    '
 # Language
 Sylvan and Goblin are the most common languages spoken in Tsintah using the Aña''j Runes and Panya script respectively. However, less than 
 3% of Tsintans can read and write. Common is only usually found in Leezhi''ayiah and being very rarely known to the tribes.
@@ -434,7 +532,13 @@ Sylvan and Goblin are the most common languages spoken in Tsintah using the Aña
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'idioms' as id,
+    TRUE as article,
+    '
 # Insults, Swears, Idioms, and Sayings
 ## Aho''diilya:
 * *Shadowsnake* - A reference to someone who is deceitful or sneaky, like a snake hiding in the shadows.
@@ -500,7 +604,13 @@ Sylvan and Goblin are the most common languages spoken in Tsintah using the Aña
 
 >![Fantasy Jungle](images/tsintah/tsintah_7.jpg)
 >*The spirits of Tsintah offer untold wisdom.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'currency' as id,
+    TRUE as article,
+    '
 # Currency
 The Solgilda, circular coins bearing intricate engravings of the sun and esteemed rulers, signify wealth and prestige. Crafted from pure 
 gold, these coins are esteemed for their purity and craftsmanship, serving as a standard medium of exchange within Leezhi''ayiah. 
@@ -513,7 +623,13 @@ within the economic landscape of Tsintah''s bustling city.
 ![Tsintan Currency](images/tsintah/tsintah_coins.jpg)
 
 [Return to Top](#top)
+    ' as contents_md;
 
+select
+    'text' as component,
+    'resources' as id,
+    TRUE as article,
+    '
 # Resources
 * Kintichii: limestone, chromite, silver, coal, gems, flint, lead, exotic lumber, grains
 * Naakai Lizhinii: limber, fruits, spices, potash, citrus, obsidian, clay, tin, gold, peat, silver, hardwood
@@ -526,7 +642,13 @@ within the economic landscape of Tsintah''s bustling city.
 
 >![Jungle Lake](images/tsintah/tsintah_8.jpg)
 >*Many of the resources of Tsintah are still left untapped due to Tsintan''s fears of the spirits.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'education' as id,
+    TRUE as article,
+    '
 # Education
 ## Aho''diilya 
 Education is primarily centered around oral traditions, storytelling, and experiential learning passed down from elders to younger 
@@ -572,7 +694,13 @@ education among younger generations, leading to the establishment of informal le
 
 >![Savannah Red](images/tsintah/tsintah_9.jpg)
 >*Learning how nature works is learning however everything works.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'military_defense' as id,
+    TRUE as article,
+    '
 # Military & Defense
 ## Aho''diilya
 * **War Chiefs:** Experienced warriors chosen to lead the tribe''s military campaigns and battles.
@@ -612,7 +740,13 @@ battlefield.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'traditions' as id,
+    TRUE as article,
+    '
 # Traditions
 ## Aho''diilya
 * **The Great Hunt:** The Aho''diilya tribe holds an annual ritual known as the Great Hunt, where skilled hunters venture deep into the 
@@ -668,7 +802,13 @@ with past and present leaders. It is a pact that cements their agreement with th
 
 >![Mountain Temple Overgrown](images/tsintah/tsintah_10.jpg)
 >*"The conquest of nature overcame those before us, and that is a lesson that we must harbor close." -  Nakos of the Aho''diilya*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'taboos' as id,
+    TRUE as article,
+    '
 # Taboos
 ## Aho''diilya: 
 * Eating the flesh of animals considered sacred in their culture, such as jaguars or eagles.
@@ -698,7 +838,13 @@ with past and present leaders. It is a pact that cements their agreement with th
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'death_rituals' as id,
+    TRUE as article,
+    '
 # Death Rituals
 ## Aho''diilya
 The deceased is typically laid to rest in a shallow grave adorned with sacred symbols and offerings to guide their spirit to the afterlife. 
@@ -734,7 +880,13 @@ departed and celebrate their journey to the spirit realm, where they are reunite
 
 >![Swamp Village](images/tsintah/tsintah_11.jpg)
 >*The settlements of the Naakai Lizhinii are built on top of their ancestors.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'fashion' as id,
+    TRUE as article,
+    '
 # Fashion
 ## Aho''diilya
 Clothing is typically made from lightweight, breathable fabrics such as cotton or woven plant fibers to withstand the humid jungle 
@@ -776,7 +928,13 @@ terrain, providing protection and support for daily activities.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'stance_on_slavery' as id,
+    TRUE as article,
+    '
 # Stance on Slavery
 ## Aho''diilya
 Slavery is accepted but typically reserved for prisoners of war. Slaves may eventually earn their freedom through exceptional service or by 
@@ -799,7 +957,13 @@ Slavery is rare and generally only occurs in extreme circumstances. The tribe va
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'marriage' as id,
+    TRUE as article,
+    '
 # Marriage
 ## Aho''diilya
 Marriage is often arranged by the families of the bride and groom. The ceremony typically involves traditional dances, feasting, and 
@@ -827,7 +991,13 @@ symbolic gifts such as animal pelts or carved ornaments.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'religion' as id,
+    TRUE as article,
+    '
 # Religion
 ## Aho''diilya
 The tribe honors Nayenezgani through elaborate war dances and ceremonies before battle. They believe in sacrificing captured enemies to 
@@ -860,7 +1030,13 @@ debauchery.
 
 >![Mountain Vista](images/tsintah/tsintah_12.jpg)
 >*The cliffs and peaks of the Anna To Be''ek''id are sacred to the Kintichii tribe.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'subcultures_countercultures' as id,
+    TRUE as article,
+    '
 # Subcultures and Countercultures
 **Unity Advocates:** This subculture consists of members from various tribes who believe that the disparate tribes should set aside their 
 differences and unite under a single banner for mutual protection and prosperity. They advocate for greater cooperation, communication, 
@@ -890,7 +1066,13 @@ shrines, and organize commemorative events to ensure that the wisdom and legacy 
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'art_music' as id,
+    TRUE as article,
+    '
 # Art and Music
 ## Aho''diilya
 Aho''diilya art is characterized by intricate designs inspired by the flora and fauna of the tropical jungle. Common motifs include 
@@ -929,7 +1111,13 @@ adversity.
 >![Treetop Villages](images/tsintah/tsintah_13.jpg)
 >*If you listen, music can be heard all throughout the jungles, swamps, mountains, and plains of Tsintah. Whether it''s the sound of nature 
 or instruments is another question.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_magic' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Magic
 ## Aho''diilya
 Magic is viewed as an integral part of Aho''diilya culture, closely intertwined with their spiritual beliefs and connection to the natural 
@@ -958,7 +1146,13 @@ using their powers to protect the tribe and maintain harmony with nature.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_drugs' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Drugs
 ## Aho''diilya 
 Aho''diilya tribes generally do not have a strong stance on drugs, with some members occasionally using natural substances found in the 
@@ -1010,7 +1204,13 @@ of their ancestors and commune with the natural world.
 
 >![Fantasy Jungle](images/tsintah/tsintah_14.jpg)
 >*The drugs and hallucinogens of Tsintah help the people become closer to their gods and spirits.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_gender' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Gender Roles
 ## Aho''diilya
 Gender roles among the Aho''diilya tribes are relatively fluid, with both men and women participating in various aspects of tribal life. 
@@ -1047,7 +1247,13 @@ boundaries to pursue their interests, there is a general adherence to traditiona
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_regions' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Other Regions
 The Tsintan tribes view **Imperia** with suspicion and distrust, seeing them as outsiders with ulterior motives. They believe that Imperia 
 cannot be trusted and may seek to exploit or manipulate them for their own gain. There is a general reluctance to engage in diplomatic 
@@ -1082,7 +1288,6 @@ defensive power of keeping others at bay.*
 
 [Return to Top](#top)
 ' as contents_md;
-
 
 
 select

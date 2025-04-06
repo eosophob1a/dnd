@@ -5,7 +5,7 @@ select
     TRUE as fixed_top_menu,
     JSON('{"title":"Alchemy","icon": "flask-2","link":"/index_alchemy.sql"}') as menu_item,
     JSON('{"title":"Warrior","icon": "swords","link":"/index_warrior.sql"}') as menu_item,
-    JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_Tsintah.sql","title":"Tsintah"}]}') as menu_item,
+    JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_tsintah.sql","title":"Tsintah"}]}') as menu_item,
     JSON('{"title":"Subclasses","icon": "feather","link":"/index_subclasses.sql"}') as menu_item,
     JSON('{"title":"Spells","icon": "wand","link":"/index_spells.sql"}') as menu_item,
     JSON('{"title":"Currency","icon": "coins","link":"/index_currency.sql"}') as menu_item,
@@ -22,7 +22,6 @@ select
     'top' as id;
 
 
-
 select
     'carousel' as component,
     'Huodi Maps' as title, 
@@ -34,9 +33,46 @@ select
     'images/huodi/huodi_settlements.jpg' as image;
 
 
+select
+    'text' as component,
+    TRUE as article,
+    '
+# Table of Contents
+- [Worldview](#worldview)
+- [History](#history)
+- [Folk Heroes](#folk_heroes)
+- [Geography](#geography)
+- [Food Staples](#food_staples)
+- [Flags & Symbols](#symbols)
+- [Leadership Structure](#leadership_structure)
+- [Class Structure](#class_structure)
+- [Stance on Poverty](#stance_on_poverty)
+- [Legal Structure](#legal_structure)
+- [Language](#language)
+- [Insults, Swears, Idioms, and Sayings](#idioms)
+- [Currency](#currency)
+- [Resources](#resources)
+- [Education](#education)
+- [Military & Defense](#military_defense)
+- [Traditions](#traditions)
+- [Taboos](#taboos)
+- [Death Rituals](#death_rituals)
+- [Fashion](#fashion)
+- [Stance on Slavery](#stance_on_slavery)
+- [Marriage](#marriage)
+- [Religion](#religion)
+- [Subcultures and Countercultures](#subcultures_countercultures)
+- [Art and Music](#art_music)
+- [Attitudes Toward Magic](#attitudes_magic)
+- [Attitudes Toward Drugs](#attitudes_drugs)
+- [Attitudes Toward Gender Roles](#attitudes_gender)
+- [Attitudes Toward Other Regions](#attitudes_regions)
+' as contents_md;
+
 
 select
     'text' as component,
+    'worldview' as id,
     TRUE as article,
     '
 # Worldview
@@ -68,7 +104,13 @@ empire''s supremacy.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'history' as id,
+    TRUE as article,
+    '
 # History
 ## The Founding of Huodi
 In the early years of antiquity, the mountainous region of Huodi was inhabited by various tribes and clans, each with their own magical 
@@ -114,7 +156,13 @@ movements that seek to challenge the authority of the emperor and the bureaucrac
 >![Dead Giant](images/huodi/huodi_2.jpg)
 >*The Arcane Council defended Huodi from massive threats that erupted from the mountains. Many of the remains are left on the cliffs as a 
 deterrent.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'folk_heroes' as id,
+    TRUE as article,
+    '
 # Folk Heroes
 **Magnus Huo** was the enigmatic founder of the Arcane Council that brought together the mountain tribes to form the Huodi magocracy 
 without shedding a single drop of blood. To many, he is viewed as a symbol of unity, diplomacy, and persistence. To the Emperor and his 
@@ -129,7 +177,13 @@ Singchéng long enough for Huodi to form a proper defense.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'geography' as id,
+    TRUE as article,
+    '
 # Geography
 The Zhao Peng Ridge dominates the Huodi landscape and houses most of the cities of the country with Zhurongshi, Fengzhen, and Yidinong 
 being built inside the mountains. Towards the northern end of the range, the mountains descend into collines known as Diyu Xiaba, and the 
@@ -151,7 +205,13 @@ known as Diyu Zhi Mén.
 
 >![Mountain Ridge](images/huodi/huodi_3.jpg)
 >*The Zhao Peng Ridge dominates all Huodi. Several of the cities are built atop and inside the mountain ridge.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'food_staples' as id,
+    TRUE as article,
+    '
 # Food Staples
 In Huodi, food staples reflect the rich agricultural and culinary traditions of the empire. Among these staples are Drake Splits, spicy 
 mushrooms prized for their unique flavor and versatility in various dishes. Rice is another essential staple, grown abundantly in the 
@@ -166,14 +226,26 @@ of Huodi, creating delicious and nutritious meals enjoyed by its inhabitants.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'symbols' as id,
+    TRUE as article,
+    '
 # Flag and Symbols
 Huodi''s flag is plain white with blue and red dragons intertwined representing Gonggong and Zhurong.
 
 ![Huodese Flag](images/huodi/huodi_flag.jpeg)
 
 [Return to Top](#top)
+    ' as contents_md;
 
+select
+    'text' as component,
+    'leadership_structure' as id,
+    TRUE as article,
+    '
 # Leadership Structure
 In the bureaucratic leadership structure of Huodi, the emperor stands at the apex, wielding supreme authority over the empire. Directly 
 beneath the emperor are the Chancellor and the Secretariat, both small groups that report directly to him, serving as his closest advisors 
@@ -185,7 +257,13 @@ Leadership Structure](images/huodi/huodi_leadership_structure.pdf) file for more
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'class_structure' as id,
+    TRUE as article,
+    '
 # Class Structure
 **Emperor:** The Emperor holds the highest authority and power in the empire, serving as the ultimate ruler and sovereign figure. Their 
 word is law, and they command absolute respect and obedience from all citizens of Huodi.
@@ -216,7 +294,13 @@ competitive and challenging, limiting the number of individuals who can ascend t
 >![Mountain Lookout](images/huodi/huodi_4.jpg)
 >*For those that live inside the mountains, only the Emperor has ready access to the outside. Others must travel to their city''s gate and 
 go outside that way.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'stance_on_poverty' as id,
+    TRUE as article,
+    '
 # Stance on Poverty
 In Huodi, poverty is addressed through a structured system overseen by the Ministry of Works. Individuals experiencing poverty are assigned 
 specific tasks and work assignments based on the needs identified by the appropriate directorates within the ministry. The aim is to 
@@ -234,7 +318,13 @@ alleviate poverty while also contributing to the overall development and well-be
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'legal_structure' as id,
+    TRUE as article,
+    '
 # Legal Structure
 The Huodese legal structure is highly complex and bureaucratic. It is composed of 28 schools of law ranging from criminal law to water law. 
 Each school provides its own representatives and experts that can be hired for personal issues or assigned to cases by the empire. Many 
@@ -256,7 +346,7 @@ the purposes of casting spells and/or corpses
 6.	**Great Irreverence:** to show disrespect to the Emperor of their family
 7.	**Lack of Filial Piety:** to maltreat one''s parents and/or grandparents; to procure entertainment during state mandated periods of 
 mourning (three years for one''s parents, two years for grandparents, one year for first degree relations, and five months for second 
-degree relations); to sell one’s family into slavery
+degree relations); to sell one''s family into slavery
 8.	**Discord:** to harm or sue one''s spouse or elder relatives
 9.	**Unrighteousness:** petty treason; to murder one''s superiors, mentor, or local government officials
 10.	**Incest:** to have an affair with any parent, grandparent, or first-degree relation or any slave or concubine of theirs
@@ -264,7 +354,13 @@ degree relations); to sell one’s family into slavery
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'language' as id,
+    TRUE as article,
+    '
 # Language
 Dwarven is the most common language spoken in Huodi. It uses the same Dethek script used by the orcs of Canechdul. The Huodese write each 
 word in vertical lines, top to bottom, and going left to right. This does lead some large, empty spaces in manuscripts leading to those 
@@ -275,7 +371,13 @@ also spoke, but mostly only in major trade areas.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'idioms' as id,
+    TRUE as article,
+    '
 # Insults, Swears, Idioms, and Sayings
 Insults tend to involve the target''s ancestors. 
 * "Why don''t you take a piss and look at yourself?"
@@ -293,7 +395,13 @@ Insults tend to involve the target''s ancestors.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'currency' as id,
+    TRUE as article,
+    '
 # Currency
 Huodi uses a fiat, linen currency called Dragon Marks. It comes in paper denominations of 1, 10, 100, and 1000. A single denarii is worth 
 10 dragon marks. The marks are printed with images of the Emperor and a dragon on them and are embossed with the denomination. While dragon 
@@ -302,7 +410,13 @@ marks are supposed to be the only currency used in Huodi, many "unscrupulous" me
 ![Huodese Currency](images/huodi/dragon_mark.jpg)
 
 [Return to Top](#top)
+    ' as contents_md;
 
+select
+    'text' as component,
+    'resources' as id,
+    TRUE as article,
+    '
 # Resources
 * Bianjíe - sugarcane, ivory, cotton, tobacco, palm, flax
 * Guanchá Cheng - salt, flax, tobacco, sugarcane, spices, grains, paper
@@ -315,7 +429,13 @@ clay, copper, chromite, mithral
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'education' as id,
+    TRUE as article,
+    '
 # Education
 **Provincial Academies:** The provinces of Huodi host smaller academies that offer education to children aged 8-17. These academies provide 
 instruction in a variety of subjects, including physical arts, classics, literature, oration, history, writing, law, tradition, astronomy, 
@@ -339,7 +459,13 @@ graduates often go on to serve in important roles within the imperial court, mil
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'military_defense' as id,
+    TRUE as article,
+    '
 # Military & Defense
 The Huodese see the military as a necessary evil and, as such, have members of the Mandarin class trained in tactics and warfare be the 
 leaders.
@@ -380,7 +506,13 @@ carrying out special missions on behalf of the emperor.
 
 >![Huodese Military](images/huodi/huodi_5.jpg)
 >*Along the hills and mountains of Huodi are dozens of fortresses to watch the borders and passes of the nation.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'traditions' as id,
+    TRUE as article,
+    '
 # Traditions
 In Huodi, traditional customs and etiquette play a significant role in social interactions and daily life. Bowing is considered an 
 essential aspect of greeting, with those of lower status required by law to bow to individuals of higher status. When greeting someone of 
@@ -394,7 +526,13 @@ to customary practices.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'taboos' as id,
+    TRUE as article,
+    '
 # Taboos
 * Odd numbers and four are considered bad luck.
 * Black and white are considered symbols death - most things are very colorful.
@@ -407,7 +545,13 @@ to customary practices.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'death_rituals' as id,
+    TRUE as article,
+    '
 # Death Rituals
 **Mandarin and Guozuo Classes:** For individuals belonging to the Mandarin or Guozuo classes, death is marked by the display of a white 
 banner over the entrance of the family''s home, signifying mourning and respect for the deceased. Family members and close relatives wear 
@@ -427,7 +571,13 @@ their ancestors by incorporating their remains into the fabric of society.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'fashion' as id,
+    TRUE as article,
+    '
 # Fashion
 **Clothing Materials and Styles:** Huodese clothing is typically crafted from materials such as cotton, wool, leather, and occasionally 
 silk. The quality and extravagance of the fabric reflect the wearer''s social status and rank. Members of the Mandarin class prominently 
@@ -449,7 +599,13 @@ compared to their male counterparts.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'stance_on_slavery' as id,
+    TRUE as article,
+    '
 # Stance on Slavery
 In Huodi, slavery is officially abolished, and it is illegal to own slaves. However, the practice of indentured servitude is prevalent, 
 serving as a legal workaround. While individuals cannot be legally owned as property, they may enter into contracts that bind them to serve 
@@ -460,7 +616,13 @@ them, creates a loophole that allows for the continuation of the slave trade in 
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'marriage' as id,
+    TRUE as article,
+    '
 # Marriage
 In Huodi, marriage is primarily viewed as a contractual agreement between two families rather than a union based on romantic love. Often, 
 marriages are arranged between individuals who may not even know each other beforehand. For a marriage to be recognized by the state, it 
@@ -477,7 +639,13 @@ their families are joined in a union that is considered officially complete when
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'religion' as id,
+    TRUE as article,
+    '
 # Religion
 **Zhurong, Dragon God of Forges and Fire:** Zhurong is the primary deity worshiped by the inhabitants of Huodi, revered as the dragon god 
 of forges, smiths, and fire. The religious practices associated with Zhurong are deeply rooted in craftsmanship, industry, and the forging 
@@ -516,7 +684,13 @@ guides and mentors to aspiring spellcasters, offering instruction and guidance i
 [Return to Top](#top)
 >![Huodese Temple](images/huodi/huodi_6.jpg)
 >*Temples of Zhurongshi are large smithies with rivers of magma for power.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'subcultures_countercultures' as id,
+    TRUE as article,
+    '
 # Subcultures and Countercultures
 **Artisan''s Guild -** the Huodi view artisans (musicians, painters, sculptors, etc.) as low-class citizens. The artisans have formed 
 guilds to protect themselves and pool resources. Many of them are also members of the Millenium Collective.
@@ -536,7 +710,13 @@ and the nature of reality, seeking enlightenment and understanding amidst the tu
 >![Huodese Artisan''s Guild](images/huodi/huodi_7.jpg)
 >*The Artisan''s Guilds have developed flying Tiaqiu (flying ballons) to traverse the mountain ranges. They are still working on the 
 approval of the Directorate of Passes.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'art_music' as id,
+    TRUE as article,
+    '
 # Art and Music
 Huodi art has four distinct styles. Ink Wash painting is the oldest style of art in Huodi. It''s made using inks and water to create 
 evocative landscapes, figures, and scenes. The paintings often depict mountains, rivers, etc. conveying a sense of harmony and tranquility. 
@@ -561,7 +741,13 @@ ballads tell stories of love, heroism, and everyday struggles, often accompanied
 
 >![Huodese Tunnels](images/huodi/huodi_8.jpg)
 >*The Arcane Council began constructing underground railways for travel. Many are left abandoned in these days though.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_magic' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Magic
 The Huodese people prioritize magic as the most important skill/talent a person can have. Children that are found to have an aptitude for 
 magic are removed from their parent''s care and placed under the foster care of the Bureau of Thaumaturgical Advantage Rearing. For many of 
@@ -570,7 +756,13 @@ the Huodi, this is seen as an honor. However, the fear of a returning magocracy 
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_drugs' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Drugs
 Alcoholism is encouraged and even rewarded in some circles in Huodi, especially in the upper classes. Narcotics are a different story. The 
 upper classes see narcotics as a destruction of life to them, but they have no qualms with the lower classes taking them, and even fund 
@@ -582,7 +774,13 @@ manufacturing that is enchanted with the state mages by the Bureau of Narcotics,
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_gender' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Gender Roles
 It would be incorrect to call the women of Huodi "second class citizens." Instead, men and women are just treated as being capable of 
 completely different positions. Certain positions of government can only be filled by one of the sexes in perpetuity. Women cannot be 
@@ -592,7 +790,13 @@ The only place this seems to fade away is when it pertains to magic.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_regions' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Other Regions
 The opinions of the Huodi people are split when it comes to the other regions it comes into contact with. They regularly meet the Gnathethn 
 and Glasdaireth tribes of Canechdul when trading for the mithral in their mountains. They see the animalistic peoples of the tribes as 
