@@ -5,7 +5,7 @@ select
     TRUE as fixed_top_menu,
     JSON('{"title":"Alchemy","icon": "flask-2","link":"/index_alchemy.sql"}') as menu_item,
     JSON('{"title":"Warrior","icon": "swords","link":"/index_warrior.sql"}') as menu_item,
-    JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_Tsintah.sql","title":"Tsintah"}]}') as menu_item,
+    JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_tsintah.sql","title":"Tsintah"}]}') as menu_item,
     JSON('{"title":"Subclasses","icon": "feather","link":"/index_subclasses.sql"}') as menu_item,
     JSON('{"title":"Spells","icon": "wand","link":"/index_spells.sql"}') as menu_item,
     JSON('{"title":"Currency","icon": "coins","link":"/index_currency.sql"}') as menu_item,
@@ -37,6 +37,44 @@ select
     'text' as component,
     TRUE as article,
     '
+# Table of Contents
+- [Worldview](#worldview)
+- [History](#history)
+- [Folk Heroes](#folk_heroes)
+- [Geography](#geography)
+- [Food Staples](#food_staples)
+- [Flags and Symbols](#symbols)
+- [Leadership Structure](#leadership_structure)
+- [Class Structure](#class_structure)
+- [Stance on Poverty](#stance_on_poverty)
+- [Legal Structure](#legal_structure)
+- [Language](#language)
+- [Insults, Swears, Idioms, and Sayings](#idioms)
+- [Currency](#currency)
+- [Resources](#resources)
+- [Education](#education)
+- [Military & Defense](#military_defense)
+- [Traditions](#traditions)
+- [Taboos](#taboos)
+- [Death Rituals](#death_rituals)
+- [Fashion](#fashion)
+- [Stance on Slavery](#stance_on_slavery)
+- [Marriage](#marriage)
+- [Religion](#religion)
+- [Subcultures and Countercultures](#subcultures_countercultures)
+- [Art and Music](#art_music)
+- [Attitudes Toward Magic](#attitudes_magic)
+- [Attitudes Toward Drugs](#attitudes_drugs)
+- [Attitudes Toward Gender Roles](#attitudes_gender)
+- [Attitudes Toward Other Regions](#attitudes_regions)
+' as contents_md;
+
+
+select
+    'text' as component,
+    'worldview' as id,
+    TRUE as article,
+    '
 # Worldview
 The average worldview of the Malach people is deeply influenced by their religious beliefs, cultural heritage, and recent history. As 
 descendants of a once-powerful empire, they hold a strong sense of communal identity and pride in their cultural heritage. However, 
@@ -50,7 +88,13 @@ cultural pride, skepticism of authority, and a thirst for knowledge and understa
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'history' as id,
+    TRUE as article,
+    '
 # History
 ## Early Period
 Malachmet thrived as a powerful empire under the rule of mighty pharaohs who constructed grand monuments and temples in their honor. The 
@@ -85,7 +129,13 @@ their reign and the beginning of a new era under Imperian rule.
 
 >![Putrid Rift](images/malachmet/malachmet_2.jpg)
 >*Even today, the gorges of Tefnut''s Fall are filled with the undead.*
+' as contents_md;
 
+select
+    'text' as component,
+    'folk_heroes' as id,
+    TRUE as article,
+    '
 # Folk Heroes
 **Tehotep the Wise:** A legendary scribe who was renowned for his wisdom and intelligence. He is said to have deciphered ancient texts and 
 solved complex problems that baffled others. Tehotep is often depicted as a symbol of knowledge and enlightenment.
@@ -106,7 +156,13 @@ for healers and caregivers across Malachmet.
 
 >![Ajani](images/malachmet/malachmet_3.jpg)
 >*Neferkara was also known as the bane of the deathless for carving through the undead of Tefnut''s Fall.*
+' as contents_md;
 
+select
+    'text' as component,
+    'geography' as id,
+    TRUE as article,
+    '
 # Geography
 Starting at the far north of Malachmet is the sun temple of Ra-Aten, Rhajahnjer. The sea surrounding it is Set''s Sea and the island of 
 Nebew Landing stands between the temple and the mainland. The white mountains of Surhet''s Descent sink into the peninsula. The undead 
@@ -127,7 +183,13 @@ Tsintah and the desert of Ta Bia in the shadows of it. Beyond Ta Bia is the fiel
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'food_staples' as id,
+    TRUE as article,
+    '
 # Food Staples
 Bread and beer are the largest dietary staples for the Malachs. Their love of beer is actually seen as a faux paux to Imperians where wine 
 is seen as the only socially acceptable alcohol. Emmer wheat and barley are the most common grains grown.
@@ -146,14 +208,26 @@ all of these crops being grown, the honey businesses thrive as well.
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'symbols' as id,
+    TRUE as article,
+    '
 # Flag and Symbols
 The flag of Malachmet is a red background with a golden sun with the silhouette of a scribe on it.
 
 ![Malach Flag](images/malachmet/malachmet_flag.jpeg)
 
 [Return to Top](#top)
+' as contents_md;
 
+select
+    'text' as component,
+    'leadership_structure' as id,
+    TRUE as article,
+    '
 # Leadership Structure
 Malachmet''s leadership structure reflects a delicate balance between its ancient roots and the influence of the Imperian Republic. At the 
 pinnacle of authority is the Council of Scribes, a group composed of learned individuals tasked with recording and preserving the nation''s 
@@ -177,7 +251,13 @@ Malachmet''s ongoing transition toward a more modern and inclusive form of gover
 
 >![Desert Ruins](images/malachmet/malachmet_4.jpg)
 >*Many relics of the pharaonic dynasties have been destroyed and left to the unforgiving Deshret.*
+' as contents_md;
 
+select
+    'text' as component,
+    'class_structure' as id,
+    TRUE as article,
+    '
 # Class Structure
 Malachmet has a tumultuous social class structure since it is still adapting to the liberation of Imperia and attempting to adopt their 
 culture. As such, their class structure is a mixture of the Imperian patrician/plebeian classes and the complicated structures of old. 
@@ -198,7 +278,13 @@ rather than among the ranks of slaves.
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'stance_on_poverty' as id,
+    TRUE as article,
+    '
 # Stance on Poverty
 The impoverished of Malachmet are often forced into workhouses. These buildings are heavily overcrowded. In addition, the men that live 
 in these houses are taken to be labor for state projects. The women tend to be used as servants for state gatherings. Those that are 
@@ -207,14 +293,26 @@ working, gain a fair wage and are fed by virtue of living in the workhouses.
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'legal_structure' as id,
+    TRUE as article,
+    '
 # Legal Structure
 Malachmet has adapted the legal structure of Imperia.
 
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'language' as id,
+    TRUE as article,
+    '
 # Language
 Leonin and Draconic are the most commonly spoken languages in the region. Leonin uses the Tomiqqa script, and Draconic uses the Iokharic 
 script. Common is gaining a lot traction as approximately 55% of Malachs now speak it.
@@ -222,7 +320,13 @@ script. Common is gaining a lot traction as approximately 55% of Malachs now spe
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'idioms' as id,
+    TRUE as article,
+    '
 # Insults, Swears, Idioms, and Sayings
 * **Sand-brained fool:** This insult plays on the association of the desert landscape with wisdom and intellect. Calling someone "sand-
 brained" implies they lack intelligence or common sense.
@@ -266,7 +370,13 @@ life''s journey and the concept of fate in Malach belief.
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'currency' as id,
+    TRUE as article,
+    '
 # Currency
 Malachmet has officially taken the aurii and denarii currency used by Imperia. Malachmet used to have its own currency beforehand that 
 sometimes finds its way into circulation. It''s known as the refunab and exchanges on a 1:1 rate to the aurii. The coin is gold and has an 
@@ -279,7 +389,13 @@ circulation. Imperia is reluctant to do so since it is still such a new province
 ![Malach Currency](images/malachmet/malach_coin.jpg)
 
 [Return to Top](#top)
+' as contents_md;
 
+select
+    'text' as component,
+    'resources' as id,
+    TRUE as article,
+    '
 # Resources
 * Rhajahnher: pumice, sulfur, gypsum, platinum, gems, flint, marl, mineral water, marble, gold, coal, chromite, tin, limestone, feldspar, 
 chalk
@@ -293,7 +409,13 @@ limestone, mercury, iron, coal, flint
 
 >![Desert Cliffs](images/malachmet/malachmet_5.jpg)
 >*The ice floes of the northern reaches are rich with platinum and gemstones, but it is very dangerous to secure them.*
+' as contents_md;
 
+select
+    'text' as component,
+    'education' as id,
+    TRUE as article,
+    '
 # Education
 In Malachmet, the educational system is highly restricted and class based. Children primarily learn from their parents about their 
 family''s livelihoods, and there is no state-sponsored educational system in place. Access to education is largely determined by social 
@@ -306,7 +428,13 @@ Mahthir.
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'military_defense' as id,
+    TRUE as article,
+    '
 # Military & Defense
 The military and defense of Malachmet are structured similarly to the Imperian military but incorporate elements unique to Malach culture 
 and terrain. The army is divided into legions, each comprising infantry, cavalry, and chariot units. Infantry soldiers form the backbone of 
@@ -328,7 +456,13 @@ the focus is on securing land borders and maintaining a strong presence along ke
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'traditions' as id,
+    TRUE as article,
+    '
 # Traditions
 **Sun Worship:** The Malachs hold daily rituals to honor Ra-Aten, the sun god, whom they believe sustains life on earth. These rituals 
 often involve prayers, offerings, and hymns sung at sunrise and sunset.
@@ -350,7 +484,13 @@ the future. These ceremonies include cleansing rituals, communal prayers, and sy
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'taboos' as id,
+    TRUE as article,
+    '
 # Taboos
 **Disrespecting the Gods:** Any form of necromantic practice or sorcery that defies the will of the gods, such as Ra-Aten, Renenutet, and 
 Toth, is considered highly taboo. Actions or rituals that involve communing with the dead or manipulating souls are seen as sacrilegious 
@@ -375,7 +515,13 @@ essential for spiritual purity and moral integrity.
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'death_rituals' as id,
+    TRUE as article,
+    '
 # Death Rituals
 The death rituals of Malachmet differ greatly between the classes. Those of the upper class (government officials, nobles, and priests) 
 have a long funerary process. Upon death, their bodies are cut open and all their internal organs are removed to be placed in canopic jars. 
@@ -393,7 +539,13 @@ powerful as the priests were very expensive. Those buried in the sand had no pro
 >![Desert Dunes](images/malachmet/malachmet_6.jpg)
 >*Many of the ancient pharaohs were interred in massive monuments. Some of them have been destroyed to ruin their legacy and other are 
 buried under the sands.*
+' as contents_md;
 
+select
+    'text' as component,
+    'fashion' as id,
+    TRUE as article,
+    '
 # Fashion
 The majority of clothing worn in Malachmet is made of linen of the flax plant as the fabric is the most comfortable in the intense heat. 
 Wool and other animal coats are known to Malachs, but they see them as impure and forbidden inside temples and state buildings. It is worth 
@@ -414,7 +566,13 @@ often make jewelry from painted pottery.
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'stance_on_slavery' as id,
+    TRUE as article,
+    '
 # Stance on Slavery
 In Malachmet, slavery has been deeply ingrained in society for centuries, long before Imperia adopted the practice. Unlike Imperia, where 
 slaves have some chance of gaining freedom, Malach slaves rarely see liberation. Even upon their master''s death, ownership of slaves is 
@@ -426,7 +584,13 @@ Malachmet and the challenges faced by those seeking emancipation.
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'marriage' as id,
+    TRUE as article,
+    '
 # Marriage
 In Malachmet, marriages are viewed as practical arrangements rather than ceremonial events. When a woman enters a man''s home with agreed-
 upon goods, the marriage is considered complete. Despite the transactional nature of these unions, couples are expected to love and honor 
@@ -439,7 +603,13 @@ common for individuals to marry between the ages of 14 and 18, and the tradition
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'religion' as id,
+    TRUE as article,
+    '
 # Religion
 In Malachmet, religious practices and rituals revolve around the worship of a pantheon of gods and goddesses, with a particular focus on 
 Ra-Aten (the god of the sun), Renenutet (the goddess of agriculture and fertility), and Thoth (the god of scribes and intelligence). 
@@ -461,7 +631,13 @@ cultural identity.
 
 >![City Aerial](images/malachmet/malachmet_7.jpg)
 >*Festivals are a cause for many Malachs to flock to Renkwit and other major cities.*
+' as contents_md;
 
+select
+    'text' as component,
+    'subcultures_countercultures' as id,
+    TRUE as article,
+    '
 # Subcultures and Countercultures
 **Halqat Alrahba**, known as The Dread Ring, is a secretive and enigmatic organization deeply entrenched within the cultural fabric of 
 Malachmet. Rooted in ancient Malach beliefs, they revere a pantheon of deities, including Osiris, Anubis, Ma''at, and Ammit, whose 
@@ -522,7 +698,13 @@ resources to advance their cause.
 
 >![Stone Wall](images/malachmet/malachmet_8.jpg)
 >*The Abna Alfearina are much more prevalent in eastern Malachmet near the near Men-nefer and Irtyu-Nu.*
+' as contents_md;
 
+select
+    'text' as component,
+    'art_music' as id,
+    TRUE as article,
+    '
 # Art and Music
 The art and music of Malachmet reflect the rich cultural heritage and spiritual beliefs of its people. Malachmet''s artistic traditions are 
 deeply rooted in ancient symbolism, religious motifs, and naturalistic imagery. Artistic expression is highly valued and serves as a medium 
@@ -548,7 +730,13 @@ traditions for future generations.
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_magic' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Magic
 In Malachmet, the practice of magic is generally accepted and supported, except for necromancy, which is strictly prohibited and condemned. 
 While magic is viewed as a powerful and beneficial force that can be used for various purposes, including healing, protection, and 
@@ -570,7 +758,13 @@ the severity of their crimes and the harm they have caused.
 
 >![Green Hills](images/malachmet/malachmet_9.jpg)
 >*Malachs believe that the more necromancy there is in the world, the more the deserts will cover their lands.*
+' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_drugs' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Drugs
 In Malachmet, drugs are generally tolerated to a certain extent, and while there is less prevalence of underground trade compared to other 
 regions, it does exist. 
@@ -591,7 +785,13 @@ Sandfire Dust remains a coveted commodity in the clandestine markets of Malachme
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_gender' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Gender Roles
 In Malachmet, traditional gender roles dictate that women are primarily responsible for domestic duties and child-rearing, while men are 
 often regarded as the primary breadwinners and decision-makers. Women are expected to adhere to modesty and obedience, and their roles are 
@@ -603,7 +803,13 @@ familial and societal cohesion.
 [Return to Top](#top)
 
 ---
+' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_regions' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Other Regions
 **Imperia:** Malachs views Imperia as liberators due to their role in helping to overthrow the old pharaohs and establish the current order 
 in Malachmet. While there may be some lingering resentment for the imposition of foreign rule, many Malachs appreciate the stability and 

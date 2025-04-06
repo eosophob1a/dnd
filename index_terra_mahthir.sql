@@ -5,7 +5,7 @@ select
     TRUE as fixed_top_menu,
     JSON('{"title":"Alchemy","icon": "flask-2","link":"/index_alchemy.sql"}') as menu_item,
     JSON('{"title":"Warrior","icon": "swords","link":"/index_warrior.sql"}') as menu_item,
-    JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_Tsintah.sql","title":"Tsintah"}]}') as menu_item,
+    JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_tsintah.sql","title":"Tsintah"}]}') as menu_item,
     JSON('{"title":"Subclasses","icon": "feather","link":"/index_subclasses.sql"}') as menu_item,
     JSON('{"title":"Spells","icon": "wand","link":"/index_spells.sql"}') as menu_item,
     JSON('{"title":"Currency","icon": "coins","link":"/index_currency.sql"}') as menu_item,
@@ -37,6 +37,44 @@ select
     'text' as component,
     TRUE as article,
     '
+# Table of Contents
+- [Worldview](#worldview)
+- [History](#history)
+- [Folk Heroes](#folk_heroes)
+- [Geography](#geography)
+- [Food Staples](#food_staples)
+- [Flags and Symbols](#symbols)
+- [Leadership Structure](#leadership_structure)
+- [Class Structure](#class_structure)
+- [Stance on Poverty](#stance_on_poverty)
+- [Legal Structure](#legal_structure)
+- [Language](#language)
+- [Insults, Swears, Idioms, and Sayings](#idioms)
+- [Currency](#currency)
+- [Resources](#resources)
+- [Education](#education)
+- [Military & Defense](#military_defense)
+- [Traditions](#traditions)
+- [Taboos](#taboos)
+- [Death Rituals](#death_rituals)
+- [Fashion](#fashion)
+- [Stance on Slavery](#stance_on_slavery)
+- [Marriage](#marriage)
+- [Religion](#religion)
+- [Subcultures and Countercultures](#subcultures_countercultures)
+- [Art and Music](#art_music)
+- [Attitudes Toward Magic](#attitudes_magic)
+- [Attitudes Toward Drugs](#attitudes_drugs)
+- [Attitudes Toward Gender Roles](#attitudes_gender)
+- [Attitudes Toward Other Regions](#attitudes_regions)
+' as contents_md;
+
+
+select
+    'text' as component,
+    'worldview' as id,
+    TRUE as article,
+    '
 # Worldview
 Mahthirians inhabit a world shaped by a matriarchal societal structure, where women hold pivotal roles in both secular and religious 
 realms. Esteemed as primary nurturers and spiritual leaders, women wield significant power and influence, with lineage and inheritance 
@@ -57,7 +95,13 @@ cultural identity and collective memory, reinforcing their sense of unity and be
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'history' as id,
+    TRUE as article,
+    '
 # History
 ## Early Years
 Mahthir was founded by a group of ancient elves who sought refuge in the snowy tundras and evergreen forests of the region. They established 
@@ -101,7 +145,13 @@ their heritage while embracing the opportunities of the future.
 >![Dragon](images/mahthir/mahthir_2.jpg)
 >*The time of the Dragon''s Rift was some of the most dangerous time in all of Terra. If it wasn''t for the elves of the country, Terra 
 would be overrun by dragons today.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'folk_heroes' as id,
+    TRUE as article,
+    '
 # Folk Heroes
 **Elandra Moonshadow:** Elandra Moonshadow is a revered elven ranger known for her unmatched skill in archery and her deep connection to 
 the natural world. Legend has it that she single-handedly defended her homeland against invading forces during the conflict with the 
@@ -137,7 +187,13 @@ to protect his people from disaster serve as a reminder of the importance of hee
 
 >![Winter City](images/mahthir/mahthir_3.jpg)
 >*Dróttining Astrid Manidottir founded the largest settlement in Mahthir now, Astrithorpe.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'geography' as id,
+    TRUE as article,
+    '
 # Geography
 Mahthir is primarily a large island between the Sea of Gnótt and Hungr. The land is dominated by the Basin of Ullerah, a perpetually frozen 
 lake hiding the Dragon''s Rift. North of it are the Fells of Tungalungur. Heading towards the mainland are the Jotunnlitha leading to the 
@@ -156,7 +212,13 @@ several small islands: Neilítha Gríma, Maníljos, and the twin lands of Myrkrl
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'food_staples' as id,
+    TRUE as article,
+    '
 # Food Staples
 Mahthir''s cuisine is shaped by its unique geographical location, with frozen seas and icy waters providing abundant fish and seafood that 
 form staple components of the diet. Varieties like cod, salmon, and shellfish are common and often preserved through smoking, salting, or 
@@ -174,7 +236,13 @@ cattle, goats, and sheep raised for their milk, cheese, and butter.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'symbols' as id,
+    TRUE as article,
+    '
 # Flag and Symbols
 Their flag is solid black with a white crescent moon facing downwards where three wavy lanes representing the Norrsken extend downwards 
 with five snowflakes forming an arch opposite the crescent moon.
@@ -182,7 +250,13 @@ with five snowflakes forming an arch opposite the crescent moon.
 ![Mahthirian Flag](images/mahthir/mahthir_flag.jpeg)
 
 [Return to Top](#top)
+    ' as contents_md;
 
+select
+    'text' as component,
+    'leadership_structure' as id,
+    TRUE as article,
+    '
 # Leadership Structure
 **Dróttining (Queen):** The Dróttining is the highest-ranking leader in Mahthir, holding ultimate authority over the entire society. She is 
 responsible for making major decisions, setting policy, and representing Mahthir in diplomatic matters. The Dróttining is typically chosen 
@@ -207,7 +281,13 @@ helping to uphold the traditions and values of Mahthirian society.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'class_structure' as id,
+    TRUE as article,
+    '
 # Class Structure
 **Raider Class (Men):** Men in Mahthir primarily occupy the warrior class, serving as soldiers, hunters, and protectors of the community. 
 They are trained from a young age in combat skills, weaponry, and survival techniques and are expected to defend their homeland from 
@@ -232,7 +312,13 @@ manual labor, agriculture, and craftsmanship to support the needs of society.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'stance_on_poverty' as id,
+    TRUE as article,
+    '
 # Stance on Poverty
 Mahthirian communities are renowned for their tightly knit bonds and strong sense of collective responsibility, particularly when it comes 
 to addressing poverty within their midst. In times of need, those facing financial hardship can rely on the support of their extended 
@@ -251,7 +337,13 @@ address the root causes of poverty and work towards building a more prosperous a
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'legal_structure' as id,
+    TRUE as article,
+    '
 # Legal Structure
 In Mahthir, the legal structure is firmly rooted in the traditions and customs of the society, with the Council of Matriarchs serving as 
 the highest authority. Comprised of esteemed female leaders and elders representing various clans and regions, the Council holds 
@@ -273,7 +365,13 @@ ensure that the laws align with the spiritual values of the society.
 
 >![Winter City2](images/mahthir/mahthir_4.jpg)
 >*A unique punishment is sending criminals the Isfjallborg, a fortress on the Basin of Ullerah to watch the Dragon''s Rift.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'language' as id,
+    TRUE as article,
+    '
 # Language
 Mahthirians primarily speak Elvish and use the Elvenrunar scripts representing the Norrsken in the sky. Common is the second most popular 
 language with roughly 45% of Mahthirians speaking fluently.
@@ -281,7 +379,13 @@ language with roughly 45% of Mahthirians speaking fluently.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'idioms' as id,
+    TRUE as article,
+    '
 # Insults, Swears, Idioms, and Sayings
 * *Frostbitten fool:* Implying someone is foolish or incompetent, comparing them to someone who has been affected by the harsh frost of 
 Mahthir.
@@ -326,7 +430,13 @@ truths and mysteries can be uncovered in the depths of darkness.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'currency' as id,
+    TRUE as article,
+    '
 # Currency
 Mahthir uses silver as currency in coins called "frostsilvers". They exchange with the Imperian aurii on a 5 to 1 ratio. However, 
 Mahthirians are very unlikely to accept any kind of foreign currency, especially gold as there is a strong cultural stigma against the 
@@ -335,7 +445,13 @@ metal. They have another coin that is not nearly as common and is made of platin
 ![Mahthirian Currency](images/mahthir/mahthirian_coins.jpg)
 
 [Return to Top](#top)
+    ' as contents_md;
 
+select
+    'text' as component,
+    'resources' as id,
+    TRUE as article,
+    '
 # Resources
 * Northern Reaches: gems, platinum
 * Snjárvangr: whales, gypsum, ivory, wool, tobacco, fur, coal, platinum, exotic wood, timber, mineral water, chalk, silver, peat
@@ -347,7 +463,13 @@ metal. They have another coin that is not nearly as common and is made of platin
 
 >![Ice Floes](images/mahthir/mahthir_5.jpg)
 >*The ice floes of the northern reaches are rich with platinum and gemstones, but it is very dangerous to secure them.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'education' as id,
+    TRUE as article,
+    '
 # Education
 In Mahthir, education and literacy play distinct roles in shaping the society''s gender dynamics. Formal education for girls is highly 
 valued, with young women attending schools or academies where they receive instruction in a wide range of subjects, from mathematics and 
@@ -370,7 +492,13 @@ the community''s prosperity and stability.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'military_defense' as id,
+    TRUE as article,
+    '
 # Military & Defense
 **Krigsherr:** The highest-ranking military position in Mahthir, held by a skilled and experienced female elf who oversees all aspects of 
 the military, including strategy, operations, and logistics. The High Commander reports directly to the ruling council of matriarchs and is 
@@ -399,7 +527,13 @@ essential for maintaining the effectiveness and efficiency of Mahthir''s militar
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'traditions' as id,
+    TRUE as article,
+    '
 # Traditions
 **Lunar Festivals:** Mahthirians celebrate the phases of the moon with various festivals and rituals that mark significant lunar events 
 such as the full moon, new moon, and lunar eclipses. These festivals often include feasting, dancing, storytelling, and ceremonies to 
@@ -429,7 +563,13 @@ invoke the spirits of the ancestors and strengthen the bond between the living a
 
 >![Norrsken](images/mahthir/mahthir_6.jpg)
 >*The ice floes of the northern reaches are rich with platinum and gemstones, but it is very dangerous to secure them.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'taboos' as id,
+    TRUE as article,
+    '
 # Taboos
 **Disrespecting Nature:** Mahthirians hold a deep reverence for the natural world, considering it sacred and worthy of protection. Any 
 actions that harm or exploit nature, such as deforestation, pollution, or overhunting, are taboo and are met with severe social stigma.
@@ -457,7 +597,13 @@ as sacrilegious and invites misfortune.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'death_rituals' as id,
+    TRUE as article,
+    '
 # Death Rituals
 Mahthirian death rituals are deeply rooted in their connection to the moon goddess, Mani, whose celestial presence guides the souls of the 
 departed to the afterlife. Prayers and invocations to Mani are central to the funeral ceremony, seeking her blessings and guidance for the 
@@ -482,7 +628,13 @@ deceased''s spirit finds peace and harmony in the embrace of the natural world.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'fashion' as id,
+    TRUE as article,
+    '
 # Fashion
 Mahthirian fashion is characterized by its functional and practical clothing, designed to withstand the challenging environmental 
 conditions of the frozen terrain and perpetual night. Heavy fabrics, fur linings, and layered garments are common features, providing 
@@ -506,9 +658,15 @@ and status within the society.
 >![Forest](images/mahthir/mahthir_7.jpg)
 >*Mahthirians rarely see full daylight. The most they see is a few hours of dusk. Their clothing has developed to a point making it easier 
 to hide in it.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'stance_on_slavery' as id,
+    TRUE as article,
+    '
 # Stance on Slavery
-Slavery is extremely common in Mahthir with raiding parties commonly capturing people from nearby countries of Tsintah, Quiryam, and 
+Slavery is extremely common in Mahthir with raiding parties commonly capturing people from nearby countries of Tsintah, Qiryam, and 
 Canechdul. Slaves are put in roles such as laborers, servants, or concubines, and their treatment may be influenced by their skills, 
 loyalty, and perceived value. It is common practice to release a slave to freedom after 17 years of loyal service. Keeping one beyond this 
 time is socially taboo.
@@ -516,7 +674,13 @@ time is socially taboo.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'marriage' as id,
+    TRUE as article,
+    '
 # Marriage
 In Mahthir, marriage is considered a sacred union between two individuals and is surrounded by traditional rituals and customs. The process 
 begins with a formal proposal, where the suitor approaches the family of their beloved to seek permission for marriage. If the proposal is 
@@ -545,7 +709,13 @@ celebration, unity, and the forging of lifelong bonds between two souls.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'religion' as id,
+    TRUE as article,
+    '
 # Religion
 Mahthirian religion revolves around reverence for their central deities, with Mani, the goddess of the moon and the hunt, holding a 
 prominent place in their beliefs. Rituals and prayers are offered to Mani to seek her blessings for successful hunts, protection during 
@@ -569,7 +739,13 @@ music, dancing, storytelling, and ceremonial rites.
 
 >![Frozen Temple](images/mahthir/mahthir_8.jpg)
 >*The sites of previous civilizations from before the Sundering are considered enigmatic and often cursed.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'subcultures_countercultures' as id,
+    TRUE as article,
+    '
 # Subcultures and Countercultures
 **Elven Purists:** This subgroup consists of elves who are deeply committed to preserving their pure elven lineage. They are wary of 
 intermingling with other races and adhere strictly to traditional elven customs and values. Elven Purists often live in secluded 
@@ -591,7 +767,13 @@ inclusive and egalitarian society. They face opposition from conservative elemen
 
 >![Dragon Castle](images/mahthir/mahthir_9.jpg)
 >*The Seekers of the Rift caused the Rift to reopen freeing several dragons. Being found as a member of the Seekers is met with execution.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'art_music' as id,
+    TRUE as article,
+    '
 # Art and Music
 Mahthirian art reflects the profound connection between the elven civilization and the natural world, often portraying breathtaking 
 landscapes of snow-capped mountains, dense forests, and moonlit lakes. These naturalistic paintings capture the serene beauty of Mahthir''s 
@@ -610,7 +792,13 @@ leaves and babbling brooks, adding depth and texture to the music and immersing 
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_magic' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Magic
 In Mahthir, magic is revered as a form of spiritual discipline and inner cultivation, requiring practitioners to undergo rigorous training, 
 meditation, and communion with the natural elements to harness its power responsibly. Wizards and sorceresses are respected members of 
@@ -627,7 +815,13 @@ world, and the divine.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_drugs' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Drugs
 In Mahthir, the stance on drugs is characterized by strict regulation and control enforced by the authorities to prevent substance abuse 
 and safeguard the well-being of the populace. Public intoxication and the sale of illicit substances are punishable offenses, with 
@@ -649,7 +843,13 @@ Mahthir''s commitment to maintaining sobriety and spiritual well-being within it
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_gender' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Gender Roles
 In Mahthir, gender roles are characterized by a deeply ingrained matriarchal society where women hold significant positions of power and 
 influence in both religious and secular spheres. Women are revered as primary nurturers, caretakers, and spiritual leaders, with lineage 
@@ -663,7 +863,13 @@ women within Mahthirian society.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_regions' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Other Regions
 **Tsintah:** Mahthirians view Tsintah as a land of mystery and danger, characterized by dense swamps and enigmatic inhabitants. They 
 believe that the people of Tsintah have forsaken civilization in favor of a primitive existence, allowing themselves to be consumed by the 
@@ -685,9 +891,9 @@ implications it holds for its inhabitants. They view Malachmet as a realm of mys
 beings with powers beyond their comprehension. There is a sense of fear and unease toward Malachmet, with Mahthirians wary of its enigmatic 
 inhabitants and the potential threats they may pose.
 
-**Quiryam:** Mahthirians see Quiryam as a valuable trading partner and strategic ally, but also as a potential rival in the future. They 
-admire Quiryam''s industriousness and economic prowess, recognizing the benefits of cooperation and mutual exchange. However, there is a 
-lingering sense of wariness toward Quiryam''s growing influence and expansionist ambitions, with Mahthirians wary of being overshadowed or 
+**Qiryam:** Mahthirians see Qiryam as a valuable trading partner and strategic ally, but also as a potential rival in the future. They 
+admire Qiryam''s industriousness and economic prowess, recognizing the benefits of cooperation and mutual exchange. However, there is a 
+lingering sense of wariness toward Qiryam''s growing influence and expansionist ambitions, with Mahthirians wary of being overshadowed or 
 marginalized in their own region.
 
 **Imperia:** Mahthirians view Imperia as a distant but formidable adversary, foreseeing a future conflict with the expanding empire. They 

@@ -5,7 +5,7 @@ select
     TRUE as fixed_top_menu,
     JSON('{"title":"Alchemy","icon": "flask-2","link":"/index_alchemy.sql"}') as menu_item,
     JSON('{"title":"Warrior","icon": "swords","link":"/index_warrior.sql"}') as menu_item,
-    JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_Tsintah.sql","title":"Tsintah"}]}') as menu_item,
+    JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_tsintah.sql","title":"Tsintah"}]}') as menu_item,
     JSON('{"title":"Subclasses","icon": "feather","link":"/index_subclasses.sql"}') as menu_item,
     JSON('{"title":"Spells","icon": "wand","link":"/index_spells.sql"}') as menu_item,
     JSON('{"title":"Currency","icon": "coins","link":"/index_currency.sql"}') as menu_item,
@@ -22,7 +22,6 @@ select
     'top' as id;
 
 
-
 select
     'carousel' as component,
     'Canechdul Maps' as title, 
@@ -36,9 +35,46 @@ select
     'images/canechdul/3_canechdul_tribes.jpg' as image;
 
 
+select
+    'text' as component,
+    TRUE as article,
+    '
+# Table of Contents
+- [Worldview](#worldview)
+- [History](#history)
+- [Folk Heroes](#folk_heroes)
+- [Geography](#geography)
+- [Food Staples](#food_staples)
+- [Symbols](#symbols)
+- [Leadership Structure](#leadership_structure)
+- [Class Structure](#class_structure)
+- [Stance on Poverty](#stance_on_poverty)
+- [Legal Structure](#legal_structure)
+- [Language](#language)
+- [Insults, Swears, Idioms, and Sayings](#idioms)
+- [Currency](#currency)
+- [Resources](#resources)
+- [Education](#education)
+- [Military & Defense](#military_defense)
+- [Traditions](#traditions)
+- [Taboos](#taboos)
+- [Death Rituals](#death_rituals)
+- [Fashion](#fashion)
+- [Stance on Slavery](#stance_on_slavery)
+- [Marriage](#marriage)
+- [Religion](#religion)
+- [Subcultures and Countercultures](#subcultures_countercultures)
+- [Art and Music](#art_music)
+- [Attitudes Toward Magic](#attitudes_magic)
+- [Attitudes Toward Drugs](#attitudes_drugs)
+- [Attitudes Toward Gender Roles](#attitudes_gender)
+- [Attitudes Toward Other Regions](#attitudes_regions)
+' as contents_md;
+
 
 select
     'text' as component,
+    'worldview' as id,
     TRUE as article,
     '
 # Worldview
@@ -60,7 +96,13 @@ trade, and cooperation, particularly in the face of external threats.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'history' as id,
+    TRUE as article,
+    '
 # History
 ## The Dawn of the Canes
 In the ancient days, the land of Canechdul was inhabited by numerous tribes, each vying for dominance over the fertile 
@@ -94,7 +136,13 @@ and hopefully resisting the invasion of Imperia.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'folk_heroes' as id,
+    TRUE as article,
+    '
 # Folk Heroes
 **Archtiern Atesos Sharpoak** is revered as the legendary king who unified the disparate clans of Canechdul, rallying them 
 against the elves of Mahthir in a pivotal conflict that secured the autonomy of their lands. 
@@ -112,7 +160,13 @@ and creating the path that now serves as a vital route to Mahthir, forever chang
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'geography' as id,
+    TRUE as article,
+    '
 # Geography
 The southern edge of Canechdul is dominated by the Ernuban which acts as a barrier to Imperia and Tsintah. The western border 
 to Mahthir is blocked by the Dunudúm with the Artaius Split being the easiest way to cross it. Heading north, the Crisok Avon 
@@ -138,7 +192,13 @@ Glasglanis along with the island of Crócolith.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'food_staples' as id,
+    TRUE as article,
+    '
 # Food Staples
 Canechdul''s diverse landscape and rich natural resources provide a variety of food staples for its inhabitants. Grains such 
 as barley, emmer, wheat, and rye form the backbone of the diet, often used to make hearty breads infused with pig''s blood, a 
@@ -157,7 +217,13 @@ Carch CamÍath tribe excels in mining this essential mineral, ensuring a hearty 
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'symbols' as id,
+    TRUE as article,
+    '
 # Symbols
 Each tribe in Canechdul bears a distinctive brooch symbol representing its unique heritage and connection to the land. The 
 Crixesok brooch features an intricately worked knot reminiscent of the Crisok Avon river, while the Avotóth symbol depicts a 
@@ -173,7 +239,13 @@ fertility and abundance.
 ![Brooches 5-8](images/canechdul/brooch_banner_5-8.png)
 
 [Return to Top](#top)
+    ' as contents_md;
 
+select
+    'text' as component,
+    'leadership_structure' as id,
+    TRUE as article,
+    '
 # Leadership Structure
 The leadership structure of Canechdul is deceptively intricate, often confounding outsiders who attempt to navigate its 
 complexities. While many assume that the Archtíern and the tribe Tierns hold ultimate authority, the true power lies with 
@@ -192,7 +264,13 @@ to remove them from power. If the decision is made to oust the Tiern, the Dagdha
 
 >![River Settlement](images/canechdul/canechdul_1.jpg)
 >*The villages of the Crixesok tribe are often on the banks of the Crisok Avon.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'class_structure' as id,
+    TRUE as article,
+    '
 # Class Structure
 In Canechdul society, the pinnacle is occupied by the Dagdha, esteemed as the foremost authorities and guardians of ancient wisdom, 
 knowledge, and spiritual guidance. Serving as advisors to the Tierns and arbiters of disputes, the Dagdha wield significant influence 
@@ -214,7 +292,13 @@ through acts of valor or exceptional service in battle.
 
 >![Golden Forest](images/canechdul/canechdul_2.jpg)
 >*The Forest of Taran is known for its golden leaves in the autumn.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'stance_on_poverty' as id,
+    TRUE as article,
+    '
 # Stance on Poverty
 In Canechdul society, even the poorest members of the tribe are typically taken care of by the community as long as they are able to 
 contribute through work or labor. The principle of mutual aid and solidarity ensures that everyone has access to basic necessities 
@@ -235,7 +319,13 @@ their own tribe.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'legal_structure' as id,
+    TRUE as article,
+    '
 # Legal Structure
 In Canechdul, the legal structure is defined by a combination of common laws and the Mungan Code, which serves as the foundational legal 
 framework of the society. Common laws are rooted in fairness, restitution, and community consensus, with disputes resolved by impartial 
@@ -258,7 +348,13 @@ unless proven innocent.
 >![Gwepren Forest](images/canechdul/canechdul_3.jpg)
 >*The settlements of the Gwepren tribe are found deep in the Forest of Taran. Unless one knows where to look for them, they will 
 miss the Gwepreners in the labyrinthine woodlands.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'language' as id,
+    TRUE as article,
+    '
 # Language
 The Canes mostly speak the Orc language, and those that can read and write use the Dethek script to go along with it. Common is the 
 next most common language with Auran, a distinct dialect of Primordial, being found among the Gnathethn and Glasdaireth tribes. 
@@ -267,7 +363,13 @@ Auran, of course, uses the Iokharic script.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'idioms' as id,
+    TRUE as article,
+    '
 # Insults, Swears, Idioms, and Sayings
 * *May you be cursed by the Morrigan''s shadow!*
 * *May the spirits of the forest haunt your dreams!*
@@ -290,7 +392,13 @@ Auran, of course, uses the Iokharic script.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'currency' as id,
+    TRUE as article,
+    '
 # Currency
 In a recent endeavor to foster improved trade relations with Imperia, Canechdul has introduced gold and electrum coins into its currency 
 system. The gold coins, known as Vecnarix, and the electrum coins, referred to as Gnathrix, are intended to facilitate transactions and 
@@ -302,7 +410,13 @@ represents a significant step towards integrating Canechdul into the broader eco
 ![Cane Coins](images/canechdul/cane_coins.jpg)
 
 [Return to Top](#top)
+    ' as contents_md;
 
+select
+    'text' as component,
+    'resources' as id,
+    TRUE as article,
+    '
 # Resources
 * Crixesok - tobacco, hemp, grains, dyes, clay, paper, fur, copper, potash, coal, iron, olives, granite, sulfur, lead, graphite, tin, 
 antimony, timber, wool, lignite
@@ -320,7 +434,13 @@ wool, lignite, spices
 >![Hamlet](images/canechdul/canechdul_4.jpg)
 >*Some settlements have the capability of producing enough for large exports, but Canes typically prefer to only produce enough for their 
 tribe.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'education' as id,
+    TRUE as article,
+    '
 # Education
 In Canechdul society, formal education is a privilege reserved primarily for the elite, particularly the offspring of Tierns and noble 
 families. Under the guidance of skilled tutors and mentors, these fortunate few receive instruction in subjects such as history, philosophy, 
@@ -338,7 +458,13 @@ to the development of skills and talents among the youth, fostering economic and
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'military_defense' as id,
+    TRUE as article,
+    '
 # Military & Defense
 Warfare holds a central place in Canechdul society, regarded not only as a means of defense but also as a sacred duty and a demonstration 
 of valor and devotion to the gods. Chariots are commonly employed on the battlefield, symbolizing both status and practicality, enabling 
@@ -355,7 +481,13 @@ to instill fear and awe in their enemies before engaging in combat.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'traditions' as id,
+    TRUE as article,
+    '
 # Traditions
 **Tribal Gatherings:** Periodic gatherings are held where members of different tribes come together to share stories, exchange goods, and 
 engage in competitions of strength and skill. These gatherings foster camaraderie and cooperation among the tribes and provide an 
@@ -387,7 +519,13 @@ respect for both participants.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'taboos' as id,
+    TRUE as article,
+    '
 # Taboos
 Cutting down oak and rowan trees for firewood is strictly prohibited in Canechdul culture, as these trees are revered as sacred symbols of 
 strength and protection. Violating this taboo is seen as a direct affront to the gods and the natural order, inviting misfortune and divine 
@@ -419,7 +557,13 @@ hindering the community''s growth and adaptability.
 >![Old Temple](images/canechdul/canechdul_5.jpg)
 >*The forgotten temples of the Eneiti are hidden throughout the forests of Canechdul. The Dagdha say they house the evil spirits that are 
 hiding from the gods.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'death_rituals' as id,
+    TRUE as article,
+    '
 # Death Rituals
 In Canechdul, death rituals vary widely among the tribes and are influenced by factors such as the cause of death and cultural beliefs. 
 Generally, those who die of disease, non-combat related injuries, or natural disasters are cremated unceremoniously, while those who die 
@@ -458,7 +602,13 @@ reminder of the cycle of life and death in the rugged mountain environment.
 
 >![Tall Trees](images/canechdul/canechdul_6.jpg)
 >*The trees of the Glasdaireth rise higher than anything other than the mountains in Terra.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'fashion' as id,
+    TRUE as article,
+    '
 # Fashion
 The largest commonalities between the tribes for fashion is linen and or wool clothing, simple tunics and trousers. Cloaks are extremely 
 popular and nearly necessary for many. Cloaks also indicate societal rank with thicker, heavier, and more ornately patterned cloaks being 
@@ -480,7 +630,13 @@ jewelry made of mithril. Lastly, the air genasi of Glasdaireth favor heavier and
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'stance_on_slavery' as id,
+    TRUE as article,
+    '
 # Stance on Slavery
 Slavery is very common among the Canes. Even a regular tuath family home will have 3-5 slaves. The slaves are typically taken from 
 prisoners of war and their children. Slaves have no legal rights and are simply considered property. Slaves are able to escape the status, 
@@ -489,7 +645,13 @@ but it generally requires them to fight valiantly in combat on behalf of their o
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'marriage' as id,
+    TRUE as article,
+    '
 # Marriage
 Marriage customs in Canechdul are deeply rooted in communal living and collective welfare. Unlike other societies on Terra, marriages are 
 not about forming independent households but rather about integrating into existing abhailles, or homes. This emphasizes the collective 
@@ -507,7 +669,13 @@ subject to approval by a tuath judge and jury, who ensure that both parties are 
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'religion' as id,
+    TRUE as article,
+    '
 # Religion
 The religious leadership of Canechdul is primarily composed of the Dagdha, druids, and skalds, who hold significant influence and authority 
 within the society. They serve as spiritual guides, interpreters of omens, and custodians of sacred traditions, guiding religious rituals 
@@ -528,7 +696,13 @@ are central to Canes'' religious beliefs and rituals, shaping their worldview an
 
 >![Dagdha](images/canechdul/canechdul_8.jpg)
 >*The Dagdha have surpassed their human forms and do not always appear as such.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'subcultures_countercultures' as id,
+    TRUE as article,
+    '
 # Subcultures and Countercultures
 **Vates Conventus:** The Vates Conventus is a faction within Canes society composed of druids, scholars, and visionary leaders who advocate 
 for closer ties with the Imperian Republic. They believe that joining the Imperian Republic will bring stability, prosperity, and protection 
@@ -577,7 +751,13 @@ own and ensure the survival of their kind in a hostile world.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'art_music' as id,
+    TRUE as article,
+    '
 # Art and Music
 Canechdul''s artistic expression is deeply intertwined with music and performance, showcasing a rich cultural heritage. The carnyx, a 
 bronze wind instrument with a trumpet-like shape featuring a boar''s head at the end, holds a revered status among the Canes. It is often 
@@ -598,7 +778,13 @@ identity.
 
 >![Carnyx](images/canechdul/canechdul_9.jpg)
 >*The sound of the carnyx on the battleshield can cause dread to spread through enemy forces.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_magic' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Magic
 Canechdul''s stance on magic is characterized by a complex mixture of reverence, fear, and distrust towards practitioners of arcane arts. 
 They hold a deep-seated suspicion towards wizards, sorcerers, and warlocks, viewing them with apprehension due to their ability to 
@@ -619,7 +805,13 @@ respected, with the Dagdha serving as the spiritual backbone of Canechdul societ
 
 >![Commune with the Gods](images/canechdul/canechdul_10.jpg)
 >*The Dagdha commune with the gods to determine the best path for Canes to take.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_drugs' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Drugs
 In Canechdul society, drugs hold a unique cultural and spiritual significance, particularly those crafted by the druids. 
 [Sapphire](index_narcotics.sql#sapphire), a hallucinogenic drug made from a magically enchanted mixture of moss and mushrooms, is used 
@@ -637,7 +829,13 @@ gatherings where it symbolizes wealth, sophistication, and refinement.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_gender' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Gender Roles
 In Canechdul society, gender egalitarianism prevails, with men and women enjoying equal rights, opportunities, and responsibilities. Women 
 are not confined to traditional gender roles but instead are granted the same freedoms and opportunities as men, allowing them to pursue 
@@ -650,7 +848,13 @@ education, career, relationships, and personal pursuits without constraint from 
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_regions' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Other Regions
 **Imperia:** Attitudes towards Imperia are divided within Canechdul society. Pragmatic individuals advocate for closer ties with Imperia, 
 seeing it as an opportunity to modernize and integrate Canechdul into a larger, more powerful state. However, traditionalists view Imperia 

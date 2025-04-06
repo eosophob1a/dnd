@@ -5,7 +5,7 @@ select
     TRUE as fixed_top_menu,
     JSON('{"title":"Alchemy","icon": "flask-2","link":"/index_alchemy.sql"}') as menu_item,
     JSON('{"title":"Warrior","icon": "swords","link":"/index_warrior.sql"}') as menu_item,
-    JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_Tsintah.sql","title":"Tsintah"}]}') as menu_item,
+    JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_tsintah.sql","title":"Tsintah"}]}') as menu_item,
     JSON('{"title":"Subclasses","icon": "feather","link":"/index_subclasses.sql"}') as menu_item,
     JSON('{"title":"Spells","icon": "wand","link":"/index_spells.sql"}') as menu_item,
     JSON('{"title":"Currency","icon": "coins","link":"/index_currency.sql"}') as menu_item,
@@ -22,7 +22,6 @@ select
     'top' as id;
 
 
-
 select
     'carousel' as component,
     'Imperia Maps' as title, 
@@ -34,9 +33,46 @@ select
     'images/imperia/imperia_settlements.jpg' as image;
 
 
+select
+    'text' as component,
+    TRUE as article,
+    '
+# Table of Contents
+- [Worldview](#worldview)
+- [History](#history)
+- [Folk Heroes](#folk_heroes)
+- [Geography](#geography)
+- [Food Staples](#food_staples)
+- [Flags and Symbols](#symbols)
+- [Leadership Structure](#leadership_structure)
+- [Class Structure](#class_structure)
+- [Stance on Poverty](#stance_on_poverty)
+- [Legal Structure](#legal_structure)
+- [Language](#language)
+- [Insults, Swears, Idioms, and Sayings](#idioms)
+- [Currency](#currency)
+- [Resources](#resources)
+- [Education](#education)
+- [Military & Defense](#military_defense)
+- [Traditions](#traditions)
+- [Taboos](#taboos)
+- [Death Rituals](#death_rituals)
+- [Fashion](#fashion)
+- [Stance on Slavery](#stance_on_slavery)
+- [Marriage](#marriage)
+- [Religion](#religion)
+- [Subcultures and Countercultures](#subcultures_countercultures)
+- [Art and Music](#art_music)
+- [Attitudes Toward Magic](#attitudes_magic)
+- [Attitudes Toward Drugs](#attitudes_drugs)
+- [Attitudes Toward Gender Roles](#attitudes_gender)
+- [Attitudes Toward Other Regions](#attitudes_regions)
+' as contents_md;
+
 
 select
     'text' as component,
+    'worldview' as id,
     TRUE as article,
     '
 # Worldview
@@ -54,7 +90,13 @@ civilization and progress, embracing the opportunities and freedoms afforded by 
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'history' as id,
+    TRUE as article,
+    '
 # History
 ## The Beginning
 Tribes on the Fields of Mars unified under the efforts of two brothers, Titus and Caeso Prius, legendry heroes. They fought to see who 
@@ -103,7 +145,13 @@ of its citizens for freedom and justice.
 >![Sinai to Ceresium](images/imperia/imperia_2.jpg)
 >*Imperia''s multi-year siege finally broke the people of Yarok forcing them from the land given to them by Oren. Formerly Sinai, the 
 walled city became known as Ceresium.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'fol_heroes' as id,
+    TRUE as article,
+    '
 # Folk Heroes
 **Titus Primus:** Titus Primus is a legendary hero and founding father of Imperia, known for his valor and leadership in the conquest of 
 neighboring lands and the establishment of the Imperian monarchy. He is celebrated as a symbol of strength, courage, and national unity, 
@@ -129,7 +177,13 @@ come.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'geography' as id,
+    TRUE as article,
+    '
 # Geography
 Imperia is close to the south pole sitting between the Virdi Mare and the Nostris Maris and dominates the Fields of Mars. The green seas of 
 the Virdi Mare have the large island of Vinum Insulus and Custos Profundi. Separating Imperia from Tsintah, Mahthir, and Canechdul is the 
@@ -150,7 +204,13 @@ and Scutempestas.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'food_staples' as id,
+    TRUE as article,
+    '
 # Food Staples
 In Imperia, the abundance of trade and wealth ensures access to a diverse array of foods sourced from various regions across the world. 
 These food staples are readily available for purchase at the numerous Tabernae that line the streets and housing complexes throughout 
@@ -170,18 +230,29 @@ tastes and preferences.
 [Return to Top](#top)
 >![Food Market](images/imperia/imperia_3.jpg)
 >*The markets of Imperia overflow with goods brought from all corners of Terra.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'symbols' as id,
+    TRUE as article,
+    '
 # Flag and Symbols
-Imperia’s patron god, Mars, is often represented by a spear and shield and/or a wolf. Legionnaires will often carry a wolf pelt with them, 
+Imperia''s patron god, Mars, is often represented by a spear and shield and/or a wolf. Legionnaires will often carry a wolf pelt with them, 
 or a spear charm attached to them in some way. The most common symbols seen are those of Juno: a crown, lily, lotus, or peacock.  Symbols 
 of Vesta are common with most homes having her flame symbol on their hearth or oven. The flag of Imperia is a red and gold profile depiction 
-of a wolf’s head with a crown over it.
-
+of a wolf''s head with a crown over it.
 
 ![ImperianFlag](images/imperia/imperian_flag.jpeg)
 
 [Return to Top](#top)
+    ' as contents_md;
 
+select
+    'text' as component,
+    'leadership_structure' as id,
+    TRUE as article,
+    '
 # Leadership Structure
 There are 120 senators of the Imperian Republic. Their authority is derived from esteem, prestige, precedent, and custom. The senate will 
 pass decrees called Senate Consults. These are officially “advice” from the senate to the magistrates, but there are heavy cultural 
@@ -228,7 +299,13 @@ The Quaestors hold office for five years and are typically assistants of consuls
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'class_structure' as id,
+    TRUE as article,
+    '
 # Class Structure
 In Imperia, the class structure is sharply defined, with slaves occupying the lowest tier, devoid of any rights or privileges and subject 
 to the whims of their masters. Liberti, or freedmen, though technically part of the Plebeian class, are considered the lowest within it and 
@@ -243,7 +320,13 @@ intrigue and competition from rival factions within the elite circles of Imperia
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'stance_on_poverty' as id,
+    TRUE as article,
+    '
 # Stance on Poverty
 In Imperia, the stance on poverty reflects a system of welfare designed to provide the most basic necessities for the poorest Plebeians. 
 While the welfare support is suitable, it primarily offers access to essentials such as food, water, and shelter, ensuring survival but not 
@@ -257,7 +340,13 @@ affected by the loss of their primary breadwinners, providing stability and oppo
 [Return to Top](#top)
 >![ImperianFlag](images/imperia/imperia_4.jpg)
 >*Imperia is the largest city in Terra leading to it to be separated into 14 regio to have any chance of cohesive administration.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'leagl_structure' as id,
+    TRUE as article,
+    '
 # Legal Structure
 In Imperia, the legal structure is multifaceted and complex, reflecting the intricate nature of governance and justice in the republic. 
 Slaves are subjected to torture for obtaining information during investigations, a practice that follows legal precedent but raises 
@@ -286,7 +375,13 @@ rather than oratory skill.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'language' as id,
+    TRUE as article,
+    '
 # Language
 Imperia primarily uses the common language though Celestial is heavily taught by private tutors across the republic. The Celestial language 
 uses the Aleph script. Along the coasts from Huodi to Yarok, Aquan is also extremely common. It is a dialect of Primordial and uses the 
@@ -295,7 +390,13 @@ Iokharic script.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'idioms' as id,
+    TRUE as article,
+    '
 # Insults, Swears, Idioms, and Sayings
 * *You''re so boring that it''s murder by monotony.*
 * *You are the stench of a Plebeian bathhouse.* 
@@ -311,7 +412,13 @@ the values of piety, marital fidelity, and patriotism.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'currency' as id,
+    TRUE as article,
+    '
 # Currency
 Imperia uses the aurii and the denarii. The aurii are gold coins with a wolf''s head on one side and the flame of Vesta on the other. The 
 denarii are electrum coins with the word "PAX" and laurels on one side and "BELLUM" and spears on the other. The mints for these are in 
@@ -320,7 +427,13 @@ detecting fakes and counterfeits of the coinage through the regions.
 
 ![Imperian Coins](images/imperia/imperian_coins.jpg)
 [Return to Top](#top)
+    ' as contents_md;
 
+select
+    'text' as component,
+    'resources' as id,
+    TRUE as article,
+    '
 # Resources
 * Imperia: chalk, iron, flint, silver, gold, platinum, lead, copper, pumice, granite, paper, timber, hardwood, citrus, fruits, olives, 
 grapes, graphite, leather, clay, flax, bees, grains, jute
@@ -332,7 +445,13 @@ grapes, graphite, leather, clay, flax, bees, grains, jute
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'education' as id,
+    TRUE as article,
+    '
 # Education
 In Imperia, education is highly valued and considered essential for the development of well-rounded individuals capable of contributing to 
 society. The education system is structured to provide opportunities for children from all social classes to acquire knowledge and skills 
@@ -361,7 +480,13 @@ written texts, and contribute to the cultural and intellectual fabric of their s
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'military_defense' as id,
+    TRUE as article,
+    '
 # Military & Defense
 Imperia has a large and very organized standing army. It is directly led by the two Consuls. The army is divided into 24 legions, each 
 comprising 4800 infantry and 120 cavalry. A legion is subdivided into 10 cohorts of 480 men. Each cohort is made of six centuries of 80 
@@ -378,8 +503,13 @@ Nautae cohort can have tribunes, but it is not common.
 [Return to Top](#top)
 >![Imperian Military](images/imperia/imperia_5.jpg)
 >*The Imperian legions are highly organized and professional. They claim 60 legions made of 250,000 legionnaires throughout their territory.*
+    ' as contents_md;
 
-
+select
+    'text' as component,
+    'traditions' as id,
+    TRUE as article,
+    '
 # Traditions
 **Triumphal Processions:** In celebration of military victories and conquests, Imperian generals and soldiers participate in triumphal 
 processions through the streets of Imperia. These grand parades feature displays of captured treasures, exotic animals, and defeated 
@@ -409,7 +539,13 @@ storytelling and imagination.
 >![Imperian Arena](images/imperia/imperia_6.jpg)
 >*The Collosea Maxima is the largest amphitheater in Imperia. It commonly hosts gladiatorial bouts, but plays and concerts are also held 
 before its 115,000 seats.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'taboos' as id,
+    TRUE as article,
+    '
 # Taboos
 **Drinking ale, beer, or mead:** Ale, beer, and mead are considered taboo in Imperian society due to their association with barbarism. However, 
 beverages such as wine, posca, and mulsum are widely accepted and even enjoyed among Imperians.
@@ -435,7 +571,13 @@ with social condemnation or legal repercussions.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'death_rituals' as id,
+    TRUE as article,
+    '
 # Death Rituals
 In Imperia, death rituals are deeply ingrained in the cultural and religious practices of the society. The process typically begins with a 
 solemn procession, during which the deceased is carried through the streets accompanied by mourners. The procession serves as a public 
@@ -458,7 +600,13 @@ own purposes.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'fashion' as id,
+    TRUE as article,
+    '
 # Fashion
 In Imperia, clothing serves as a reflection of social status, with different garments and materials reserved for specific classes within 
 society. The majority of Imperian clothing is crafted from wool and linen, providing comfort and durability for everyday wear. Silk, a 
@@ -482,7 +630,13 @@ allowing wearers to shield themselves from the elements when necessary.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'stance_on_slavery' as id,
+    TRUE as article,
+    '
 # Stance on Slavery
 In Imperia, slavery is deeply ingrained in society, with a thriving slave trade catering to the demands of both the wealthy and even 
 lower-class households. Slaves are often individuals captured from conquered lands or foreigners sold directly to Imperian slave traders. 
@@ -505,7 +659,13 @@ perpetuates a cycle of exploitation and oppression, with slaves enduring harsh t
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'marriage' as id,
+    TRUE as article,
+    '
 # Marriage
 In Imperia, marriage is primarily viewed as a transactional arrangement orchestrated by families rather than a romantic union based on 
 personal choice. It is common for families to prearrange marriages for their children years in advance, with the actual ceremonies taking 
@@ -527,7 +687,13 @@ transactional nature of marriages in Imperia, where financial arrangements play 
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'religion' as id,
+    TRUE as article,
+    '
 # Religion
 The religious practices and rituals of Imperians are deeply rooted in their reverence for ancient gods. At the heart of their pantheon are 
 deities such as Mars, the god of war, conquest, strategy, and Imperia itself, embodying the martial virtues and the spirit of conquest that 
@@ -550,7 +716,13 @@ traditions that have shaped their cultural identity for generations.
 [Return to Top](#top)
 >![Imperian Temple](images/imperia/imperia_7.jpg)
 >*Imperian temples are extravagant building displaying the glory of their gods but also the glory of Imperia.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'subcultures_countercultures' as id,
+    TRUE as article,
+    '
 # Subcultures and Countercultures
 **Vox Populi Movement:** The Vox Populi Movement is a countercultural movement that advocates for the rights and empowerment of the common 
 people in Imperia. Members of this movement reject the elitism and privilege of the ruling class and seek to challenge the existing power 
@@ -577,7 +749,13 @@ own purposes.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'art_music' as id,
+    TRUE as article,
+    '
 # Art and Music
 In Imperia, art holds a significant place in society, characterized by a focus on realism and technical skill. Artists are highly 
 esteemed for their ability to depict scenes with accuracy and precision. The walls of homes, especially those belonging to the patrician 
@@ -596,7 +774,13 @@ precision, adding depth and richness to the cultural tapestry of Imperian societ
 >![Architecture](images/imperia/imperia_8.jpg)
 >*To an Imperian, art is not just the paintings on their walls or the sculptures in the temples. Art is the organization and engineering in 
 their cities and how it lends to their fellow countrymen.*
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_magic' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Magic
 In Imperia, citizens with a certain level of magical skill, typically second level spells or higher, are mandated to register as theurgists 
 within Imperian lands. Theurgists may be called upon by the nation to fulfill tasks that benefit the state, and failure to comply with 
@@ -609,7 +793,13 @@ cities and enforcing these regulations.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_drugs' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Drugs
 In Imperia, alcohol consumption is tolerated, but public drunkenness is met with severe punishment. However, hallucinogens and narcotics 
 are strictly prohibited. Despite this prohibition, there exists a thriving underground drug trade. Among the lower classes, 
@@ -620,7 +810,13 @@ flower from Huodi, which produces euphoria and adrenaline rushes.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_gender' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Gender Roles
 Imperian woman aren''t necessarily seen as second-class citizens, but many would see them as lesser than men. Most Imperians believe that 
 men and women have specific roles to play in society, and it is considered taboo to step outside those roles. These roles are not as 
@@ -629,7 +825,13 @@ strictly enforced as those in Huodi.
 [Return to Top](#top)
 
 ---
+    ' as contents_md;
 
+select
+    'text' as component,
+    'attitudes_regions' as id,
+    TRUE as article,
+    '
 # Attitudes Toward Other Regions
 **Canechdul:** Regarded as uncivilized, typically due to cultural differences.
 
