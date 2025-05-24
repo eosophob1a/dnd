@@ -11,7 +11,6 @@ select
     JSON('{"title":"Currency","icon": "coins","link":"/index_currency.sql"}') as menu_item,
     JSON('{"title":"Piety","icon": "flask-2","link":"/index_piety.sql"}') as menu_item,
     JSON('{"title":"Narcotics","icon": "brain","link":"/index_narcotics.sql"}') as menu_item,
-    JSON('{"title":"Narcotics","icon": "brain","link":"/index_narcotics.sql"}') as menu_item,
     'dark' as theme;
 select
     'hero' as component,
@@ -149,7 +148,7 @@ select
     '[Apollo](#apollo)' as "God",
     '-' as "Aelin Helskar",
     '-' as "Gao Yao",
-    '-' as "Kairo Janus",
+    '5' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '5' as "Maestro",
     '-' as "Yuma";
@@ -256,7 +255,7 @@ select
     'X' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '-' as "Maestro",
-    '-' as "Yuma";
+    '5' as "Yuma";
 select
     '[Pluto](#pluto)' as "God",
     '-' as "Aelin Helskar",
@@ -292,7 +291,7 @@ select
 select
     '[Vulcan](#vulcan)' as "God",
     '-' as "Aelin Helskar",
-    '-' as "Gao Yao",
+    '5' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '-' as "Maestro",

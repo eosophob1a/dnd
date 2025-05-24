@@ -18,20 +18,19 @@ select
     'Do not take me for some conjurer of cheap tricks.' as description,
     'images/spells/spells_1.jpg' as image;
 
-
 select
     'text' as component,
     'top' as id;
 
-
 select
     'table' as component,
     'Spell' as markdown,
-    TRUE as search,
     TRUE as hover,
     TRUE as striped_rows,
     TRUE as freeze_columns,
-    TRUE as freeze_headers;
+    TRUE as freeze_headers,
+    TRUE as search,
+    'Search by level, class, school, and/or property...' as search_placeholder;
 /*Properties are damage, Penalty, utility, stealth, buff*/
 select
     '[Death''s Dagger](#deaths-dagger)' as Spell,
@@ -535,12 +534,108 @@ select
     'Druid, Ranger' as Class,
     'Buff, Utility' as Properties;
 select
+    '[Allegro](#allegro)' as Spell,
+    '4th' as Level,
+    'Transmutation' as School,
+    'Artificer, Bard' as Class,
+    'Buff' as Properties;
+select
+    '[Archon''s Aura](#archons-aura)' as Spell,
+    '4th' as Level,
+    'Abjuration' as School,
+    'Cleric, Paladin' as Class,
+    'Penalty, AOE' as Properties;
+select
+    '[Aura of the Sun](#aura-of-the-sun)' as Spell,
+    '4th' as Level,
+    'Abjuration' as School,
+    'Paladin' as Class,
+    'Damage, Utility' as Properties;
+select
+    '[Boreal Winds](#boreal-winds)' as Spell,
+    '4th' as Level,
+    'Evocation' as School,
+    'Druid, Sorcerer, Warlock, Wizard' as Class,
+    'Damage, AOE' as Properties;
+select
+    '[Cacophonic Shield](#cacophonic-shield)' as Spell,
+    '4th' as Level,
+    'Evocation' as School,
+    'Bard, Sorcerer, Wizard' as Class,
+    'Damage, Penalty, AOE' as Properties;
+select
+    '[Cone of Euphoria](#cone-of-euphoria)' as Spell,
+    '4th' as Level,
+    'Enchantment' as School,
+    'Bard, Sorcerer, Warlock, Wizard' as Class,
+    'Penalty, AOE' as Properties;
+select
+    '[Crown of Courage](#crown-of-courage)' as Spell,
+    '4th' as Level,
+    'Enchantment' as School,
+    'Bard, Cleric, Paladin' as Class,
+    'Buff, AOE' as Properties;
+select
+    '[Dolours Motes](#dolours-motes)' as Spell,
+    '4th' as Level,
+    'Enchantment' as School,
+    'Bard, Sorcerer, Warlock, Wizard' as Class,
+    'Damage, Penalty, AOE' as Properties;
+select
+    '[Ebon Scar](#ebon-scar)' as Spell,
+    '4th' as Level,
+    'Necromancy' as School,
+    'Druid, Sorcerer, Warlock' as Class,
+    'Damage, AOE' as Properties;
+select
+    '[Harmonic Chorus](#harmonic-chorus)' as Spell,
+    '4th' as Level,
+    'Enchantment' as School,
+    'Bard' as Class,
+    'Buff, AOE' as Properties;
+select
+    '[Infestation of Maggots](#infestation-of-maggots)' as Spell,
+    '4th' as Level,
+    'Necromancy' as School,
+    'Druid, Warlock' as Class,
+    'Damage, Penalty' as Properties;
+select
+    '[Malicious Transposition](#malicious-transposition)' as Spell,
+    '4th' as Level,
+    'Conjuration' as School,
+    'Sorcerer, Wizard' as Class,
+    'Teleport' as Properties;
+select
+    '[Mass Endure Elements](#mass-endure-elements)' as Spell,
+    '4th' as Level,
+    'Abjuration' as School,
+    'Artificer, Druid, Ranger' as Class,
+    'Utility, Buff, Ritual' as Properties;
+select
+    '[Prowl of the Undying](#prowl-of-the-undying)' as Spell,
+    '4th' as Level,
+    'Necromancy' as School,
+    'Druid' as Class,
+    'Ritual, Summoning' as Properties;
+select
+    '[Resonating Bolt](#resonating-bolt)' as Spell,
+    '4th' as Level,
+    'Evocation' as School,
+    'Artificer, Bard' as Class,
+    'Damage, Utility, AOE' as Properties;
+select
+    '[Wild Form](#wild-form)' as Spell,
+    '4th' as Level,
+    'Abjuration' as School,
+    'Artificer, Druid, Ranger' as Class,
+    'Utility, Buff, Ritual' as Properties;
+select
     '' as Spell,
     'The' as Level,
     'Rest' as School,
     'Come' as Class,
     'Eventually' as Properties;
-/*Properties are damage, penalty, utility, stealth, buff, ritual, teleport, mask, heal, AOE*/
+/*Properties are damage, penalty, utility, stealth, buff, ritual, teleport, mask, heal, AOE, summoning*/
 /*
 select
     '[SPELLNAME](#spellname)' as Spell,
@@ -2675,11 +2770,449 @@ You touch a target and imbue it with a sense of the wilderness. Target gains one
 - Tremorsense 15 feet
 
 If the target already has the sense, its range is increased by the range listed.
+
 **At Higher Levels.** When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each 
 slot above 3rd.
 
 [Return to Top](#top)
 ' as contents_md;
+
+select
+    'text' as component,
+    'allegro' as id,
+    TRUE as center,
+    'Allegro' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Transmutation |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; Self (10-foot radius) |
+| **Components:**   | &nbsp; V, S |
+| **Duration:**     | &nbsp; 1 Minute |
+| **Classes:**      | &nbsp; Artificer, Bard |
+
+Up to six targets within range of the spell have all their movement speeds doubled as well as their jump distance doubled.
+Affected creatures retain these effects for the duration of the spell, even if they leave the original area.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'archons-aura' as id,
+    TRUE as center,
+    'Archon''s Aura' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Abjuration |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; Self (20-foot radius) |
+| **Components:**   | &nbsp; V, S |
+| **Duration:**     | &nbsp; Concentration, up to 10 minutes |
+| **Classes:**      | &nbsp; Cleric, Paladin |
+
+An illusory archon rises above you and sheds light in a 20-foot radius. You may choose any number of creatures you can see to be 
+unaffected by it. Creatures that are affected by it have disadvantage on their attack rolls. In addition, whenever a creature would enter 
+or begin their turn in the area, it must a Wisdom saving throw or have -3 penalty to their AC and saving throws.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'aura-of-the-sun' as id,
+    TRUE as center,
+    'Aura of the Sun' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Abjuration |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; Self (30-foot radius) |
+| **Components:**   | &nbsp; V, S |
+| **Duration:**     | &nbsp; Concentration, up to 1 minute |
+| **Classes:**      | &nbsp; Paladin |
+
+A column of bright sunlight descends with a 30-foot radius centered on you. The sunlight dispels any magical darkness in the range and 
+imposes disadvantage on Dexterity (Stealth) checks.
+
+In addition, on following turns, you may use your bonus action to send a ray of concentrated sunlight to a target within the column. Make 
+a ranged spell attack against the target. Upon a hit, the target takes 2d8 + your spell casting ability modifier in radiant damage.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'boreal-winds' as id,
+    TRUE as center,
+    'Boreal Winds' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Evocation |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; Self (60-foot line) |
+| **Components:**   | &nbsp; V, S |
+| **Duration:**     | &nbsp; Instantaneous |
+| **Classes:**      | &nbsp; Druid, Sorcerer, Warlock, Wizard |
+
+You summon a gust of frozen air that blasts through in a 60-foot line that''s 15-feet wide originating from you. Each creature in the line 
+suffers 6d12 cold damage or half as much on a successful Dexterity saving throw.
+
+Any exposed flame within 20 feet of the spell''s effect is extinguished.
+
+**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d12 for each slot above 
+4th level.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'cacophonic-shield' as id,
+    TRUE as center,
+    'Cacophonic Shield' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Evocation |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; Self (10-foot radius) |
+| **Components:**   | &nbsp; V, S |
+| **Duration:**     | &nbsp; Concentration, up to 1 minute |
+| **Classes:**      | &nbsp; Bard, Sorcerer, Wizard |
+
+You surround yourself with an area of loud and obnoxious noises. When you cast this spell, you can designate any number of creatures you 
+can see to be unaffected by it. When a creature enters the area for the first time each turn or begins its turn there, it takes 4d6 
+thunder damage and makes a Constitution saving throw or be deafened. In addition, Concentration checks made within the area of effect are 
+made with disadvantage.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'cone-of-euphoria' as id,
+    TRUE as center,
+    'Cone of Euphoria' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Enchantment |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; Self (30-foot cone) |
+| **Components:**   | &nbsp; V,S,M (10 gp gem dust) |
+| **Duration:**     | &nbsp; Instantaneous |
+| **Classes:**      | &nbsp; Bard, Sorcerer, Warlock, Wizard |
+
+You dazzle your targets by breathing a beautiful cone of sparkling motes. All those within the area must succeed on a Wisdom saving throw 
+or be stunned until the end of your next turn.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'crown-of-courage' as id,
+    TRUE as center,
+    'Crown of Courage' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Enchantment |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; Touch |
+| **Components:**   | &nbsp; V, S, M (10 gp gold crown) |
+| **Duration:**     | &nbsp; Concentration, up to 10 minutes |
+| **Classes:**      | &nbsp; Bard, CLeric, Paladin |
+
+When you touch a creature that is targeted with this spell, a glowing crown hovers above their head where bright light shines in a 30-foot 
+radius. For the duration, any friendly creatures within the bright light (including the target), can roll a d6 and add the roll to their 
+attack rolls and ability checks. In addition, they are immune to the stunned, frightened, and paralyzed conditions.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'dolours-motes' as id,
+    TRUE as center,
+    'Dolours Motes' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Enchantment |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; 120 Feet |
+| **Components:**   | &nbsp; V, S |
+| **Duration:**     | &nbsp; Concentration, up to 1 minute |
+| **Classes:**      | &nbsp; Bard, Sorcerer, Warlock, Wizard |
+
+You summon five 10-foot cubes that are filled with motes that drive those inside mad with lights of mental anguish. When a creature enters 
+one of the cubes or begins their turn in them, they must make a Wisdom saving throw or be stunned until the beginning of their next turn.
+
+If they take damage while stunned in this manner, they make their saving throw with advantage. When a creature succeeds on their saving 
+throw, they take 3d6 psychic damage.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'ebon-scar' as id,
+    TRUE as center,
+    'Ebon Scar' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Necromancy |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; Self (120-foot line) |
+| **Components:**   | &nbsp; V, S, M (ash from a burnt plant) |
+| **Duration:**     | &nbsp; Instantaneous |
+| **Classes:**      | &nbsp; Druid, Sorcerer, Warlock |
+
+Any humanoids, plants, beasts, giants, or dragons in the area must make a Wisdom saving throw taking 8d10 necrotic damage or half as much 
+on a successful saving throw as a wave of rot and death sweeps through the area of the spell seeking to kill all life.
+
+**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level 
+above 4th.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'harmonic-chorus' as id,
+    TRUE as center,
+    'Harmonic Chorus' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Enchantment |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; Self (30-foot radius) |
+| **Components:**   | &nbsp; V, S |
+| **Duration:**     | &nbsp; 1 Minute |
+| **Classes:**      | &nbsp; Bard |
+
+For the duration of the spell, you and friendly creatures within the spell''s area have their spell save DCs and spell attack modifiers 
+increased by 1d4 which is rolled and determined when the spell is cast.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'infestation-of-maggots' as id,
+    TRUE as center,
+    'Infestation of Maggots' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Necromancy |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; Touch |
+| **Components:**   | &nbsp; V, S, M (a handful of dead flies) |
+| **Duration:**     | &nbsp; Concentration, up to 1 minute |
+| **Classes:**      | &nbsp; Druid, Warlock |
+
+Make a melee spell attack against a creature within range. The creature''s flesh begins crawling as maggot devour them from the inside 
+out. The target suffers 1d4 Constitution damage. On subsequent turns, they can make a Constitution saving throw to expunge the maggots or 
+take another 1d4 Constitution damage.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'malicious-transposition' as id,
+    TRUE as center,
+    'Malicious Transpositions' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Conjuration |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; Touch |
+| **Components:**   | &nbsp; V, S |
+| **Duration:**     | &nbsp; Instantaneous |
+| **Classes:**      | &nbsp; Sorcerer, Wizard |
+
+You may choose two target creatures within range. If a creature is unwilling, it must make a Charisma saving throw. On a failure, the two 
+creatures swap places instantaneously along with any equipment they are carrying that doesn''t exceed their carry capacity.
+
+**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each 
+spell slot above 4th.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'mass-endure-elements' as id,
+    TRUE as center,
+    'Mass Endure Elements (S)' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Abjuration |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; 30 Feet |
+| **Components:**   | &nbsp; V, S |
+| **Duration:**     | &nbsp; 24 Hours |
+| **Classes:**      | &nbsp; Artificer, Druid, Ranger |
+
+Up to 10 creatures you can see within range suffer no harm from being in a hot or cold environment. They can exist comfortably in 
+conditions between -50 and 140 degrees Fahrenheit without having to make Constitution saves. Their equipment is likewise protected.
+
+This spell doesn''t provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as 
+smoke, lack of air, and so forth.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'prowl-of-the-undying' as id,
+    TRUE as center,
+    'Prowl of the Undying (R)' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Necromancy |
+| **Time:**         | &nbsp; 10 Minutes |
+| **Range:**        | &nbsp; 30 Feet |
+| **Components:**   | &nbsp; V, S, M (the body or skeleton of animal to be reanimated) |
+| **Duration:**     | &nbsp; 24 Hours |
+| **Classes:**      | &nbsp; Druid |
+
+You choose the body or skeleton of a dead beast that you can concentrate on while casting the spell. The spell imbues the target with a 
+foul mimicry of life raising it as an undead creature. You can only raise a beast with a CR of 4 or lower. 
+
+On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 
+feet of you. You decide what action the creature will take and where it will move during its next turn, or you can issue a general 
+command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only takes the dodge action. Once given 
+an order, the creature continues to follow it until its task is complete. 
+
+The creature is under your control for 24 hours, after which it stops obeying any command you have given it. To maintain the control of the 
+creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the 
+spell reasserts your control over the creature rather than animating a new one.
+
+You use the statblock of the beast animated with some adjustments at is now undead rather than a beast. The creature gains immunity to 
+poison damage, poisoned condition, and exhaustion. Its Intelligence is reduced to 1. If the corpse was a body, the corpse is raised as a 
+zombie and has vulnerability to fire damage. If it was just bones, it is raised as a skeleton and has vulnerability to bludgeoning damage.
+
+**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, you can raise the CR limit of the creature 
+targeted by 1 for each slot level above 4th.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'resonating-bolt' as id,
+    TRUE as center,
+    'Resonating Bolt' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Evocation |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; 90 Feet |
+| **Components:**   | &nbsp; V, S |
+| **Duration:**     | &nbsp; Instantaneous |
+| **Classes:**      | &nbsp; Artificer, Bard |
+
+You send a small crackling ball of energy to a point you can see within range. A shockwave erupts from the point in a 20-foot radius, 
+destroying all unattended objects in the area, but does not go around corners. Creatures in the area take 8d8 thunder damage or half as 
+much on a successful Dexterity saving throw.
+
+**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level 
+above 4th.
+
+[Return to Top](#top)
+' as contents_md;
+
+select
+    'text' as component,
+    'wild-form' as id,
+    TRUE as center,
+    'Wild Form (R)' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | 4th Level Spell |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Abjuration |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; 30 Feet |
+| **Components:**   | &nbsp; V, S |
+| **Duration:**     | &nbsp; 24 Hours |
+| **Classes:**      | &nbsp; Artificer, Druid, Ranger |
+
+When you cast this spell, choose one:
+- 60 feet swimming speed
+- 60 feet flying speed (hover)
+- 30 feet burrow speed
+- Ability to breathe underwater
+- Ability to walk on any surface
+
+**At Higher Levels.** When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each 
+spell slot above 4th. You may choose different modes for each target.
+
+[Return to Top](#top)
+' as contents_md;
+
 /* TEMPLATE
 select
     'text' as component,
