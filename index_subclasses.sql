@@ -497,7 +497,7 @@ At 7th level, you can feel the influence of fate itself steering your blade, int
 
 Once on each of your turns when you miss with a weapon attack, you can make another weapon attack as part of the same action.
 
-## Punnishment and Prize of the Fates
+## Punishment and Prize of the Fates
 Starting at 15th level, the authority you hold over those marked by your Seal of Destiny gives you greater power over them, meanwhile 
 those marked by your Pledge of Triumph are further empowered.
 
