@@ -217,7 +217,7 @@ select
     '[Migratory Endurance](#migratory-endurance)' as Spell,
     '1st' as Level,
     'Transmutation' as School,
-    'Cleric, Druid, Ranger, Wizard' as Class,
+    'Bard, Cleric, Druid, Ranger, Wizard' as Class,
     'Utility, Ritual' as Properties;
 select
     '[Net of Shadows](#net-of-shadows)' as Spell,
@@ -1422,7 +1422,7 @@ select
 | **Range:**        | &nbsp; Self (30-ft radius) |
 | **Components:**   | &nbsp; V, S, M (a dragonfly wing) |
 | **Duration:**     | &nbsp; 24 Hours |
-| **Classes:**      | &nbsp; Cleric, Druid, Ranger, Wizard |
+| **Classes:**      | &nbsp; Bard, Cleric, Druid, Ranger, Wizard |
 
 Up to 10 creatures in the spell''s range of your choice can travel in a forced march up to 12 hours without suffering levels of exhaustion.
 

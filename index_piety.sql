@@ -150,7 +150,7 @@ select
     '-' as "Gao Yao",
     '5' as "Kairo Janus",
     '-' as "Augustus Valerius",
-    '5' as "Maestro",
+    '15' as "Maestro",
     '-' as "Yuma";
 select
     '[Bacchus](#bacchus)' as "God",
@@ -158,11 +158,11 @@ select
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
-    '-' as "Maestro",
+    '5' as "Maestro",
     '-' as "Yuma";
 select
     '[Bellona](#bellona)' as "God",
-    '5' as "Aelin Helskar",
+    '15' as "Aelin Helskar",
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
@@ -259,7 +259,7 @@ select
 select
     '[Pluto](#pluto)' as "God",
     '-' as "Aelin Helskar",
-    '5' as "Gao Yao",
+    '15' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '-' as "Maestro",
