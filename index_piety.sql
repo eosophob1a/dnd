@@ -221,7 +221,7 @@ select
     '-' as "Aelin Helskar",
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
-    '-' as "Augustus Valerius",
+    '5' as "Augustus Valerius",
     '-' as "Maestro",
     '-' as "Yuma";
 select
