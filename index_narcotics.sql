@@ -41,9 +41,6 @@ Ghostleaf Extract - Tsintah
 Sunstone Powder - Tsintah
 Shadowvine Nectar - Tsintah
 Mistwood Essence - Tsintah
-Bogfire Brew - Tsintah
-Sungrass Tonic - Tsintah
-Testing merge text
 */
 
 select
@@ -59,7 +56,8 @@ Constitution or Wisdom. Once the saving throw is failed, addiction has set in pr
 frame of the addiction stretch. If the prerequisite uses go beyond the initial addiction stretch, then the addiction stretch starts again.\
 **Side Effects:** Each narcotic will have side effects that are mechanical and ones that are purely physical and may only affect roleplay.\
 **Withdrawal:** While each narcotic has overall withdrawal symptoms based upon its addiction level listed in [Addiction](#addiction), each narcotic 
-will also have its unique withdrawal symptoms as well.
+will also have its unique withdrawal symptoms as well.\
+[Return to Top](#top)
 ' as contents_md;
 select
     'text' as component,
@@ -79,7 +77,27 @@ discerned. Once the drug wears off, suffer two levels of exhaustion.\
 as a Blitzer.\
 **[Addiction](#addiction):** Blitz causes addiction after two uses. The addiction stretch is broken by five days of not using it. Blitz 
 goes to Addiction 3 in withdrawal symptoms. Withdrawal starts after 10 days without Blitz.\
-**Withdrawal:** While going through withdrawal, you have two permanent levels of exhaustion and a -2 penalty to your Wisdom ability score.
+**Withdrawal:** While going through withdrawal, you have two permanent levels of exhaustion and a -2 penalty to your Wisdom ability score.\
+[Return to Top](#top)
+' as contents_md;
+select
+    'text' as component,
+    TRUE as article,
+    'bogfire-brew' as id,
+    '
+# Bogfire Brew
+**Addiction Threshold:** DC 17\
+**Cost:** 85 Aurii per portion\
+**Summary:** Bogfire Brew is made by the Naakai Lizhinii tribe of [Tsintah](index_terra_tsintah.sql) by mixing Corpse Flower Sap and Water 
+Hyacinth Nectar and fermenting it for 20 days. It is commonly used in the tribe''s celebrations.\
+**Administration:** Ingestion - 1 Bonus Action\
+**Side Effects (Mechanical):** For two hours, you have advantage on Wisdom ability checks and saving throws. Additionally, you have 
+disadvantage on Dexterity ability checks and saving throws.\
+**Side Effects (Physical):** Drinking this causes your lips, mouth, and throat to become blackened.\
+**[Addiction](#addiction):** Bogfire Brew causes addiction after three uses. The addiction stretch is broken by 20 days of not using it. Bogfire 
+Brew goes to Addiction 3 in withdrawal symptoms. Withdrawal starts after a day without Bogfire Brew.\ 
+**Withdrawal:** While going through withdrawal, you are unable to speak.\
+[Return to Top](#top)
 ' as contents_md;
 select
     'text' as component,
@@ -97,7 +115,8 @@ enchanting the slag run off from iron and steel manufacturing by the state mages
 you go permanently blind.\
 **[Addiction](#addiction):** Red Mud causes addiction after two uses. The addiction stretch is broken by 22 days of not using it. Red Mud 
 goes to Addiction 2 in withdrawal symptoms. Withdrawal starts after three days without Red Mud.\
-**Withdrawal:** While going through withdrawal, you are deafened.
+**Withdrawal:** While going through withdrawal, you are deafened.\
+[Return to Top](#top)
 ' as contents_md;
 select
     'text' as component,
@@ -118,7 +137,29 @@ addiction, your lips stay red and your facial hair becomes patchy before it all 
 can be mitigated.\
 **[Addiction](#addiction):** Sannish causes addiction after three uses. The addiction stretch is broken by seven days of not using it. 
 Sannish goes to Addiction 3 in withdrawal symptoms. Withdrawal starts after six days without Sannish.\
-**Withdrawal:** While going through withdrawal, you automatically fail all Charisma saving throws and ability checks.
+**Withdrawal:** While going through withdrawal, you automatically fail all Charisma saving throws and ability checks.\
+[Return to Top](#top)
+' as contents_md;
+select
+    'text' as component,
+    TRUE as article,
+    'sungrass-tonic' as id,
+    '
+# Sungrass Tonic
+**Addiction Threshold:** DC 22\
+**Cost:** 25 Aurii per portion\
+**Summary:** A revitalizing elixir made by the Halgai Hoteelni tribe in [Tsintah](index_terra_tsintah.sql). It''s made from a combination 
+of the Bat Flower Petal and the salted waters of the Biisxi Tónteel. It''s commonly used by travelers and laborers to combat fatigue and 
+increase productivity.\
+**Administration:** Ingestion - 1 Bonus Action\
+**Side Effects (Mechanical):** You have advantage on all Constitution and Wisdom saving throws and ability checks except for those 
+involving addiction or withdrawals.\
+**Side Effects (Physical):** After three regular uses of Sungrass Tonic, your hair starts to thin and fall out. After five regular uses, 
+all of your hair falls out.\
+**[Addiction](#addiction):** Sungrass Tonic causes addiction after one use. The addiction stretch is broken by three days of not using it. 
+Sungrass Tonic goes to Addiction 3 in withdrawal symptoms. Withdrawal starts after three days without having Sungrass Tonic.\
+**Withdrawal:** While going through withdrawals, you have a -4 penalty to you Intelligence ability score.\
+[Return to Top](#top)
 ' as contents_md;
 select
     'text' as component,
@@ -145,7 +186,8 @@ brown.\
 **[Addiction](#addiction):** Tobacco causes addiction after 12 uses. The addiction stretch is broken by five days of not using it. Tobacco 
 does not go beyond Addiction 1 in withdrawal symptoms. Withdrawal begins after three days without tobacco.\
 **Withdrawal:** While going through withdrawal, you have a permanent level of exhaustion and a -1 penalty to your Constitution ability 
-score.
+score.\
+[Return to Top](#top)
 ' as contents_md;
 
 select
@@ -166,7 +208,8 @@ Disadvantage on ability checks while in withdrawal.
 Disadvantage on attack rolls and saving throws while in withdrawal. 
 
 **Addiction 3**\
-Your speed is halved and you cannot concentrate while in withdrawal.
+Your speed is halved and you cannot concentrate while in withdrawal.\
+[Return to Top](#top)
 ' contents_md;
 
 
