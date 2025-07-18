@@ -196,7 +196,7 @@ select
     '[Janus](#janus)' as "God",
     '-' as "Aelin Helskar",
     '-' as "Gao Yao",
-    '5' as "Kairo Janus",
+    '15' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '-' as "Maestro",
     '-' as "Yuma";
@@ -238,7 +238,7 @@ select
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
-    '-' as "Maestro",
+    '5' as "Maestro",
     '-' as "Yuma";
 select
     '[Mithras](#mithras)' as "God",
@@ -1087,7 +1087,7 @@ can use it again.
 **Nimbus of Demise**\
 *Piety 15+ Pluto Trait*\
 As an action, you become surrounded by a dark miasma in a 10-foot radius. Creatures entering or starting their turn in the area must make 
-Wisdom saving throw or take 3d10 necrotic damage or become blinded until the beginning of their next turn. Creatures that succeed on the 
+Wisdom saving throw or take 3d10 necrotic damage and become blinded until the beginning of their next turn. Creatures that succeed on the 
 saving throw take half damage and are not blinded. Once you use this trait, you must finish a long rest before you can use it again.
 
 **Pluto''s Disciple**\

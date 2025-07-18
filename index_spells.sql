@@ -54,13 +54,13 @@ select
     '[Electric Jolt](#electric-jolt)' as Spell,
     'Cantrip' as Level,
     'Evocation' as School,
-    'Artificer, Bard, Sorcerer, Warlock, Wizard, Druid' as Class,
+    'Artificer, Bard, Sorcerer, Shaman, Warlock, Wizard, Druid' as Class,
     'Damage' as Properties;
 select
     '[Potence](#potence)' as Spell,
     'Cantrip' as Level,
     'Evocation' as School,
-    'Bard, Cleric, Warlock, Wizard' as Class,
+    'Bard, Cleric, Shaman, Warlock, Wizard' as Class,
     'Buff' as Properties;
 select
     '[Scholar''s Touch](#scholars-touch)' as Spell,
@@ -85,7 +85,7 @@ select
     '[Air Bubble](#air-bubble)' as Spell,
     '1st' as Level,
     'Transmutation' as School,
-    'Artificer, Bard, Druid, Ranger, Sorcerer, Wizard' as Class,
+    'Artificer, Bard, Druid, Ranger, Shaman, Sorcerer, Wizard' as Class,
     'Utility, Ritual' as Properties;
 select
     '[Aspect of the Wolf](#aspect-of-the-wolf)' as Spell,
@@ -163,13 +163,13 @@ select
     '[Endure Elements](#endure-elements)' as Spell,
     '1st' as Level,
     'Abjuration' as School,
-    'Artificer, Druid, Ranger' as Class,
+    'Artificer, Druid, Ranger, Shaman' as Class,
     'Utility, Ritual' as Properties;
 select
     '[Flotsam Vessel](#flotsam-vessel)' as Spell,
     '1st' as Level,
     'Conjuration' as School,
-    'Artificer, Druid, Ranger, Wizard' as Class,
+    'Artificer, Druid, Ranger, Shaman, Wizard' as Class,
     'Utility, Ritual' as Properties;
 select
     '[Grace](#grace)' as Spell,
@@ -235,13 +235,13 @@ select
     '[Sandblast](#sandblast)' as Spell,
     '1st' as Level,
     'Evocation' as School,
-    'Druid' as Class,
+    'Druid, Shaman' as Class,
     'Damage, Penalty, AOE' as Properties;
 select
     '[Snowfall](#snowfall)' as Spell,
     '1st' as Level,
     'Conuration' as School,
-    'Druid, Ranger, Sorcerer, Wizard' as Class,
+    'Druid, Ranger, Sorcerer, Shaman, Wizard' as Class,
     'Utility' as Properties;
 select
     '[Spirit of the Falcon](#spirit-of-the-falcon)' as Spell,
@@ -338,7 +338,7 @@ select
     '[Body of Sun](#body-of-sun)' as Spell,
     '2nd' as Level,
     'Evocation' as School,
-    'Druid, Wizard' as Class,
+    'Druid, Shaman, Wizard' as Class,
     'Damage, AOE' as Properties;
 select
     '[Buzzing Bee](#buzzing-bee)' as Spell,
@@ -404,7 +404,7 @@ select
     '[Wall of Smoke](#wall-of-smoke)' as Spell,
     '2nd' as Level,
     'Conjuration' as School,
-    'Artificer, Druid, Sorcerer, Warlock, Wizard' as Class,
+    'Artificer, Druid, Shaman, Sorcerer, Warlock, Wizard' as Class,
     'Penalty, Buff' as Properties;
 select
     '[Wild Instints](#wild-instincts)' as Spell,
@@ -435,7 +435,7 @@ select
     '[Blizzard Blast](#blizzard-blast)' as Spell,
     '3rd' as Level,
     'Evocation' as School,
-    'Druid, Sorcerer, Warlock, Wizard' as Class,
+    'Druid, Shaman, Sorcerer, Warlock, Wizard' as Class,
     'Damage, AOE' as Properties;
 select
     '[Blood of the Martyr](#blood-of-the-martyr)' as Spell,
@@ -447,7 +447,7 @@ select
     '[Boreal Orb](#boreal-orb)' as Spell,
     '3rd' as Level,
     'Evocation' as School,
-    'Cleric, Druid, Wizard' as Class,
+    'Cleric, Druid, Shaman, Wizard' as Class,
     'Damage, AOE, Utility, Penalty' as Properties;
 select
     '[Compel Hostility](#compel-hostility)' as Spell,
@@ -459,7 +459,7 @@ select
     '[Corrosive Blast](#corrosive-blast)' as Spell,
     '3rd' as Level,
     'Evocation' as School,
-    'Sorcerer, Warlock, Wizard' as Class,
+    'Shaman, Sorcerer, Warlock, Wizard' as Class,
     'Damage, AOE' as Properties;
 select
     '[Crown of Clarity](#crown-of-clarity)' as Spell,
@@ -477,7 +477,7 @@ select
     '[Frostburn](#frostburn)' as Spell,
     '3rd' as Level,
     'Necromancy' as School,
-    'Druid, Sorcerer, Warlock, Wizard' as Class,
+    'Druid, Shaman, Sorcerer, Warlock, Wizard' as Class,
     'Damage, AOE, Penalty' as Properties;
 select
     '[Karmic Aura](#karmic-aura)' as Spell,
@@ -501,7 +501,7 @@ select
     '[Lightning Swarm](#lightning-swarm)' as Spell,
     '3rd' as Level,
     'Evocation' as School,
-    'Druid, Sorcerer, Warlock, Wizard' as Class,
+    'Druid, Shaman, Sorcerer, Warlock, Wizard' as Class,
     'Damage, AOE' as Properties;
 select
     '[Power Word Fatigue](#power-word-fatigue)' as Spell,
@@ -513,13 +513,13 @@ select
     '[Resonating Bolt](#resonating-bolt)' as Spell,
     '3rd' as Level,
     'Evocation' as School,
-    'Artificer, Bard, Sorcerer' as Class,
+    'Artificer, Bard, Shaman, Sorcerer' as Class,
     'Damage, AOE, Utility' as Properties;
 select
     '[Resounding Thunder](#resounding-thunder)' as Spell,
     '3rd' as Level,
     'Evocation' as School,
-    'Artificer, Bard, Sorcerer, Wizard' as Class,
+    'Artificer, Bard, Shaman, Sorcerer, Wizard' as Class,
     'Damage, AOE, Penalty' as Properties;
 select
     '[Sky Steed](#sky-steed)' as Spell,
@@ -555,7 +555,7 @@ select
     '[Boreal Winds](#boreal-winds)' as Spell,
     '4th' as Level,
     'Evocation' as School,
-    'Druid, Sorcerer, Warlock, Wizard' as Class,
+    'Druid, Shaman, Sorcerer, Warlock, Wizard' as Class,
     'Damage, AOE' as Properties;
 select
     '[Cacophonic Shield](#cacophonic-shield)' as Spell,
@@ -609,7 +609,7 @@ select
     '[Mass Endure Elements](#mass-endure-elements)' as Spell,
     '4th' as Level,
     'Abjuration' as School,
-    'Artificer, Druid, Ranger' as Class,
+    'Artificer, Druid, Ranger, Shaman' as Class,
     'Utility, Buff, Ritual' as Properties;
 select
     '[Prowl of the Undying](#prowl-of-the-undying)' as Spell,
@@ -618,10 +618,10 @@ select
     'Druid' as Class,
     'Ritual, Summoning' as Properties;
 select
-    '[Resonating Bolt](#resonating-bolt)' as Spell,
+    '[Resonating Blast](#resonating-blast)' as Spell,
     '4th' as Level,
     'Evocation' as School,
-    'Artificer, Bard' as Class,
+    'Artificer, Bard, Shaman' as Class,
     'Damage, Utility, AOE' as Properties;
 select
     '[Wild Form](#wild-form)' as Spell,
@@ -735,7 +735,7 @@ select
 | **Range:**        | &nbsp; 60 Feet |
 | **Components:**   | &nbsp; V, S |
 | **Duration:**     | &nbsp; Instantaneous |
-| **Classes:**      | &nbsp; Artificer, Bard, Sorcerer, Warlock, Wizard, Druid |
+| **Classes:**      | &nbsp; Artificer, Bard, Shaman, Sorcerer, Warlock, Wizard, Druid |
 
 You release a ball of electricity from your hand at a creature you can see. Make a ranged spell attack against the target. You have 
 advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes 1d8 lightning damage.
@@ -761,7 +761,7 @@ select
 | **Range:**        | &nbsp; 30 Feet |
 | **Components:**   | &nbsp; V, S, M (steel filings) |
 | **Duration:**     | &nbsp; Instantaneous |
-| **Classes:**      | &nbsp; Bard, Cleric, Warlock, Wizard |
+| **Classes:**      | &nbsp; Bard, Cleric, Shaman, Warlock, Wizard |
 
 You choose one willing target within range. The target''s next weapon attack deals an additional 1d4 force damage.
 
@@ -864,7 +864,7 @@ select
 | **Range:**        | &nbsp; Touch |
 | **Components:**   | &nbsp; V, S, M (a straw) |
 | **Duration:**     | &nbsp; 10 Minutes |
-| **Classes:**      | &nbsp; Artificer, Bard, Druid, Ranger, Sorcerer, Wizard |
+| **Classes:**      | &nbsp; Artificer, Bard, Druid, Ranger, Shaman, Sorcerer, Wizard |
 
 This spell creates a small pocket of breathable air that surrounds the touched creature''s head or the touched object. The air bubble allows 
 the creature to breathe underwater or in similar airless environments or protects the object from water damage.
@@ -1199,7 +1199,7 @@ select
 | **Range:**        | &nbsp; Touch |
 | **Components:**   | &nbsp; V, S |
 | **Duration:**     | &nbsp; 24 Hours |
-| **Classes:**      | &nbsp; Artificer, Druid, Ranger |
+| **Classes:**      | &nbsp; Artificer, Druid, Ranger, Shaman |
 
 A creature protected by this spell suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between 
 -50 and 140-degrees Fahrenheit without having to make Constitution saves. Their equipment is likewise protected.\
@@ -1225,7 +1225,7 @@ select
 | **Range:**        | &nbsp; 30 Feet |
 | **Components:**   | &nbsp; V, S, M (a piece of driftwood) |
 | **Duration:**     | &nbsp; 12 Hours |
-| **Classes:**      | &nbsp; Artificer, Druid, Ranger, Wizard |
+| **Classes:**      | &nbsp; Artificer, Druid, Ranger, Shaman, Wizard |
 
 This spell assembles a sturdy raft and oars from driftwood, reeds, and other river detritus. The spell creates a raft that''s 5 feet wide 
 and 15 feet long. Each 5-foot section of the raft can carry two medium passengers or 300 pounds of cargo. The vessel functions as a normal 
@@ -1498,7 +1498,7 @@ select
 | **Range:**        | &nbsp; Self (15-foot cone) |
 | **Components:**   | &nbsp; V, S |
 | **Duration:**     | &nbsp; Instantaneous |
-| **Classes:**      | &nbsp; Druid |
+| **Classes:**      | &nbsp; Druid, Shaman |
 
 You hold your hand out as a sheet of course, desert sand flies from your palm. Each creature in a 15-foot cone must make a Dexterity saving 
 throw. On a failed save, those in the area take 2d4 slashing damage and are stunned until the beginning of your next turn. On a successful 
@@ -1526,7 +1526,7 @@ select
 | **Range:**        | &nbsp; 120 Feet |
 | **Components:**   | &nbsp; V, S |
 | **Duration:**     | &nbsp; Concentration, up to 1 minute |
-| **Classes:**      | &nbsp; Druid, Ranger, Sorcerer, Wizard |
+| **Classes:**      | &nbsp; Druid, Ranger, Shaman, Sorcerer, Wizard |
 
 You choose a space within the spell''s range. A fresh, light snowfall fills a 30-foot radius around that space. Creatures in that area 
 cannot benefit from invisibility. In addition, creatures have advantage on Wisdom (Survival) to track land-based beings that passed through 
@@ -2200,7 +2200,7 @@ select
 | **Range:**        | &nbsp; 60 Feet |
 | **Components:**   | &nbsp; V, S |
 | **Duration:**     | &nbsp; Concentration, up to 10 minutes |
-| **Classes:**      | &nbsp; Artificer, Druid, Sorcerer, Warlock, Wizard |
+| **Classes:**      | &nbsp; Artificer, Druid, Shaman, Sorcerer, Warlock, Wizard |
 
 You create a wall of thick smoke on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, 
 and 1 foot thick, or you can make a ringed wall up to 20 feet in diameter, 20 feet higher, and 1 foot thick.\
@@ -2331,7 +2331,7 @@ select
 | **Range:**        | &nbsp; 150 Feet |
 | **Components:**   | &nbsp; V, S |
 | **Duration:**     | &nbsp; Instantaneous |
-| **Classes:**      | &nbsp; Druid, Sorcerer, Warlock, Wizard |
+| **Classes:**      | &nbsp; Druid, Shaman, Sorcerer, Warlock, Wizard |
 
 You throw a small snowball to a point you can see within range. When it hits, it explodes into a 20-foot radius sphere of an intense 
 blizzard. Creatures within the area take 4d12 cold damage or half as much on a successful Dexterity saving throw.\
@@ -2386,7 +2386,7 @@ select
 | **Range:**        | &nbsp; 60 Feet |
 | **Components:**   | &nbsp; V, S, M (a fan) |
 | **Duration:**     | &nbsp; Concentration, up to 1 minute |
-| **Classes:**      | &nbsp; Cleric, Druid, Wizard |
+| **Classes:**      | &nbsp; Cleric, Druid, Shaman, Wizard |
 
 You summon a five-foot diameter sphere of chaotic winds that appears in an unoccupied space within range of the spell. Any creature that is 
 huge or smaller that begins its turn within five feet of the sphere is thrown 20 feet in the direction of your choice and must make a 
@@ -2441,7 +2441,7 @@ select
 | **Range:**        | &nbsp; 120 Feet |
 | **Components:**   | &nbsp; V, S, M (shed snakeskin) |
 | **Duration:**     | &nbsp; Instantaneous |
-| **Classes:**      | &nbsp; Sorcerer, Warlock, Wizard |
+| **Classes:**      | &nbsp; Shaman, Sorcerer, Warlock, Wizard |
 
 You summon a small bubble of caustic solution that bursts and spreads its liquid in a 20-foot radius sphere within the spell''s range. 
 Creatures in the area must succeed on a Dexterity saving throw or take 12d4 acid damage or half as much on a successful save.\
@@ -2522,7 +2522,7 @@ select
 | **Range:**        | &nbsp; 150 Feet |
 | **Components:**   | &nbsp; V, S |
 | **Duration:**     | &nbsp; Instantaneous |
-| **Classes:**      | &nbsp; Druid, Sorcerer, Warlock, Wizard |
+| **Classes:**      | &nbsp; Druid, Shaman, Sorcerer, Warlock, Wizard |
 
 You choose a space you can see within range as a 20-foot radius sphere is chilled suddenly far below freezing. Creatures within the area 
 take 3d6 cold damage and 3d6 necrotic damage and are slowed until the end of their next turn. On a successful Constitution saving throw, 
@@ -2635,7 +2635,7 @@ select
 | **Range:**        | &nbsp; 120 Feet |
 | **Components:**   | &nbsp; V, S, M (a small, bronze lightning bolt) |
 | **Duration:**     | &nbsp; Instantaneous |
-| **Classes:**      | &nbsp; Druid, Sorcerer, Warlock, Wizard |
+| **Classes:**      | &nbsp; Druid, Shaman, Sorcerer, Warlock, Wizard |
 
 You summon a streaking lightning bolt to a point you can see in range. It explodes when it reaches its destination as electricity arcs 
 outwards in a 20-foot radius sphere. Creatures in the area must make a Dexterity saving throw or take 5d10 lightning damage or half as much 
@@ -2687,7 +2687,7 @@ select
 | **Range:**        | &nbsp; Self (100-foot line) |
 | **Components:**   | &nbsp; V |
 | **Duration:**     | &nbsp; Instantaneous |
-| **Classes:**      | &nbsp; Artificer, Bard, Sorcerer |
+| **Classes:**      | &nbsp; Artificer, Bard, Shaman, Sorcerer |
 
 You unleash a tremendous bolt of sonic energy from your open hand, dealing 10d4 points of thunder damage to each creature within its area 
 or half as much on a successful Dexterity saving throw.\
@@ -2712,7 +2712,7 @@ select
 | **Range:**        | &nbsp; 120 Feet |
 | **Components:**   | &nbsp; V, S |
 | **Duration:**     | &nbsp; Concentration, up to 1 minute |
-| **Classes:**      | &nbsp; Artificer, Bard, Sorcerer, Wizard |
+| **Classes:**      | &nbsp; Artificer, Bard, Shaman, Sorcerer, Wizard |
 
 Place a 10-foot radius sphere in the range of the spell. Everyone in the area is deafened. Whenever a creature enters the area or begins 
 its turn there, it takes 4d6 thunder damage or half as much on a successful Constitution save. In addition, creatures in the area make 
@@ -2869,7 +2869,7 @@ select
 | **Range:**        | &nbsp; Self (60-foot line) |
 | **Components:**   | &nbsp; V, S |
 | **Duration:**     | &nbsp; Instantaneous |
-| **Classes:**      | &nbsp; Druid, Sorcerer, Warlock, Wizard |
+| **Classes:**      | &nbsp; Druid, Shaman, Sorcerer, Warlock, Wizard |
 
 You summon a gust of frozen air that blasts through in a 60-foot line that''s 15-feet wide originating from you. Each creature in the line 
 suffers 6d12 cold damage or half as much on a successful Dexterity saving throw.
@@ -3103,7 +3103,7 @@ select
 | **Range:**        | &nbsp; 30 Feet |
 | **Components:**   | &nbsp; V, S |
 | **Duration:**     | &nbsp; 24 Hours |
-| **Classes:**      | &nbsp; Artificer, Druid, Ranger |
+| **Classes:**      | &nbsp; Artificer, Druid, Ranger, Shaman |
 
 Up to 10 creatures you can see within range suffer no harm from being in a hot or cold environment. They can exist comfortably in 
 conditions between -50 and 140 degrees Fahrenheit without having to make Constitution saves. Their equipment is likewise protected.
@@ -3156,9 +3156,9 @@ targeted by 1 for each slot level above 4th.
 
 select
     'text' as component,
-    'resonating-bolt' as id,
+    'resonating-blast' as id,
     TRUE as center,
-    'Resonating Bolt' as title;
+    'Resonating Blast' as title;
 select
     'text' as component,
     TRUE as article,
@@ -3170,7 +3170,7 @@ select
 | **Range:**        | &nbsp; 90 Feet |
 | **Components:**   | &nbsp; V, S |
 | **Duration:**     | &nbsp; Instantaneous |
-| **Classes:**      | &nbsp; Artificer, Bard |
+| **Classes:**      | &nbsp; Artificer, Bard, Shaman |
 
 You send a small crackling ball of energy to a point you can see within range. A shockwave erupts from the point in a 20-foot radius, 
 destroying all unattended objects in the area, but does not go around corners. Creatures in the area take 8d8 thunder damage or half as 

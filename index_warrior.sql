@@ -1036,10 +1036,161 @@ select
     '3rd' as Level,
     'Action' as Type,
     'Ravager' as Discipline;
+select
+    'Armor Training' as Technique,
+    '4th' as Level,
+    'Stance' as Type,
+    'Warrior' as Discipline;
+select
+    'Death Shield' as Technique,
+    '4th' as Level,
+    'Reaction' as Type,
+    'Warrior' as Discipline;
+select
+    'Determination' as Technique,
+    '4th' as Level,
+    'Bonus Action' as Type,
+    'Warrior' as Discipline;
+select
+    'Felling Strike' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Warrior' as Discipline;
+select
+    'Ricochet' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Warrior' as Discipline;
+select
+    'Lightning Recovery' as Technique,
+    '4th' as Level,
+    'Reaction' as Type,
+    'Dervish' as Discipline;
+select
+    'Mithral Tornado' as Technique,
+    '4th' as Level,
+    'Action' as Type,
+    'Dervish' as Discipline;
+select
+    'Multishot' as Technique,
+    '4th' as Level,
+    'Stance' as Type,
+    'Dervish' as Discipline;
+select
+    'Riposte' as Technique,
+    '4th' as Level,
+    'Reaction' as Type,
+    'Dervish' as Discipline;
+select
+    'Twin Lacerate' as Technique,
+    '4th' as Level,
+    'Reaction' as Type,
+    'Dervish' as Discipline;
+select
+    'Twin Shot' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Dervish' as Discipline;
+select
+    'Bone Splitting Strike' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Dreadnought' as Discipline;
+select
+    'Boulder Roll' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Dreadnought' as Discipline;
+select
+    'Ground Breaker' as Technique,
+    '4th' as Level,
+    'Stance' as Type,
+    'Dreadnought' as Discipline;
+select
+    'Knockback' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Dreadnought' as Discipline;
+select
+    'Knockdown' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Dreadnought' as Discipline;
+select
+    'Overwhelming Mountain Strike' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Dreadnought' as Discipline;
+select
+    'Covering Strike' as Technique,
+    '4th' as Level,
+    'Bonus Action' as Type,
+    'Knight' as Discipline;
+select
+    'Crusader Tactics' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Knight' as Discipline;
+select
+    'Knight''s Strike' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Knight' as Discipline;
+select
+    'Mounted Skirmisher' as Technique,
+    '4th' as Level,
+    'Stance' as Type,
+    'Knight' as Discipline;
+select
+    'Bounding Assault' as Technique,
+    '4th' as Level,
+    'Action' as Type,
+    'Paramount' as Discipline;
+select
+    'Circuitous Shot' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Paramount' as Discipline;
+select
+    'Combat Assessment' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Paramount' as Discipline;
+select
+    'Mind Blade - Ruby' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Paramount' as Discipline;
+select
+    'Mind Strike' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Paramount' as Discipline;
+select
+    'Blood Fountain' as Technique,
+    '4th' as Level,
+    'Bonus Action' as Type,
+    'Ravager' as Discipline;
+select
+    'Death From Above' as Technique,
+    '4th' as Level,
+    'Attack' as Type,
+    'Ravager' as Discipline;
+select
+    'Naked Courage' as Technique,
+    '4th' as Level,
+    'Stance' as Type,
+    'Ravager' as Discipline;
+select
+    'Pit Fighter' as Technique,
+    '4th' as Level,
+    'Stance' as Type,
+    'Ravager' as Discipline;
+
 /*
 select
     '' as Technique,
-    '3rd' as Level,
+    '4th' as Level,
     '' as Type,
     '' as Discipline;
 */
@@ -2064,6 +2215,336 @@ You are considered invisible to creatures relying on blindsight and/or tremorsen
 
 You take the jump action and can make a melee weapon attack during the leap. The jump is considered as having a 10 feet running start.
 ' as description_md;
+
+select
+    '4th Level Techniques' as title,
+    '
+## Armor Training
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Warrior |
+| **Activation:**   | &nbsp; Stance |
+| **Range:**        | &nbsp; Self |
+| **Duration:**     | &nbsp; Concentration, up to 1 minute |
+
+While in this stance, you gain a +2 bonus to AC while wearing medium or heavy armor.
+
+## Blood Fountain
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Ravager |
+| **Activation:**   | &nbsp; Bonus Action |
+| **Range:**        | &nbsp; Self (30-foot radius) |
+| **Duration:**     | &nbsp; 1 Round |
+
+Your bestial ferocity peaks when you reduce and enemy to 0 hit points. As a bonus action, you roar like a lion as the blood of enemies 
+coats you. Creatures of your choice in a 30-foot radius around you must succeed on a Wisdom saving throw or be frightened of you until 
+the beginning of your next turn.
+
+## Bone Splitting Strike
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Dreadnought |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; Melee Weapon Range |
+| **Duration:**     | &nbsp; Instantaneous |
+
+You bring a heavy strike down in a spot you know will bring great pain and long-term weakness to a creature you attack. Your attack 
+reduces a creature''s Constitution score by an amount equal to your proficiency bonus.
+
+## Boulder Roll
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Dreadnought |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; Melee Weapon Range |
+| **Duration:**     | &nbsp; 1 Round |
+
+You ready yourself and charge forward towards a single target. You move up to your speed in a straight line not provoking attacks of 
+opportunity. You make an attack roll against a single target in range of your dash. That target takes normal weapon damage with 4d12 bonus 
+damage and is knocked prone.
+
+## Bounding Assault
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Paramount |
+| **Activation:**   | &nbsp; Action |
+| **Range:**        | &nbsp; Self |
+| **Duration:**     | &nbsp; Instantaneous |
+
+When you would take the attack action, you may move up to your speed during the action. If an attack is preceded with at least 10 feet of 
+movement before it, the next attack roll is made with advantage and deals an additional 5d6 weapon damage.
+
+## Circuitous Shot
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Paramount |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; Ranged Weapon Range |
+| **Duration:**     | &nbsp; Instantaneous |
+
+Your genius and planning is laid out in not only knowing how to lay your shot but also where to lay it to increase maximum efficiency. 
+Pick up to three targets that are within range and within at least 30 feet of another target. Make a single weapon attack roll against the 
+highest AC among the targets. If it hits, your ranged weapon flies through all the targets dealing weapon damage to each.
+
+## Combat Assessment
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Paramount |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; Weapon Range |
+| **Duration:**     | &nbsp; Instantaneous |
+
+The attack you make as part of this attack is made at disadvantage. You gain one statistic from the Know Thy Enemy Paramount subclass 
+feature.
+
+## Covering Strike
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Knight |
+| **Activation:**   | &nbsp; Bonus Action |
+| **Range:**        | &nbsp; Self |
+| **Duration:**     | &nbsp; 1 Round |
+
+Your ability to protect and support your allies is unmatched. If you are engaged with an enemy, they cannot use their reaction. In 
+addition, when you would make an attack of opportunity against that target, you reduce that creature''s speed to 0.
+
+## Crusader Tactics
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Knight |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; 30 Feet |
+| **Duration:**     | &nbsp; Instantaneous |
+
+You know how to place allies in advantageous positions. By replacing one of your attacks, you can change an ally''s initiative count to a 
+number of your choice for the remainder of the combat encounter.
+
+## Death From Above
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Ravager |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; Melee Weapon Range |
+| **Duration:**     | &nbsp; 1 Round |
+
+Your lithe, bestial muscles allow you to leap over a foe hitting their blind side. You make a Strength (Athletics) check opposed to 
+target''s AC. If you succeed, your attack deals an extra 10d4 weapon damage, and the target is slowed until the beginning of your next 
+turn.
+
+## Death Shield
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Warrior |
+| **Activation:**   | &nbsp; Reaction |
+| **Range:**        | &nbsp; Self |
+| **Duration:**     | &nbsp; Instantaneous |
+
+Whenever you would be reduced to 0 hit points and begin dying, you can activate this technique and treat yourself as already having 
+succeeded on two death saving throws.
+
+## Determination
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Warrior |
+| **Activation:**   | &nbsp; Bonus Action |
+| **Range:**        | &nbsp; Self |
+| **Duration:**     | &nbsp; Instantaneous |
+
+If an effect would allow you to end a status at the end of your turn with a saving throw, you may instead use your bonus action, even if 
+the status effect would prevent access to it, to attempt the saving throw to end it.
+
+## Felling Strike
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Warrior |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; Weapon Range |
+| **Duration:**     | &nbsp; 1 Round |
+
+When you hit a creature with a weapon attack, you can force them to make a Strength saving throw. If they fail, the movement method''s 
+speed they are currently using is reduced to 0 until the end of your next turn.
+
+## Ground Breaker
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Dreadnought |
+| **Activation:**   | &nbsp; Stance |
+| **Range:**        | &nbsp; Self |
+| **Duration:**     | &nbsp; Concentration, up to 1 minute |
+
+Your heavy footfalls crumple the earth under you. While in this stance, a 10-foot radius around you is treated as difficult terrain.
+
+## Knight''s Strike
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Knight |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; Weapon Range (30-foot radius) |
+| **Duration:**     | &nbsp; 1 Round |
+
+Your attack distracts an enemy from the rest of your allies. Your attack deals an additional 3d8 weapon damage. Then, any allies within a 
+30-foot radius of that enemy makes attack rolls against them at advantage until the beginning of your next turn.
+
+## Knockback
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Dreadnought |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; Melee Weapon Range |
+| **Duration:**     | &nbsp; Instantaneous |
+
+Your powerful swing knocks the creature back 10 feet. A creature that is at least two sizes larger than you cannot be affected by this 
+technique.
+
+## Knockdown
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Dreadnought |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; Melee Weapon Range |
+| **Duration:**     | &nbsp; Instantaneous |
+
+As part of this attack, you force the creature prone. A creature that is at least two sizes larger than you cannot be affected by this 
+technique.
+
+## Lightning Recovery
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Dervish |
+| **Activation:**   | &nbsp; Reaction |
+| **Range:**        | &nbsp; Self |
+| **Duration:**     | &nbsp; Instantaneous |
+
+Whenever a weapon attack you make would miss, you may instead re-roll that attack, but you gain a 1d10 bonus to the attack and damage.
+
+## Mind Blade - Ruby
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Paramount |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; Weapon Range |
+| **Duration:**     | &nbsp; Instantaneous |
+
+Instead of making an attack roll, make an Intelligence (Investigation) check with a DC equal to your target''s AC. Roll your normal weapon 
+damage and double the total. You deal that in psychic damage to the target.
+
+## Mind Strike
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Paramount |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; Weapon Range |
+| **Duration:**     | &nbsp; Instantaneous |
+
+As part of the attack, a target must make a Wisdom saving throw or take a 1d6 penalty to their Wisdom ability score.
+
+## Mithral Tornado
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Dervish |
+| **Activation:**   | &nbsp; Action |
+| **Range:**        | &nbsp; Weapon Range |
+| **Duration:**     | &nbsp; Instantaneous |
+
+You make a single weapon attack against each target within your weapon''s first or only range increment.
+
+## Mounted Skirmisher
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Knight |
+| **Activation:**   | &nbsp; Stance |
+| **Range:**        | &nbsp; Self |
+| **Duration:**     | &nbsp; Concentration, up to 1 minute |
+
+Movement while on your mount does not provoke any reactions.
+
+## Multishot
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Dervish |
+| **Activation:**   | &nbsp; Stance |
+| **Range:**        | &nbsp; Self |
+| **Duration:**     | &nbsp; Concentration, up to 1 minute |
+
+While in this stance and when you activate it, you can make a ranged weapon attack on your bonus action.
+
+## Naked Courage
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Ravager |
+| **Activation:**   | &nbsp; Stance |
+| **Range:**        | &nbsp; Self |
+| **Duration:**     | &nbsp; Concentration, up to 1 minute |
+
+While in this stance, you gain a bonus to your AC equal to Constitution ability modifier while unarmored or wearing light armor.
+
+## Overwhelming Mountain Strike
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Dreadnought |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; Melee Weapon Range |
+| **Duration:**     | &nbsp; 1 Round |
+
+As part of this attack, your heavy strikes temporarily immobilize your target. Your attack deals an additional 3d12 bonus weapon damage, 
+and the target must make a Strength saving throw or be restrained until the end of your next turn.
+
+## Pit Fighter
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Ravager |
+| **Activation:**   | &nbsp; Stance |
+| **Range:**        | &nbsp; Self |
+| **Duration:**     | &nbsp; Concentration, up to 1 minute |
+
+While in this stance, you have advantage on Strength (Athletics) checks for starting, maintaining, and escaping grapples.
+
+## Ricochet
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Warrior |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; Ranged Weapon Range |
+| **Duration:**     | &nbsp; Instantaneous |
+
+After you roll a ranged weapon attack against a creature, you can then make another ranged weapon attack against another target as long as 
+that target is within the weapon''s first range increment.
+
+## Riposte
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Dervish |
+| **Activation:**   | &nbsp; Reaction |
+| **Range:**        | &nbsp; Melee Weapon Range |
+| **Duration:**     | &nbsp; Instantaneous |
+
+Whenever a creature would miss you with a melee attack, you can use your reaction to make an attack of opportunity against them. In 
+addition, the creature must make a Dexterity throw or drop their weapon.
+
+## Twin Lacerate
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Dervish |
+| **Activation:**   | &nbsp; Reaction |
+| **Range:**        | &nbsp; Weapon Range |
+| **Duration:**     | &nbsp; Instantaneous |
+
+Whenever a creature provokes an attack of opportunity from you, you may instead use this technique to make two weapon attacks instead.
+
+## Twin Shot
+|  |  |
+| -----------------:|:--- |
+| **Discipline:**   | &nbsp; Dervish |
+| **Activation:**   | &nbsp; Attack |
+| **Range:**        | &nbsp; Ranged Weapon Range |
+| **Duration:**     | &nbsp; 1 Round |
+
+Whenever you would make a ranged weapon attack, instead make two. You do not apply your ability modifier to the damage rolls of those 
+attacks.
+
+' as description_md;
+
 /*
 ## NAME
 |  |  |
@@ -2075,11 +2556,6 @@ You take the jump action and can make a melee weapon attack during the leap. The
 
 PLACEHOLDER
 */
-
-select
-    '4th Level Techniques' as title,
-    'These will be here at some point.
-'
 
 select
     '5th Level Techniques' as title,
