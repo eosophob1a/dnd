@@ -167,7 +167,7 @@ select
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '-' as "Maestro",
-    '-' as "Yuma";
+    'X' as "Yuma";
 select
     '[Ceres](#ceres)' as "God",
     '-' as "Aelin Helskar",
@@ -189,7 +189,7 @@ select
     '-' as "Aelin Helskar",
     '-' as "Gao Yao",
     '5' as "Kairo Janus",
-    '5' as "Augustus Valerius",
+    '15' as "Augustus Valerius",
     '-' as "Maestro",
     '5' as "Yuma";
 select
@@ -228,10 +228,10 @@ select
     '[Mercury](#mercury)' as "God",
     '-' as "Aelin Helskar",
     '-' as "Gao Yao",
-    '-' as "Kairo Janus",
+    '5' as "Kairo Janus",
     '5' as "Augustus Valerius",
     '5' as "Maestro",
-    '5' as "Yuma";
+    '15' as "Yuma";
 select
     '[Minerva](#minerva)' as "God",
     '-' as "Aelin Helskar",
@@ -315,11 +315,26 @@ Sol from horizon to horizon of Terra emerging from behind the Rhajahnher of Mala
 - Performing music
 - Shining light on those in the dark
 - Divining a prophecy for another
+- Compose an original piece of music or poetry
+- Heal a wounded creature
+- Teach music, logic, or medicine to someone
+- Inspire others through performance or speech
+- Build or restore a shrine, altar, or place of learning
+- Light a fire for a freezing traveler or creature
+- Aid a fellow scholar or healer without expectation of reward
+- Refuse to act out of vengeance
 
 Individuals can lose piety with Apollo through such actions as:
 - Shaming another''s music
 - Helping someone escape their fate
 - Shadowing those that bask in the sun
+- Use prophecy to deceive others
+- Intentionally blind someone
+- Allowing disease to spread
+- Suppress truth for personal gain
+- Reject logical discourse in favor of base emotion or violence
+- Deny others access to knowledge
+- Claim another''s art as your own
 
 **Embrace Destiny**\
 *Piety 5+ Apollo Trait*\
@@ -369,13 +384,28 @@ in the Ingenbellum, Bacchus ascended into godhood.\
 **Alignment:** Always chaotic, often neutral\
 **Piety Powers:** Individuals can increase their piety with Bacchus through such actions as:
 - Convincing others to give into their lesser desires
-- Starting massive parties
+- Start a massive party
 - Producing alcohol
+- Improvise a wild or emotional performance in public
+- Gift wine or strong drink to a stranger or ally in need
+- Tend to or bless a vineyard, field, or garden
+- Invite an enemy to drink and forget their rage
+- Defend a hedonist or outcast from moral judgement
+- Speak your truth loudly and without filter, regardless of consequence
+- Give in to an overwhelming emotion (rage, joy, grief) in public
+- Engage in revelry or chaos during times of expected decorum
 
 Individuals can lose piety with Bacchus through such actions as:
 - Sobering a drunkard
 - Stopping a party
 - Spilling alcohol while sober
+- Publicly shame someone for indulging in pleasure
+- Preach temperance or moderation as virtue
+- Force someone to be "reasonable" when they wish to feel
+- Refuse to dance, drink, or join in festivities when invited
+- Help authorities break up a gathering of joyful commoners
+- Muzzle or punish bards, artists, or madmen
+- Suppress hallucinations, visions, or wild dreams as "delusions"
 
 **Intemperance**\
 *Piety 5+ Bacchus Trait*\
@@ -421,11 +451,25 @@ the battle to frenzy.\
 - Starting an offensive war
 - Making a normally friendly person act in aggression
 - Allowing your bloodlust to come through in combat
+- Intimidate a peaceful group into fleeing or fighting
+- Lead a raid, ambush, or unprovoked assault
+- Let an enemy live solely to fight them again later
+- Take a trophy (helm, blade, ear, etc.) from a worthy foe
+- Slay a commander or break the morale of an enemy force
+- Shed your own blood to prove your devotion or strength
+- Execute a retreating or surrendered foe
 
 Individuals can lose piety with Bellona through such actions as:
 - Declining a battle
 - Saving a defensive party
 - Finding a diplomatic solution to a conflict
+- Suggest retreat when the battle is uncertain
+- Promote the value of harmony or diplomacy
+- Disarm a comrade in the midst of righteous fury
+- Prioritize honor over victory
+- Subdue rather than kill when killing is an option
+- Refuse a duel when challenged
+- Leave a battlefield without drawing blood
 
 **Battle Rage**\
 *Piety 5+ Bellona Trait*\
@@ -477,14 +521,27 @@ people of Terra.\
 bare-footed.\
 **Alignment:** Always neutral, often good\
 **Piety Powers:** Individuals can increase their piety with Ceres through such actions as:
-- Turning wilderness into farmland
+- Provide food or shelter to traveling druids or farmers
 - Feeding those who are starving
-- Defending a farm
+- Bless a field before planting or harvesting
+- Teach someone how to grow or preserve food
+- Revive dead or infertile soil through magic or labor
+- Share food generously during times of plenty
+- Drive off pests or blight threatening crops
+- Build or repair farming tools for others in need
+- Encourage peaceful settlement and cultivation of unused land
+- Heal or resurrect a dying farm animal
 
 Individuals can lose piety with Ceres through such actions as:
 - Releasing domesticated cattle
 - Interrupting a farm''s irrigation
 - Spoiling fertile farmland
+- Burn crops out of malice or war strategy
+- Withhold food to control or punish others
+- Encourage industry or expansion at the cost of farmland
+- Slaughter or disrupt a herd for sport
+- Work land only for profit, with no reverence or balance
+- Kill livestock unnecessarily or wastefully
 
 **Briar Shield**\
 *Piety 5+ Ceres Trait*\
@@ -528,11 +585,25 @@ shrouding the world in the light of the moon. She emerges behind the Maníljos T
 - Returning areas to darkness
 - Saving the denizens of the dark
 - Proving your worth in an archery contest
+- Track a dangerous beast under moonlight and slay it cleanly
+- Heal or tend to a wounded wild animal
+- Release a captive wild animal back into its native environment
+- Rescue a virgin, child, or animal from captivity
+- Purify a tainted grove, spring, or sacred hunting ground
+- Fashion a bow, quiver, or arrows by hand and dedicate them
+- Strike a precise shot in defense of nature, purity, or balance
 
 Individuals can lose piety with Diana through such actions as:
-- Lighting an area that the sun doesn''t touch
+- Use fire or excessive light magic where darkness should reign
 - Seducing a virgin of Diana
-- Breaking a bow
+- Break a bow out of rage or disrespect
+- Hunt for sport or trophies rather than survival or balance
+- Use traps that cause prolonged suffering or mutilation
+- Speak falsehoods under moonlight
+- Consume meat from a wild beast you didn''t hunt or honor
+- Harvest herbs or resources from the wild without offering thanks
+- Refuse to help a creature or person lost in the wilderness
+- Abandon a hunt without cause, leaving a wounded animal to suffer
 
 **Eyes of Darkness**\
 *Piety 5+ Diana Trait*\
@@ -579,11 +650,25 @@ holding her cornucopia.\
 - Helping an individual out of a bad spot in life
 - Having good luck their self
 - Leading an individual to prosperity
+- Take a major personal risk despite the odds
+- Encourage someone to take a chance that changes their life
+- Win a game of chance without cheating
+- Embrace uncertainty during planning or problem-solving
+- Welcome unexpected change instead of resisting it
+- Trust a gut instinct and succeed where logic might fail
+- Refuse to rig or manipulate the outcome of a contest, even when tempted
 
 Individuals can lose piety with Fortuna through such actions as:
 - Redistributing the results of another''s luck
-- Cheating games of change
+- Rig or fix a game of chance for your own benefit
 - Interfering in someone''s chances
+- Sabotage another''s success out of envy or fear
+- Intervene to prevent someone from taking a risky but meaningful chance
+- Enslave or exploit the misfortunate instead of aiding them
+- Brag excessively about earned wealth while denying fortune''s role
+- Condemn someone who succeeded through luck, not work
+- Use magic or money to force success instead of risking failure
+- Build a fortune and refuse to give others opportunity
 
 **Dumb Luck**\
 *Piety 5+ Fortuna Trait*\
@@ -630,13 +715,27 @@ large salt and pepper beard and mane of hair and pensive eyes.\
 **Alignment:** Always neutral, often good\
 **Piety Powers:** Individuals can increase their piety with Janus through such actions as:
 - Helping another with a major decision
-- Narrowing decisions down to a dichotomy 
+- Narrowing decisions down to a dichotomy
 - Explaining consequences
+- Perform a ritual to mark a new beginning (marriage, journey, enterprise)
+- Perform a ritual to honor a clean ending (funeral, farewell, retirement)
+- Help another take responsibility for a past decision
+- Keep a detailed account of a timeline or history to aid future understanding
+- Choose decisively in a morally gray situation
+- Sacrifice something from your past to help another move forward
+- Publicly accept the consequences of your own major decision
 
 Individuals can lose piety with Janus through such actions as:
-- Confusing a person''s decision 
+- Obfuscate a choice with unnecessary complexity or misdirection
 - Extrapolating beyond a dichotomy
 - Hiding information that would affect a decision
+- Stall or delay a decision out of fear, pride, or laziness
+- Alter or falsify a timeline, record, or history for self-interest
+- Break a solemn promise made at the start or end of something significant
+- Encourage indecision when commitment is required
+- Fail to recognize the importance of timing in an action or event
+- Mock those who reflect on past choices or future consequences
+- Shut a door or burn a bridge to prevent someone else''s progress
 
 **Pain and Pleasure**\
 *Piety 5+ Janus Trait*\
@@ -683,11 +782,25 @@ with a cold beauty. She often appears with her sacred animal, the peacock.\
 - Brining together a family
 - Revealing infidelity
 - Helping a mother with her children
+- Protect a woman from abuse, neglect, or unjust judgment
+- Defend a household under threat (physical, financial, or social)
+- Act as a matron, guardian, or role model for younger women
+- Stop a forced or manipulative marriage from proceeding
+- Create or uphold a law protecting the rights of wives or mothers
+- Help a widow or widower preserve their family''s dignity
+- Honor a wedding anniversary or moment of lasting union with public praise
 
 Individuals can lose piety with Juno through such actions as:
 - Killing a child
-- Encouraging infidelity 
-- Helping a consort of Jupiter
+- Encouraging infidelity
+- Assist Jupiter''s lovers in secret or protect his illegitimate children
+- Mock or diminish the role of wives, mothers, or homemakers
+- Undermine a marriage out of jealousy, pride, or personal gain
+- Abandon a child you''ve taken responsibility for
+- Destroy or curse a home that shelters an innocent family
+- Encourage someone to leave their spouse for shallow reasons
+- Spread rumors or false accusations about someone''s marriage
+- Desecrate a wedding, family gathering, or childbirth rite
 
 **Traditions of Old**\
 *Piety 5+ Juno Trait*\
@@ -735,13 +848,26 @@ gold to a fly. His most typical appearance is that of a middle-aged man with a s
 **Alignment:** Always lawful, often neutral\
 **Piety Powers:** Individuals can increase their piety with Jupiter through such actions as:
 - Giving proper respect to royalty
-- Obeying the laws of hospitality 
+- Punish someone who breaks sacred hospitality laws
 - Offering pert of your meal to him
+- Defend a guest from harm while under your roof
+- Intervene when a noble or ruler is insulted without cause
+- Deliver justice as an impartial arbiter or authority
+- Protect emissaries, heralds, or messengers of the state
+- Shelter a traveler or stranger during bad weather
+- Refuse a bribe that would cause injustice or dishonor
+- Speak the truth boldly before those in power, upholding justice
 
 Individuals can lose piety with Jupiter through such actions as:
-- Not offering sacrifices when flying
-- Disregarding proper hospitality
-- Committing cannibalism
+- Fly, levitate, or ride the wind without offering prayers or thanks
+- Allow harm to come to a guest or supplicant under your protection
+- Engage in cannibalism
+- Mock or defy a legitimate ruler or king without cause
+- Use lightning or sky magic for petty vengeance or cruelty
+- Break a sacred seal, contract, or royal law out of greed or convenience
+- Lead a guest into a trap while pretending to offer them safety
+- Spit or curse during a lightning storm
+- Sow rebellion or chaos without just cause
 
 **Royal Authority**\
 *Piety 5+ Jupiter Trait*\
@@ -800,11 +926,25 @@ The oldest son of Jupiter and Juno, Mars is the god of war and the patron god of
 - Working towards the goals of Imperia
 - Bringing civilization to barbarians
 - Defending an area of civilization
+- Build or maintain fortifications, watchtowers, or city walls
+- Quell a riot or rebellion without unnecessary bloodshed
+- Protect a town or road from raiders, bandits, or monsters
+- Capture an enemy commander alive to face justice
+- Accept surrender from a weaker enemy who yields honorably
+- Rescue civilians caught in the crossfire of war
+- Capture a lawbreaker alive so they may be judged
 
 Individuals can lose piety with Mars through such actions as:
 - Destroying a settlement
 - Harming innocents or noncombatants
 - Instilling corruption in government
+- Slaughter civilians, prisoners, or surrendered enemies
+- Take bribes or abuse military authority for personal gain
+- Desecrate a place of order such as a courthouse, temple, or garrison
+- Kill a commanding officer without trial or lawful cause
+- Foster rebellion or sedition within a loyal province
+- Reward cowardice, treachery, or corruption in military ranks
+- Mock or deface the symbols of Imperia''s authority
 
 **Bastion**\
 *Piety 5+ Mars Trait*\
@@ -854,14 +994,28 @@ due to his unmatched speed.\
 caduceus.\
 **Alignment:** Always good, often chaotic\
 **Piety Powers:** Individuals can increase their piety with Mercury through such actions as:
-- Following the code of messengers
+- Following the Code of Messengers
 - Helping weary travelers
 - Making great deals
+- Broker a difficult deal where both parties walk away satisfied
+- Translate for travelers or diplomats to prevent misunderstanding
+- Use wit, charm, or trickery to escape a dangerous situation nonviolently
+- Escort a lost traveler, caravan, or diplomat to safety
+- Discover or protect a hidden trade route
+- Expose a corrupt merchant or official without implicating yourself
+- Create a cipher or code for secure communication
 
 Individuals can lose piety with Mercury through such actions as:
 - Refusing shelter to travelers
-- Getting caught while stealing
-- Fleecing merchants
+- Get caught while pickpocketing, swindling, or forging
+- Cheat a fellow merchant to the point of ruin
+- Abuse your role as a messenger to deliver false or twisted information
+- Burn, deface, or erase boundary stones, guideposts, or maps
+- Fail to pay your debts after a deal is struck
+- Extort a fellow merchant by threats rather than negotiation
+- Spread rumors that ruin reputations or trade without fact
+- Encourage isolation, censorship, or the restriction of communication
+- Tamper with or destroy contracts, ledgers, or official records for personal gain
 
 **Sudden Shift**\
 *Piety 5+ Mercury Trait*\
@@ -907,19 +1061,33 @@ finery with steel grey hair and eyes.\
 **Piety Powers:** Individuals can increase their piety with Minerva through such actions as:
 - Destroying something that has outlived its usefulness
 - Creating something inspiring or useful
-- Coming up with creative solutions
+- Solve a complex problem through analysis and foresight
+- Invent a new tool, method, or technique that benefits a craft or discipline
+- Heal a wounded creature using learned knowledge rather than divine magic
+- Restore an ancient work of art or knowledge from ruin
+- Study and preserve the written histories of your people
+- Translate an ancient or lost language for the benefit of others
+- Honor the legacy of another artisan, scholar, or creator
+- Recognize when something sacred must be destroyed or changed for progress to continue
 
 Individuals can lose piety with Minerva through such actions as:
-- Ridiculing the work of another
-- Backing down from a contest
+- Ridicule or belittle the creative work or ideas of others, especially students or beginners
+- Back down from a challenge of intellect or skill out of fear of losing
 - Creating something that unintentionally harms another
+- Destroy or deface a library, workshop, or artistic creation out of malice
+- Suppress or censor knowledge that could help others out of fear or pride
+- Heal someone poorly due to haste or lack of care
+- Plagiarize the ideas or work of another without credit
+- Reject a logical solution due to arrogance or dogma
+- Treat knowledge as a weapon rather than a tool
+- Refuse to admit your ignorance in a field where others could teach you
 
 **Tinkering**\
 *Piety 5+ Minerva Trait*\
-As an action, you summon a bizarre, but useful large, animated object that you can shape and command to perform any simple task that can be 
+As an action, you summon a bizarre, but useful large, [animated object](images/piety/minerva_tinker.jpg) that you can shape and command to perform any simple task that can be 
 described in 25 words or less. The object will perform the same task over and over and the task cannot be changed. The object always acts 
 on your turn in initiative. It has a speed of 40 feet, fly speed of 10 feet (hover), AC 14, +3 to its Constitution and Strength saves, and 
-22 hitpoints. The object can make a slam attack with a five foot range and a +5 bonus to its attack roll dealing 1d8+3 bludgeoning damage. 
+22 hitpoints. The object can make a slam attack with a five-foot range and a +5 bonus to its attack roll dealing 1d8+3 bludgeoning damage. 
 It can also throw rocks with a 60/120 foot range with a +5 bonus to its attack roll dealing 2d6+3 bludgeoning damage. The object lasts 
 until its destroyed, you summon another one, or order it away as a bonus action. Once you use this trait, you must finish a long rest 
 before you can use it again.
@@ -966,13 +1134,27 @@ Regardless, he is the patron deity of soldiers, and any respectable court will h
 **Alignment:** Always neutral, often lawful\
 **Piety Powers:** Individuals can increase their piety with Mithras through such actions as:
 - Besting soldiers in combat
-- Upholding an oath
+- Refuse to yield an oath even under torture or temptation
 - Punishing an oath breaker
+- Ensure a battlefield burial or rite for fallen soldiers, friend and foe alike
+- Fast, endure pain, or undergo a trial to gain spiritual insight or strength
+- Recognize and honor valor in enemies who fought with honor
+- Bear witness to a comrade''s oath or dying wish and fulfill it
+- Offer the blood of a bull or great beast in solemn ritual
+- Defend the integrity of an oath-bound company or sacred brotherhood
+- Protect the identity of an initiate or guardian of divine knowledge
 
 Individuals can lose piety with Mithras through such actions as:
 - Killing soldiers outside of combat
 - Disturbing a mystery
 - Killing a bull without offering
+- Break an oath without seeking purification or atonement
+- Mock or dismiss sacred brotherhoods, rites of passage, or ritual bonds
+- Refuse to perform funeral rites for a comrade or enemy who fought with honor
+- Fake or forge an oath for advantage or deception
+- Flee a fight that calls for courage or duty
+- Violate a chain of command in wartime without grave cause
+- Disrespect the dead on a battlefield or plunder their remains
 
 **Tactician**\
 *Piety 5+ Mithras Trait*\
@@ -1011,14 +1193,27 @@ The middle brother of Saturn and Opis. Neptune laid claim to the sea after the w
 **Appearance:** Neptune appears to mortals in whatever condition the sea is in.\
 **Alignment:** Always chaotic, often evil\
 **Piety Powers:** Individuals can increase their piety with Neptune through such actions as:
-- Offering treasure to the sea
-- Sacrifices before sailing
+- Sacrifice a valuable object (e.g., gold, weapons, wine) to the sea before a voyage
 - Taking care of a horse
+- Rescue a drowning person or shipwrecked sailor
+- Survive a shipwreck and offer thanks to Neptune upon reaching land
+- Lead a herd of wild horses to safety from a natural disaster
+- Subdue a raging beast or elemental of water through strength or calm resolve
+- Restore a river''s natural flow that had been blocked by reckless construction
+- Reclaim sunken treasure and offer part of it back to the sea
+- Give clean water to those in a desert, drought, or flood-stricken land
 
 Individuals can lose piety with Neptune through such actions as:
 - Using magic to calm the seas
 - Polluting waters
-- Eating horse
+- Kill a horse for meat, sport, or cruelty
+- Enchant a ship to ignore tides, storms, or sea currents
+- Cross the sea without offering thanks or sacrifice before departure
+- Poison a river, spring, or well through neglect or corruption
+- Use a horse until death through overwork or neglect
+- Start a fire near a riverbank or estuary, harming fish or wildlife
+- Steal from a sunken ship without leaving a votive behind
+- Take a horse from someone without care for its bond or wellbeing
 
 **Rolling River**\
 *Piety 5+ Neptune Trait*\
@@ -1069,13 +1264,27 @@ armor powered by the souls of the dead.\
 **Alignment:** Always lawful, often neutral\
 **Piety Powers:** Individuals can increase their piety with Pluto through such actions as:
 - Returning a lost soul to the Underworld
-- Easing someone''s or funeral rites
+- Perform or oversee a proper funeral with rites, offerings, and/or burial
 - Convincing someone to accept misfortune
+- Safely return the remains or soul of a lost person to their family or tomb
+- Protect a crypt, tomb, or graveyard from looters or desecration
+- End the suffering of someone dying a long, inevitable death with compassion and reverence
+- Return a stolen funerary artifact to its rightful tomb
+- Reclaim a cursed or forbidden treasure and return it to the earth
+- Deliver a eulogy or poetic remembrance that honors the truth of a person''s life
+- Help someone create a will, tomb, or death plan before they pass
 
 Individuals can lose piety with Pluto through such actions as:
-- Saving a life that was doomed for the Underworld
-- Allowing a soul to escape the Underworld
+- Saving a life that was doomed for the [[Underworld]]
+- Allowing a soul to escape the [[Underworld]]
 - Denying funeral rites
+- Desecrate a tomb, urn, grave, or funerary relic for profit or amusement
+- Raise or bind the dead for personal gain without reverence or necessity
+- Use wealth taken from the dead for vanity, decadence, or hubris
+- Laugh or feast at a funeral without reverence or consent
+- Use a person''s fear of death to manipulate them
+- Use illusions or glamours to mask grief, aging, or loss
+- Destroy a record, story, or name of the dead out of spite or denial
 
 **Underworld Market**\
 *Piety 5+ Pluto Trait*\
@@ -1122,14 +1331,28 @@ Ridge.\
 in a long, purple dressed flanked by two dogs.\
 **Alignment:** Always neutral, often evil\
 **Piety Powers:** Individuals can increase their piety with Trivia through such actions as:
-- Teaching others magic
+- Teach arcane or occult knowledge to a worthy and willing student
 - Helping others make decisions
 - Mediating a major dispute
+- Leave offerings or cast protective wards at a crossroads or threshold
+- Aid a ghost or spirit in finding peace or completing unfinished business
+- Translate or protect forbidden magical texts rather than destroy them
+- Assist a necromancer, oracle, or hedge-witch in good faith
+- Ensure a spirit is bound, exorcised, or honored as the situation demands
+- Trace magical lineages or defend a sorcerer''s ancestry
+- Cast a spell that reveals hidden truth, rather than manipulation
 
 Individuals can lose piety with Trivia through such actions as:
 - Prosecuting magic users
 - Giving others bad advice
-- Restricting the reach of magic in Terra
+- Enforce laws that ban or suppress magic
+- Destroy crossroads shrines, boundary stones, or ritual waymarks
+- Abuse spirits or ghosts as tools or slaves
+- Gatekeep magical knowledge out of fear, pride, or control
+- Force a soul to remain tethered after death for personal gain
+- Refuse to guide a wandering soul out of laziness or indifference
+- Spread fear about magic, spirits, or the dead to control the ignorant
+- Deny or hide from your own magical nature or lineage
 
 **Diviner**\
 *Piety 5+ Trivia Trait*\
@@ -1172,13 +1395,27 @@ into the sea causing Venus to spring to life.\
 **Alignment:** Always good, often chaotic
 **Piety Powers:** Individuals can increase their piety with Venus through such actions as:
 - Making or commissioning a portrait of beauty
-- Frequent, positive use of prostitutes 
-- Matchmaking 
+- Beautify a sacred space with flowers, perfume, candles, or color
+- Write poetry or music inspired by longing, love, or desire
+- Frequent, positive use of prostitutes
+- Offer rose petals, honey, wine, or gold to Venus
+- Tend to another''s hair, dress, or appearance as an act of care
+- Play matchmaker between lovers and celebrate their union
+- Host a romantic feast, masquerade, or night of indulgence in her name
+- Commission erotic or romantic sculpture, tapestries, or murals
+- Swear a vow of love or loyalty while invoking Venus as witness
 
 Individuals can lose piety with Venus through such actions as:
 - Convincing others into vows of chastity
+- Use love or sex as a means of manipulation, coercion, or conquest
+- Shame others for their appearance, sensuality, or romantic choices
 - Proclaiming others are more beautiful than Venus
-- Sexual assault
+- Commit or excuse sexual violence or coercion in any form
+- Insult, attack, or degrade someone working in the sex trade
+- Destroy works of romantic or erotic art out of prudishness or envy
+- Disfigure someone as a punishment or to make them "less tempting"
+- Force others into arranged unions without love or consent
+- Use magic to force affection or obsession
 
 **Consuming Fervor**\
 *Piety 5+ Venus Trait*\
@@ -1224,13 +1461,27 @@ is said Imperia will fall.\
 **Alignment:** Always good, often chaotic\
 **Piety Powers:** Individuals can increase their piety with Vesta through such actions as:
 - Rekindling a family''s hearth
-- Building a home 
+- Warm a stranger or traveler with food and fire on a cold night
+- Building a home
+- Mend a home damaged by war, fire, or neglect
 - Reuniting a family
+- Protect a home or hearth from magical or physical harm
+- Keep vigil beside a home or sickbed through the night
+- Feed others during times of famine, war, or displacement
+- Show reverence for ancestors within the home
+- Maintain a tidy and orderly dwelling
 
 Individuals can lose piety with Vesta through such actions as:
 - Destroying an inhabited home
-- Failing to uphold the order of domesticity 
-- Extinguishing a helpful fire
+- Cast someone out of their home without just cause or shelter
+- Failing to uphold the order of domesticity
+- Betray a guest under your roof  
+- Extinguish a sacred flame or fire intended to offer warmth or hope
+- Hoard food or warmth while others near you suffer
+- Burn books, family heirlooms, or ancestral possessions in spite
+- Violate The Laws of the Open Hearth
+- Encourage others to forsake their home or family duties for greed or power
+- Mock or defile traditional domestic roles or sacred household customs
 
 **No Place Like Home**\
 *Piety 5+ Vesta Trait*\
@@ -1282,8 +1533,15 @@ their allies.\
 **Alignment:** Always chaotic, often good\
 **Piety Powers:** Individuals can increase their piety with Vulcan through such actions as:
 - Voluntarily burning yourself
+- Endure pain or physical hardship to complete a creation
+- Destroy a once-useful item in ritual fire to make room for renewal
 - Creating armor or a weapon
+- Mend a broken item of great significance (weapon, armor, tool, or heirloom)
 - Bringing down cruel mothers
+- Punish those who mock disfigurement, pain, or scars
+- Smelt a unique alloy or invention no other craftsman has made
+- Work a forge or anvil for an entire night without sleep or spell
+- Sacrifice a cherished object in volcanic ash or flame
 
 Individuals can lose piety with Vulcan through such actions as:
 - Harming a smith
