@@ -154,7 +154,7 @@ select
     '5' as "Yuma";
 select
     '[Bacchus](#bacchus)' as "God",
-    '-' as "Aelin Helskar",
+    '5' as "Aelin Helskar",
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
@@ -242,7 +242,7 @@ select
     '-' as "Yuma";
 select
     '[Mithras](#mithras)' as "God",
-    '-' as "Aelin Helskar",
+    '5' as "Aelin Helskar",
     '15' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
@@ -251,7 +251,7 @@ select
 select
     '[Neptune](#neptune)' as "God",
     '-' as "Aelin Helskar",
-    '-' as "Gao Yao",
+    'X' as "Gao Yao",
     'X' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '-' as "Maestro",
@@ -290,8 +290,8 @@ select
     '-' as "Yuma";
 select
     '[Vulcan](#vulcan)' as "God",
-    '-' as "Aelin Helskar",
-    '5' as "Gao Yao",
+    '5' as "Aelin Helskar",
+    '15' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '-' as "Maestro",
