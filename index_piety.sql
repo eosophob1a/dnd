@@ -183,7 +183,7 @@ select
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
     'X' as "Maestro",
-    '5' as "Yuma";
+    '15' as "Yuma";
 select
     '[Fortuna](#fortuna)' as "God",
     '-' as "Aelin Helskar",
@@ -262,7 +262,7 @@ select
     '15' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
-    '-' as "Maestro",
+    '5' as "Maestro",
     '-' as "Yuma";
 select
     '[Trivia](#trivia)' as "God",
@@ -1556,7 +1556,7 @@ you''ve used this trait, you must finish a long rest before you can use it again
 **Searing Armor**\
 *Piety 15+ Vulcan Trait*\
 As a bonus action, your skin begins to crack as fire from deep within wells to the surface. For the next minute, whenever you are dealt 
-damage, all creature within a 15-foot radius take fire damage equal to your Constitution or Intelligence (your choice) modifier 
+damage, all creatures within a 15-foot radius take fire damage equal to your Constitution or Intelligence (your choice) modifier 
 (minimum 1). Once you''ve used this trait, you must finish a long rest before you can use it again.
 
 **Vulcan''s Disciple**\
