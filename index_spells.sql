@@ -33,6 +33,12 @@ select
     'Search by level, class, school, and/or property...' as search_placeholder;
 /*Properties are damage, Penalty, utility, stealth, buff*/
 select
+    '[Aria](#aria)' as Spell,
+    'Cantrip' as Level,
+    'Enchantment' as School,
+    'Restricted' as Class,
+    'Damage, Penalty' as Properties;
+select
     '[Death''s Dagger](#deaths-dagger)' as Spell,
     'Cantrip' as Level,
     'Necromancy' as School,
@@ -644,6 +650,42 @@ select
     '' as Class,
     '' as Properties;
 */
+select
+    'text' as component,
+    'aria' as id,
+    TRUE as center,
+    'Aria' as title;
+select
+    'text' as component,
+    TRUE as article,
+    '
+|  | Cantrip |
+| -----------------:|:--- |
+| **School:**       | &nbsp; Enchantment |
+| **Time:**         | &nbsp; 1 Action |
+| **Range:**        | &nbsp; 30 Feet |
+| **Components:**   | &nbsp; V or S |
+| **Duration:**     | &nbsp; Up to 1 Minute |
+| **Classes:**      | &nbsp; Restricted |
+
+You perform a brief phrase of song, verse, or instrumental flourish that creates one of the following magical effects within range:
+
+- You cause a faint sound of music, a sung note, or a brief instrumental phrase to echo clearly. The sound can be no louder than a strong 
+singing voice.
+- You amplify or soften an existing sound within range, such as making your voice carry farther or quieting a noisy chamber. This effect 
+can''t overpower combat or suppress magical silence.
+- You create a harmless sensory effect to accompany a performance, such as sparks that shimmer like stars, phantom applause, drifting 
+petals, or faint motes of colored light that move in rhythm.
+- Your voice takes on a resonant quality—commanding, soothing, or alluring—for 1 minute. You have advantage on the next Charisma 
+(Performance) check you make within that duration.
+- You project a fleeting mood—mirth, melancholy, awe, or unease—into creatures within 10 feet of the effect. The feeling is mild and 
+cannot compel action or alter alignment.
+
+If you cast this spell multiple times, you can have no more than three of its non-instantaneous effects active at a time, and you can 
+dismiss an effect as an action.
+
+[Return to Top](#top)
+' as contents_md;
 
 select
     'text' as component,
