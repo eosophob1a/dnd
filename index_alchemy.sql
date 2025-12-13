@@ -1487,7 +1487,7 @@ select
     'Vulnerable Lightning' as Tertiary;
 select
     'Minerals' as Type,
-    '[Abellaite](images/alchemy/animals/abellaite.jpg)' as Name,
+    '[Abellaite](images/alchemy/minerals/abellaite.jpg)' as Name,
     'Common' as Rarity,
     'Canechdul, Mahthir, Qiryam' as Location,
     'Detect Oozes' as Primary,
@@ -1495,7 +1495,7 @@ select
     'Climb' as Tertiary;
 select
     'Minerals' as Type,
-    '[Aetherflare Stone](images/alchemy/animals/aetherflare_stone.jpg)' as Name,
+    '[Aetherflare Stone](images/alchemy/minerals/aetherflare_stone.jpg)' as Name,
     'Exotic' as Rarity,
     'Underground' as Location,
     'Radiant Damage' as Primary,
@@ -1503,7 +1503,7 @@ select
     'Damage Strength' as Tertiary;
 select
     'Minerals' as Type,
-    '[Agate](images/alchemy/animals/agate.jpg)' as Name,
+    '[Agate](images/alchemy/minerals/agate.jpg)' as Name,
     'Uncommon' as Rarity,
     'Underground' as Location,
     'Restore Dexterity' as Primary,
@@ -1511,7 +1511,7 @@ select
     'Detect Monstrosities' as Tertiary;
 select
     'Minerals' as Type,
-    '[Alkahest](images/alchemy/animals/alkahest.jpg)' as Name,
+    '[Alkahest](images/alchemy/minerals/alkahest.jpg)' as Name,
     'Exotic' as Rarity,
     'Huodi, Mahthir' as Location,
     'Detect Monstrosities' as Primary,
@@ -1519,7 +1519,7 @@ select
     'Fortify Dexterity' as Tertiary;
 select
     'Minerals' as Type,
-    '[Aqua Fortis](images/alchemy/animals/aqua_fortis.jpg)' as Name,
+    '[Aqua Fortis](images/alchemy/minerals/aqua_fortis.jpg)' as Name,
     'Rare' as Rarity,
     'Everywhere' as Location,
     'Empower - Magic' as Primary,
@@ -1527,7 +1527,7 @@ select
     'Fortify Dexterity' as Tertiary;
 select
     'Minerals' as Type,
-    '[Azoth](images/alchemy/animals/azoth.jpg)' as Name,
+    '[Azoth](images/alchemy/minerals/azoth.jpg)' as Name,
     'Exotic' as Rarity,
     'Everywhere' as Location,
     'Detect Aberrations' as Primary,
@@ -1535,7 +1535,7 @@ select
     'Damage Wisdom' as Tertiary;
 select
     'Minerals' as Type,
-    '[Azurite](images/alchemy/animals/azurite.jpg)' as Name,
+    '[Azurite](images/alchemy/minerals/azurite.jpg)' as Name,
     'Rare' as Rarity,
     'Underground' as Location,
     'Restore Wisdom' as Primary,
@@ -1543,7 +1543,7 @@ select
     'Cure Petrify' as Tertiary;
 select
     'Minerals' as Type,
-    '[Bitumen](images/alchemy/animals/bitumen.jpg)' as Name,
+    '[Bitumen](images/alchemy/minerals/bitumen.jpg)' as Name,
     'Rare' as Rarity,
     'Mahthir, Qiryam' as Location,
     'Reflect' as Primary,
@@ -1551,7 +1551,7 @@ select
     'Restore Strength' as Tertiary;
 select
     'Minerals' as Type,
-    '[Blue Vitriol](images/alchemy/animals/blue_vitriol.jpg)' as Name,
+    '[Blue Vitriol](images/alchemy/minerals/blue_vitriol.jpg)' as Name,
     'Rare' as Rarity,
     'Created' as Location,
     'Vulnerable Acid' as Primary,
@@ -1559,7 +1559,7 @@ select
     'Regenerate' as Tertiary;
 select
     'Minerals' as Type,
-    '[Brimstone](images/alchemy/animals/brimstone.jpg)' as Name,
+    '[Brimstone](images/alchemy/minerals/brimstone.jpg)' as Name,
     'Common' as Rarity,
     'Canechdul, Huodi, Mahthir, Yarok' as Location,
     'Resist Psychic' as Primary,
@@ -1567,7 +1567,7 @@ select
     'Dispel' as Tertiary;
 select
     'Minerals' as Type,
-    '[Cadmia](images/alchemy/animals/cadmia.jpg)' as Name,
+    '[Cadmia](images/alchemy/minerals/cadmia.jpg)' as Name,
     'Common' as Rarity,
     'Canechdul, Huodi, Mahthir, Tsintah' as Location,
     'Cure Stunned' as Primary,
@@ -1575,7 +1575,7 @@ select
     'Detect Dragons' as Tertiary;
 select
     'Minerals' as Type,
-    '[Calx](images/alchemy/animals/calx.jpg)' as Name,
+    '[Calx](images/alchemy/minerals/calx.jpg)' as Name,
     'Common' as Rarity,
     'Everywhere' as Location,
     'Cure Deafened' as Primary,
@@ -1583,7 +1583,7 @@ select
     'Damage Constitution' as Tertiary;
 select
     'Minerals' as Type,
-    '[Caustic Lunar](images/alchemy/animals/caustic_lunar.jpg)' as Name,
+    '[Caustic Lunar](images/alchemy/minerals/caustic_lunar.jpg)' as Name,
     'Rare' as Rarity,
     'Created' as Location,
     'Restore Dexterity' as Primary,
@@ -1591,7 +1591,7 @@ select
     'Magic Resistance' as Tertiary;
 select
     'Minerals' as Type,
-    '[Dewglass](images/alchemy/animals/dewglass.jpg)' as Name,
+    '[Dewglass](images/alchemy/minerals/dewglass.jpg)' as Name,
     'Rare' as Rarity,
     'Underground' as Location,
     'Thunder Damage' as Primary,
@@ -1599,7 +1599,7 @@ select
     'Detect Celestials' as Tertiary;
 select
     'Minerals' as Type,
-    '[Dreadstone](images/alchemy/animals/dreadstone.jpg)' as Name,
+    '[Dreadstone](images/alchemy/minerals/dreadstone.jpg)' as Name,
     'Rare' as Rarity,
     'Underground' as Location,
     'Detect Dragons' as Primary,
@@ -1607,7 +1607,7 @@ select
     'Cause Deafened' as Tertiary;
 select
     'Minerals' as Type,
-    '[Empressite](images/alchemy/animals/empressite.jpg)' as Name,
+    '[Empressite](images/alchemy/minerals/empressite.jpg)' as Name,
     'Rare' as Rarity,
     'Huodi' as Location,
     'Detect Celestials' as Primary,
@@ -1615,7 +1615,7 @@ select
     'Restore Charisma' as Tertiary;
 select
     'Minerals' as Type,
-    '[Faequartz](images/alchemy/animals/faequartz.jpg)' as Name,
+    '[Faequartz](images/alchemy/minerals/faequartz.jpg)' as Name,
     'Rare' as Rarity,
     'Underground' as Location,
     'Detect Fae' as Primary,
@@ -1623,7 +1623,7 @@ select
     'Vulnerable Psychic' as Tertiary;
 select
     'Minerals' as Type,
-    '[Fool''s Gold](images/alchemy/animals/fools_gold.jpg)' as Name,
+    '[Fool''s Gold](images/alchemy/minerals/fools_gold.jpg)' as Name,
     'Uncommon' as Rarity,
     'Underground' as Location,
     'Cure Charmed' as Primary,
@@ -1631,7 +1631,7 @@ select
     'Damage Intelligence' as Tertiary;
 select
     'Minerals' as Type,
-    '[Frostlily Shard](images/alchemy/animals/frostlily_shard.jpg)' as Name,
+    '[Frostlily Shard](images/alchemy/minerals/frostlily_shard.jpg)' as Name,
     'Rare' as Rarity,
     'Underground' as Location,
     'Detect Humanoids' as Primary,
@@ -1639,7 +1639,7 @@ select
     'Vulnerable Force' as Tertiary;
 select
     'Minerals' as Type,
-    '[Gold Dust](images/alchemy/animals/gold_dust.jpg)' as Name,
+    '[Gold Dust](images/alchemy/minerals/gold_dust.jpg)' as Name,
     'Rare' as Rarity,
     'Huodi, Imperia, Malachmet, Qiryam, Tsintah, Yarok' as Location,
     'Cause Charmed' as Primary,
@@ -1647,7 +1647,7 @@ select
     'Fortify Intelligence' as Tertiary;
 select
     'Minerals' as Type,
-    '[Gum Arabic](images/alchemy/animals/gum_arabic.jpg)' as Name,
+    '[Gum Arabic](images/alchemy/minerals/gum_arabic.jpg)' as Name,
     'Common' as Rarity,
     'Malachmet' as Location,
     'Resist Force' as Primary,
@@ -1655,7 +1655,7 @@ select
     'Haste' as Tertiary;
 select
     'Minerals' as Type,
-    '[Gypsum](images/alchemy/animals/gypsum.jpg)' as Name,
+    '[Gypsum](images/alchemy/minerals/gypsum.jpg)' as Name,
     'Uncommon' as Rarity,
     'Canechdul, Mahthir, Malachmet, Qiryam' as Location,
     'Cause Blinded' as Primary,
@@ -1663,7 +1663,7 @@ select
     'Luck' as Tertiary;
 select
     'Minerals' as Type,
-    '[Iridium](images/alchemy/animals/iridium.jpg)' as Name,
+    '[Iridium](images/alchemy/minerals/iridium.jpg)' as Name,
     'Uncommon' as Rarity,
     'Underground' as Location,
     'Detect Oozes' as Primary,
@@ -1671,7 +1671,7 @@ select
     'Vulnerable Thunder' as Tertiary;
 select
     'Minerals' as Type,
-    '[Ironveil](images/alchemy/animals/ironveil.jpg)' as Name,
+    '[Ironveil](images/alchemy/minerals/ironveil.jpg)' as Name,
     'Common' as Rarity,
     'Underground' as Location,
     'Heal' as Primary,
@@ -1679,7 +1679,7 @@ select
     'Restore Intelligence' as Tertiary;
 select
     'Minerals' as Type,
-    '[Keyite](images/alchemy/animals/keyite.jpg)' as Name,
+    '[Keyite](images/alchemy/minerals/keyite.jpg)' as Name,
     'Exotic' as Rarity,
     'Underground' as Location,
     'Detect Fiends' as Primary,
@@ -1687,7 +1687,7 @@ select
     'Silence' as Tertiary;
 select
     'Minerals' as Type,
-    '[Lime](images/alchemy/animals/lime.jpg)' as Name,
+    '[Lime](images/alchemy/minerals/lime.jpg)' as Name,
     'Common' as Rarity,
     'Everywhere' as Location,
     'Heal' as Primary,
@@ -1695,7 +1695,7 @@ select
     'Damage Wisdom' as Tertiary;
 select
     'Minerals' as Type,
-    '[Malachite](images/alchemy/animals/malachite.jpg)' as Name,
+    '[Malachite](images/alchemy/minerals/malachite.jpg)' as Name,
     'Uncommon' as Rarity,
     'Underground' as Location,
     'Detect Aberrations' as Primary,
@@ -1703,7 +1703,7 @@ select
     'Poison Damage' as Tertiary;
 select
     'Minerals' as Type,
-    '[Mareshard](images/alchemy/animals/mareshard.jpg)' as Name,
+    '[Mareshard](images/alchemy/minerals/mareshard.jpg)' as Name,
     'Uncommon' as Rarity,
     'Underground' as Location,
     'Cold Damage' as Primary,
@@ -1711,7 +1711,7 @@ select
     'Empower - Magic' as Tertiary;
 select
     'Minerals' as Type,
-    '[Massicot](images/alchemy/animals/massicot.jpg)' as Name,
+    '[Massicot](images/alchemy/minerals/massicot.jpg)' as Name,
     'Rare' as Rarity,
     'Mahthir, Yarok' as Location,
     'Detect Monstrosities' as Primary,
@@ -1719,7 +1719,7 @@ select
     'Cause Deafened' as Tertiary;
 select
     'Minerals' as Type,
-    '[Mistglaive](images/alchemy/animals/mistglaive.jpg)' as Name,
+    '[Mistglaive](images/alchemy/minerals/mistglaive.jpg)' as Name,
     'Exotic' as Rarity,
     'Underground' as Location,
     'Detect Humanoids' as Primary,
@@ -1727,7 +1727,7 @@ select
     'Vulnerable Necrotic' as Tertiary;
 select
     'Minerals' as Type,
-    '[Moonblush](images/alchemy/animals/moonblush.jpg)' as Name,
+    '[Moonblush](images/alchemy/minerals/moonblush.jpg)' as Name,
     'Uncommon' as Rarity,
     'Underground' as Location,
     'Detect Undead' as Primary,
@@ -1735,7 +1735,7 @@ select
     'Force Damage' as Tertiary;
 select
     'Minerals' as Type,
-    '[Mournshard](images/alchemy/animals/mournshard.jpg)' as Name,
+    '[Mournshard](images/alchemy/minerals/mournshard.jpg)' as Name,
     'Uncommon' as Rarity,
     'Qiryam' as Location,
     'Detect Monstrosities' as Primary,
@@ -1743,7 +1743,7 @@ select
     'Damage Wisdom' as Tertiary;
 select
     'Minerals' as Type,
-    '[Neptunite](images/alchemy/animals/neptunite.jpg)' as Name,
+    '[Neptunite](images/alchemy/minerals/neptunite.jpg)' as Name,
     'Exotic' as Rarity,
     'Underground' as Location,
     'Telekinesis' as Primary,
@@ -1751,7 +1751,7 @@ select
     'Vulnerable Cold' as Tertiary;
 select
     'Minerals' as Type,
-    '[Onyx](images/alchemy/animals/onyx.jpg)' as Name,
+    '[Onyx](images/alchemy/minerals/onyx.jpg)' as Name,
     'Uncommon' as Rarity,
     'Underground' as Location,
     'Psychic Damage' as Primary,
@@ -1759,7 +1759,7 @@ select
     'Vulnerable Radiant' as Tertiary;
 select
     'Minerals' as Type,
-    '[Plumbago](images/alchemy/animals/plumbago.jpg)' as Name,
+    '[Plumbago](images/alchemy/minerals/plumbago.jpg)' as Name,
     'Rare' as Rarity,
     'Underground' as Location,
     'Restore Intelligence' as Primary,
@@ -1767,7 +1767,7 @@ select
     'Detect Celestials' as Tertiary;
 select
     'Minerals' as Type,
-    '[Potash](images/alchemy/animals/potash.jpg)' as Name,
+    '[Potash](images/alchemy/minerals/potash.jpg)' as Name,
     'Common' as Rarity,
     'Canechdul, Mahthir, Tsintah' as Location,
     'Cure Paralyze' as Primary,
@@ -1775,7 +1775,7 @@ select
     'Damage Intelligence' as Tertiary;
 select
     'Minerals' as Type,
-    '[Pyrelash](images/alchemy/animals/pyrelash.jpg)' as Name,
+    '[Pyrelash](images/alchemy/minerals/pyrelash.jpg)' as Name,
     'Rare' as Rarity,
     'Underground' as Location,
     'Resist Cold' as Primary,
@@ -1783,7 +1783,7 @@ select
     'Damage Intelligence' as Tertiary;
 select
     'Minerals' as Type,
-    '[Quicksilver](images/alchemy/animals/quicksilver.jpg)' as Name,
+    '[Quicksilver](images/alchemy/minerals/quicksilver.jpg)' as Name,
     'Rare' as Rarity,
     'Canechdul, Yarok' as Location,
     'Haste' as Primary,
@@ -1791,7 +1791,7 @@ select
     'Telekinesis' as Tertiary;
 select
     'Minerals' as Type,
-    '[Realgar](images/alchemy/animals/realgar.jpg)' as Name,
+    '[Realgar](images/alchemy/minerals/realgar.jpg)' as Name,
     'Rare' as Rarity,
     'Huodi' as Location,
     'Restore Intelligence' as Primary,
@@ -1799,7 +1799,7 @@ select
     'Keen' as Tertiary;
 select
     'Minerals' as Type,
-    '[Red Vitriol](images/alchemy/animals/red_vitriol.jpg)' as Name,
+    '[Red Vitriol](images/alchemy/minerals/red_vitriol.jpg)' as Name,
     'Rare' as Rarity,
     'Created' as Location,
     'Detect Fiends' as Primary,
@@ -1807,7 +1807,7 @@ select
     'Damage Dexterity' as Tertiary;
 select
     'Minerals' as Type,
-    '[Sableforge](images/alchemy/animals/sableforge.jpg)' as Name,
+    '[Sableforge](images/alchemy/minerals/sableforge.jpg)' as Name,
     'Common' as Rarity,
     'Mahthir' as Location,
     'Restore Strength' as Primary,
@@ -1815,7 +1815,7 @@ select
     'Dispel' as Tertiary;
 select
     'Minerals' as Type,
-    '[Salt](images/alchemy/animals/salt.jpg)' as Name,
+    '[Salt](images/alchemy/minerals/salt.jpg)' as Name,
     'Common' as Rarity,
     'Canechdul, Huodi, Mahthir, Malachmet, Qiryam, Yarok' as Location,
     'Cause Slowed' as Primary,
@@ -1823,7 +1823,7 @@ select
     'Reflect' as Tertiary;
 select
     'Minerals' as Type,
-    '[Saltpetre](images/alchemy/animals/saltpetre.jpg)' as Name,
+    '[Saltpetre](images/alchemy/minerals/saltpetre.jpg)' as Name,
     'Rare' as Rarity,
     'Underground' as Location,
     'Psychic Damage' as Primary,
@@ -1831,7 +1831,7 @@ select
     'Telekinesis' as Tertiary;
 select
     'Minerals' as Type,
-    '[Scorzalite](images/alchemy/animals/scorzalite.jpg)' as Name,
+    '[Scorzalite](images/alchemy/minerals/scorzalite.jpg)' as Name,
     'Uncommon' as Rarity,
     'Underground' as Location,
     'Restore Wisdom' as Primary,
@@ -1839,7 +1839,7 @@ select
     'Thunder Damage' as Tertiary;
 select
     'Minerals' as Type,
-    '[Silver Dust](images/alchemy/animals/silver_dust.jpg)' as Name,
+    '[Silver Dust](images/alchemy/minerals/silver_dust.jpg)' as Name,
     'Rare' as Rarity,
     'Everywhere' as Location,
     'Cure Frightened' as Primary,
@@ -1847,7 +1847,7 @@ select
     'Damage Wisdom' as Tertiary;
 select
     'Minerals' as Type,
-    '[Spinel](images/alchemy/animals/spinel.jpg)' as Name,
+    '[Spinel](images/alchemy/minerals/spinel.jpg)' as Name,
     'Uncommon' as Rarity,
     'Underground' as Location,
     'Restore Charisma' as Primary,
@@ -1855,7 +1855,7 @@ select
     'Magic Resistance' as Tertiary;
 select
     'Minerals' as Type,
-    '[Stibnite](images/alchemy/animals/stibnite.jpg)' as Name,
+    '[Stibnite](images/alchemy/minerals/stibnite.jpg)' as Name,
     'Exotic' as Rarity,
     'Underground' as Location,
     'Vulnerable Thunder' as Primary,
@@ -1863,7 +1863,7 @@ select
     'Keen' as Tertiary;
 select
     'Minerals' as Type,
-    '[Sylvite](images/alchemy/animals/sylvite.jpg)' as Name,
+    '[Sylvite](images/alchemy/minerals/sylvite.jpg)' as Name,
     'Uncommon' as Rarity,
     'Underground' as Location,
     'Resist Poison' as Primary,
@@ -1871,7 +1871,7 @@ select
     'Cause Petrify' as Tertiary;
 select
     'Minerals' as Type,
-    '[Thornspark](images/alchemy/animals/thornspark.jpg)' as Name,
+    '[Thornspark](images/alchemy/minerals/thornspark.jpg)' as Name,
     'Rare' as Rarity,
     'Underground' as Location,
     'Resist Thunder' as Primary,
@@ -1879,7 +1879,7 @@ select
     'Vulnerable Lightning' as Tertiary;
 select
     'Minerals' as Type,
-    '[Verdantflare Crystals](images/alchemy/animals/verdantflare_crystals.jpg)' as Name,
+    '[Verdantflare Crystals](images/alchemy/minerals/verdantflare_crystals.jpg)' as Name,
     'Common' as Rarity,
     'Underground' as Location,
     'Radiant Damage' as Primary,
@@ -1887,7 +1887,7 @@ select
     'Damage Constitution' as Tertiary;
 select
     'Minerals' as Type,
-    '[Verdantfrost](images/alchemy/animals/verdantfrost.jpg)' as Name,
+    '[Verdantfrost](images/alchemy/minerals/verdantfrost.jpg)' as Name,
     'Common' as Rarity,
     'Underground' as Location,
     'Restore Intelligence' as Primary,
@@ -1895,7 +1895,7 @@ select
     'Damage Dexterity' as Tertiary;
 select
     'Minerals' as Type,
-    '[Verdigris](images/alchemy/animals/verdigris.jpg)' as Name,
+    '[Verdigris](images/alchemy/minerals/verdigris.jpg)' as Name,
     'Common' as Rarity,
     'Everywhere' as Location,
     'Detect Aberrations' as Primary,
@@ -1903,7 +1903,7 @@ select
     'Regenerate' as Tertiary;
 select
     'Minerals' as Type,
-    '[Wildthorn](images/alchemy/animals/wildthorn.jpg)' as Name,
+    '[Wildthorn](images/alchemy/minerals/wildthorn.jpg)' as Name,
     'Common' as Rarity,
     'Underground' as Location,
     'Vulnerable Poison' as Primary,
@@ -1911,7 +1911,7 @@ select
     'Empower - Magic' as Tertiary;
 select
     'Minerals' as Type,
-    '[Wraithstone](images/alchemy/animals/wraithstone.jpg)' as Name,
+    '[Wraithstone](images/alchemy/minerals/wraithstone.jpg)' as Name,
     'Rare' as Rarity,
     'Underground' as Location,
     'Necrotic Damage' as Primary,
@@ -1919,7 +1919,7 @@ select
     'Resist Radiant' as Tertiary;
 select
     'Minerals' as Type,
-    '[Wulfenite](images/alchemy/animals/wulfenite.jpg)' as Name,
+    '[Wulfenite](images/alchemy/minerals/wulfenite.jpg)' as Name,
     'Uncommon' as Rarity,
     'Underground' as Location,
     'Heal' as Primary,
@@ -1927,7 +1927,7 @@ select
     'Regenerate' as Tertiary;
 select
     'Minerals' as Type,
-    '[Zaffre](images/alchemy/animals/zaffre.jpg)' as Name,
+    '[Zaffre](images/alchemy/minerals/zaffre.jpg)' as Name,
     'Rare' as Rarity,
     'Underground' as Location,
     'Detect Fae' as Primary,
@@ -1935,7 +1935,7 @@ select
     'Restore Wisdom' as Tertiary;
 select
     'Minerals' as Type,
-    '[Zircon](images/alchemy/animals/zircon.jpg)' as Name,
+    '[Zircon](images/alchemy/minerals/zircon.jpg)' as Name,
     'Common' as Rarity,
     'Underground' as Location,
     'Resist Psychic' as Primary,

@@ -163,7 +163,7 @@ select
 select
     '[Bellona](#bellona)' as "God",
     '30' as "Aelin Helskar",
-    '-' as "Gao Yao",
+    '5' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '-' as "Maestro",
@@ -186,7 +186,7 @@ select
     '15' as "Yuma";
 select
     '[Fortuna](#fortuna)' as "God",
-    '-' as "Aelin Helskar",
+    '5' as "Aelin Helskar",
     '-' as "Gao Yao",
     '5' as "Kairo Janus",
     '15' as "Augustus Valerius",
@@ -210,7 +210,7 @@ select
     '-' as "Yuma";
 select
     '[Jupiter](#jupiter)' as "God",
-    '5' as "Aelin Helskar",
+    '15' as "Aelin Helskar",
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
@@ -222,7 +222,7 @@ select
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '15' as "Augustus Valerius",
-    '-' as "Maestro",
+    '5' as "Maestro",
     '-' as "Yuma";
 select
     '[Mercury](#mercury)' as "God",
@@ -1544,9 +1544,16 @@ their allies.\
 - Sacrifice a cherished object in volcanic ash or flame
 
 Individuals can lose piety with Vulcan through such actions as:
-- Harming a smith
-- Ignoring infidelity 
-- Not getting rid of something once it''s outlived its usefulness
+- Harm or sabotage a blacksmith, armorer, or builder out of envy
+- Allow your pain or scars to become excuses for cruelty or cowardice
+- Claim credit for a forged item or idea that is not your own
+- Use fire purely for destruction without purpose or restraint
+- Ignoring infidelity
+- Spare a broken, cursed, or treacherous item that should be destroyed
+- Mock or revile someone for physical deformity or visible scars
+- Allow a tool or weapon to go unmaintained or rusted through neglect
+- Use another''s invention without understanding or honoring the maker
+- Ignore betrayal when it harms the innocent, especially within families
 
 **Augment of Conflagration**\
 *Piety 5+ Vulcan Trait*\
