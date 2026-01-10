@@ -218,7 +218,7 @@ select
     '-' as "Yuma";
 select
     '[Mars](#mars)' as "God",
-    '-' as "Aelin Helskar",
+    '5' as "Aelin Helskar",
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '15' as "Augustus Valerius",
@@ -238,7 +238,7 @@ select
     '-' as "Gao Yao",
     '5' as "Kairo Janus",
     '-' as "Augustus Valerius",
-    '5' as "Maestro",
+    '15' as "Maestro",
     '-' as "Yuma";
 select
     '[Mithras](#mithras)' as "God",
