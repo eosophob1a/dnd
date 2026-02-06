@@ -147,10 +147,10 @@ select
 select
     '[Apollo](#apollo)' as "God",
     '-' as "Aelin Helskar",
-    '5' as "Gao Yao",
-    '5' as "Kairo Janus",
+    '-' as "Gao Yao",
+    '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
-    '30' as "Maestro",
+    '15' as "Maestro",
     '5' as "Yuma";
 select
     '[Bacchus](#bacchus)' as "God",
@@ -210,7 +210,7 @@ select
     '-' as "Yuma";
 select
     '[Jupiter](#jupiter)' as "God",
-    '15' as "Aelin Helskar",
+    '5' as "Aelin Helskar",
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
@@ -222,12 +222,12 @@ select
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '15' as "Augustus Valerius",
-    '5' as "Maestro",
+    '-' as "Maestro",
     '-' as "Yuma";
 select
     '[Mercury](#mercury)' as "God",
-    '-' as "Aelin Helskar",
-    '-' as "Gao Yao",
+    '5' as "Aelin Helskar",
+    '5' as "Gao Yao",
     '15' as "Kairo Janus",
     '15' as "Augustus Valerius",
     '5' as "Maestro",
@@ -266,10 +266,10 @@ select
     '-' as "Yuma";
 select
     '[Trivia](#trivia)' as "God",
-    '-' as "Aelin Helskar",
+    '5' as "Aelin Helskar",
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
-    '5' as "Augustus Valerius",
+    '15' as "Augustus Valerius",
     '-' as "Maestro",
     '5' as "Yuma";
 select
@@ -952,11 +952,12 @@ As an action, you create a 10-foot radius aura of protection surrounding you. Cr
 AC equal to half your proficiency bonus (rounded down/minimum 1). The aura lasts for 1 hour. Once you use this trait, you must finish a 
 long rest before you can use it again.
 
-**Fiery Withdraw**\
+**No Ground Given**\
 *Piety 15+ Mars Trait*\
-As a reaction, whenever a creature you can see within 60 feet of you would be dealt damage, you can cause the creature to erupt in flames 
-and teleport up to 120 feet away from their original position to a place you can see. Creatures within a 10-foot radius of the target take 
-3d8 fire damage. Once you use this trait, you must finish a long rest before you can use it again.
+As a reaction, when a creature you can see attempts to move or teleport while within 30 feet of you, you can anchor the battlefield. The 
+creature suffers 3d8 force damage and must make a Charisma saving throw. On a failure, the creature''s movement speed is reduced to 0, 
+and it is unable to teleport until the beginning of its next turn. Once you use this trait, you must finish a short or long rest before 
+you can use it again.
 
 **Mars''s Disciple**\
 *Piety 30+ Mars Trait*\
