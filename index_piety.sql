@@ -150,7 +150,7 @@ select
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
-    '15' as "Maestro",
+    '30' as "Maestro",
     '5' as "Yuma";
 select
     '[Bacchus](#bacchus)' as "God",
@@ -164,10 +164,10 @@ select
     '[Bellona](#bellona)' as "God",
     '30' as "Aelin Helskar",
     '5' as "Gao Yao",
-    '-' as "Kairo Janus",
+    '5' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '-' as "Maestro",
-    'X' as "Yuma";
+    '-' as "Yuma";
 select
     '[Ceres](#ceres)' as "God",
     '-' as "Aelin Helskar",
@@ -180,7 +180,7 @@ select
     '[Diana](#diana)' as "God",
     '-' as "Aelin Helskar",
     '-' as "Gao Yao",
-    '5' as "Kairo Janus",
+    '15' as "Kairo Janus",
     '-' as "Augustus Valerius",
     'X' as "Maestro",
     '15' as "Yuma";
@@ -190,7 +190,7 @@ select
     '-' as "Gao Yao",
     '5' as "Kairo Janus",
     '15' as "Augustus Valerius",
-    '-' as "Maestro",
+    '5' as "Maestro",
     '5' as "Yuma";
 select
     '[Janus](#janus)' as "God",
@@ -222,7 +222,7 @@ select
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '15' as "Augustus Valerius",
-    '-' as "Maestro",
+    '5' as "Maestro",
     '-' as "Yuma";
 select
     '[Mercury](#mercury)' as "God",
@@ -231,7 +231,7 @@ select
     '15' as "Kairo Janus",
     '15' as "Augustus Valerius",
     '5' as "Maestro",
-    '15' as "Yuma";
+    '30' as "Yuma";
 select
     '[Minerva](#minerva)' as "God",
     '-' as "Aelin Helskar",
@@ -262,7 +262,7 @@ select
     '15' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
-    '5' as "Maestro",
+    '-' as "Maestro",
     '-' as "Yuma";
 select
     '[Trivia](#trivia)' as "God",
@@ -1095,7 +1095,7 @@ before you can use it again.
 
 **Creation**\
 *Piety 15+ Minerva Trait*\
-The object you summon with Tinkering becomes much more useful. The object can now perform any task you give it to the best of its ability 
+The object you summon with Tinkering becomes much more useful. The [animated object](images/piety/minerva_creation.jpeg) can now perform any task you give it to the best of its ability 
 and the task can be changed as a bonus action. It now has a speed of 60 feet and fly speed of 20 feet (hover). It has an AC of 20, 68 
 hitpoints and is resistant to bludgeoning, piercing, and slashing damage from nonmagical attacks. It has a Strength score of 22 as well as 
 a +9 bonus to its Strength saving throws and +6 to Constitution. Its slam attack now has a range of 10 feet with a +9 attack bonus dealing 
