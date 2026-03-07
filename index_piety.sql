@@ -155,7 +155,7 @@ select
 select
     '[Bacchus](#bacchus)' as "God",
     '5' as "Aelin Helskar",
-    '-' as "Gao Yao",
+    '5' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '5' as "Maestro",
@@ -204,7 +204,7 @@ select
     '[Juno](#juno)' as "God",
     '-' as "Aelin Helskar",
     '-' as "Gao Yao",
-    '-' as "Kairo Janus",
+    'X' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '-' as "Maestro",
     '-' as "Yuma";
@@ -230,11 +230,11 @@ select
     '5' as "Gao Yao",
     '15' as "Kairo Janus",
     '15' as "Augustus Valerius",
-    '5' as "Maestro",
+    '15' as "Maestro",
     '30' as "Yuma";
 select
     '[Minerva](#minerva)' as "God",
-    '-' as "Aelin Helskar",
+    '5' as "Aelin Helskar",
     '-' as "Gao Yao",
     '5' as "Kairo Janus",
     '-' as "Augustus Valerius",
@@ -270,7 +270,7 @@ select
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '15' as "Augustus Valerius",
-    '-' as "Maestro",
+    '5' as "Maestro",
     '5' as "Yuma";
 select
     '[Venus](#venus)' as "God",
