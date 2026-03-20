@@ -198,7 +198,7 @@ select
     '-' as "Gao Yao",
     '30' as "Kairo Janus",
     '-' as "Augustus Valerius",
-    '-' as "Maestro",
+    '5' as "Maestro",
     '-' as "Yuma";
 select
     '[Juno](#juno)' as "God",
