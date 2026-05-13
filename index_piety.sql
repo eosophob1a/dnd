@@ -271,7 +271,7 @@ select
     '-' as "Kairo Janus",
     '15' as "Augustus Valerius",
     '5' as "Maestro",
-    '5' as "Yuma";
+    '15' as "Yuma";
 select
     '[Venus](#venus)' as "God",
     '-' as "Aelin Helskar",
@@ -294,7 +294,7 @@ select
     '15' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
-    '-' as "Maestro",
+    '5' as "Maestro",
     '-' as "Yuma";
 
 select
