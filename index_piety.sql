@@ -146,7 +146,7 @@ select
     TRUE as freeze_headers;
 select
     '[Apollo](#apollo)' as "God",
-    '-' as "Aelin Helskar",
+    'X' as "Aelin Helskar",
     '-' as "Gao Yao",
     '5' as "Kairo Janus",
     '-' as "Augustus Valerius",
@@ -154,7 +154,7 @@ select
     '5' as "Yuma";
 select
     '[Bacchus](#bacchus)' as "God",
-    '5' as "Aelin Helskar",
+    '15' as "Aelin Helskar",
     '5' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
@@ -255,7 +255,7 @@ select
     'X' as "Kairo Janus",
     '5' as "Augustus Valerius",
     '-' as "Maestro",
-    '5' as "Yuma";
+    '15' as "Yuma";
 select
     '[Pluto](#pluto)' as "God",
     '-' as "Aelin Helskar",
