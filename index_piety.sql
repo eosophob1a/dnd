@@ -178,7 +178,7 @@ select
     '-' as "Yuma";
 select
     '[Diana](#diana)' as "God",
-    '-' as "Aelin Helskar",
+    '5' as "Aelin Helskar",
     '-' as "Gao Yao",
     '15' as "Kairo Janus",
     '-' as "Augustus Valerius",
@@ -213,7 +213,7 @@ select
     '15' as "Aelin Helskar",
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
-    '-' as "Augustus Valerius",
+    '5' as "Augustus Valerius",
     '-' as "Maestro",
     '-' as "Yuma";
 select
@@ -286,7 +286,7 @@ select
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
-    '-' as "Maestro",
+    '5' as "Maestro",
     '-' as "Yuma";
 select
     '[Vulcan](#vulcan)' as "God",
