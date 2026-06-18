@@ -3,14 +3,10 @@ select
     'Piety' as title,
     'omega' as icon,
     TRUE as fixed_top_menu,
-    JSON('{"title":"Alchemy","icon": "flask-2","link":"/index_alchemy.sql"}') as menu_item,
-    JSON('{"title":"Warrior","icon": "swords","link":"/index_warrior.sql"}') as menu_item,
+    JSON('{"title":"Mechanics","icon": "settings-2","submenu":[{"link":"/index_alchemy.sql","title":"Alchemy"},{"link":"/index_currency.sql","title":"Currency"},{"link":"/index_narcotics.sql","title":"Narcotics"}]}') as menu_item,
+    JSON('{"title":"Character","icon": "user-plus","submenu":[{"link":"/index_piety.sql","title":"Piety"},{"link":"/index_warrior.sql","title":"Warrior"},{"link":"/index_subclasses.sql","title":"Subclasses"},{"link":"/index_spells.sql","title":"Spells"}]}') as menu_item,
     JSON('{"title":"Terra","icon": "mountain","submenu":[{"link":"/index_terra.sql","title":"Terra"},{"link":"/index_terra_canechdul.sql","title":"Canechdul"},{"link":"/index_terra_huodi.sql","title":"Huodi"},{"link":"index_terra_imperia.sql","title":"Imperia"},{"link":"index_terra_mahthir.sql","title":"Mahthir"},{"link":"index_terra_malachmet.sql","title":"Malachmet"},{"link":"index_terra_qiryam.sql","title":"Qiryam"},{"link":"index_terra_tsintah.sql","title":"Tsintah"}]}') as menu_item,
-    JSON('{"title":"Subclasses","icon": "feather","link":"/index_subclasses.sql"}') as menu_item,
-    JSON('{"title":"Spells","icon": "wand","link":"/index_spells.sql"}') as menu_item,
-    JSON('{"title":"Currency","icon": "coins","link":"/index_currency.sql"}') as menu_item,
-    JSON('{"title":"Piety","icon": "flask-2","link":"/index_piety.sql"}') as menu_item,
-    JSON('{"title":"Narcotics","icon": "brain","link":"/index_narcotics.sql"}') as menu_item,
+    JSON('{"title":"Groups","icon": "users-group","submenu":[{"link":"/index_cultoforen.sql","title":"Cult of Oren"},{"link":"/index_swordsofpurity.sql","title":"Swords of Purity"},{"link":"/index_brothers.sql","title":"Brothers of Enlightened Interests"}]}') as menu_item,
     'dark' as theme;
 select
     'hero' as component,
@@ -165,7 +161,7 @@ select
     '30' as "Aelin Helskar",
     '5' as "Gao Yao",
     '5' as "Kairo Janus",
-    '-' as "Augustus Valerius",
+    '5' as "Augustus Valerius",
     '-' as "Maestro",
     '-' as "Yuma";
 select
@@ -189,7 +185,7 @@ select
     '5' as "Aelin Helskar",
     '-' as "Gao Yao",
     '5' as "Kairo Janus",
-    '15' as "Augustus Valerius",
+    '30' as "Augustus Valerius",
     '5' as "Maestro",
     '5' as "Yuma";
 select
@@ -282,7 +278,7 @@ select
     '-' as "Yuma";
 select
     '[Vesta](#vesta)' as "God",
-    '-' as "Aelin Helskar",
+    '5' as "Aelin Helskar",
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
