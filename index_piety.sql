@@ -193,14 +193,14 @@ select
     '-' as "Aelin Helskar",
     '-' as "Gao Yao",
     '30' as "Kairo Janus",
-    '-' as "Augustus Valerius",
+    '5' as "Augustus Valerius",
     '5' as "Maestro",
     '-' as "Yuma";
 select
     '[Juno](#juno)' as "God",
-    '-' as "Aelin Helskar",
+    '5' as "Aelin Helskar",
     '-' as "Gao Yao",
-    'X' as "Kairo Janus",
+    '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '-' as "Maestro",
     '-' as "Yuma";
@@ -238,7 +238,7 @@ select
     '-' as "Yuma";
 select
     '[Mithras](#mithras)' as "God",
-    '5' as "Aelin Helskar",
+    '15' as "Aelin Helskar",
     '15' as "Gao Yao",
     '-' as "Kairo Janus",
     '5' as "Augustus Valerius",
