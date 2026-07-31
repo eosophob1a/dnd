@@ -144,7 +144,7 @@ select
     '[Apollo](#apollo)' as "God",
     'X' as "Aelin Helskar",
     '-' as "Gao Yao",
-    '5' as "Kairo Janus",
+    'X' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '30' as "Maestro",
     '5' as "Yuma";
@@ -259,7 +259,7 @@ select
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '5' as "Maestro",
-    '-' as "Yuma";
+    '5' as "Yuma";
 select
     '[Trivia](#trivia)' as "God",
     '5' as "Aelin Helskar",
