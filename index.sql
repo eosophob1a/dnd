@@ -12,7 +12,7 @@ select
     'hero' as component,
     'Winds of the Exiled' as title,
     '"What does the story mean then?" It means what you want it to mean. The purpose of a storyteller is not to tell you how to think, but 
-    to give you questions to think upon. Too often, we forget that. lolololol"' as description,
+    to give you questions to think upon. Too often, we forget that."' as description,
     'images/1_main_homepage.jpg' as image;
 select
     'Alchemy' as title,
