@@ -1,0 +1,10 @@
+services:
+  dnd-wiki:
+    build: .
+    image: dnd-wiki:latest
+    container_name: dnd-wiki
+    ports:
+      - "${PORT:-8085}:8080"
+    environment:
+      - SQLPAGE_PORT=8080
+    restart: unless-stopped
