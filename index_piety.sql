@@ -172,7 +172,7 @@ select
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '-' as "Maestro",
-    '-' as "Yuma";
+    '5' as "Yuma";
 select
     '[Diana](#diana)' as "God",
     '5' as "Aelin Helskar",
@@ -185,7 +185,7 @@ select
     '[Fortuna](#fortuna)' as "God",
     '5' as "Aelin Helskar",
     '-' as "Gao Yao",
-    '5' as "Kairo Janus",
+    '15' as "Kairo Janus",
     '30' as "Augustus Valerius",
     '5' as "Maestro",
     '5' as "Yuma";
@@ -265,7 +265,7 @@ select
     '[Trivia](#trivia)' as "God",
     '5' as "Aelin Helskar",
     '-' as "Gao Yao",
-    '-' as "Kairo Janus",
+    '5' as "Kairo Janus",
     '15' as "Augustus Valerius",
     '5' as "Maestro",
     '15' as "Yuma";
@@ -284,7 +284,7 @@ select
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '5' as "Maestro",
-    '-' as "Yuma";
+    '5' as "Yuma";
 select
     '[Vulcan](#vulcan)' as "God",
     '5' as "Aelin Helskar",
