@@ -242,7 +242,7 @@ select
     '
 # Masika-nofre
 - Deacon of the Cult of Oren
-- Customers officer of the Twin Cities
+- Customs officer of the Twin Cities
 - Oversees all traffic that goes along the Ankh Canal
 - Lives in a small, river-side villa
 
@@ -294,9 +294,10 @@ select
 # Shi Long
 - Pontiff of the Cult of Oren
 - Gong (Goveneor) of the Huodese Central Province
-- Oversees the province from Zhurongshi
+- Oversees the province from Zhurongshi 
+- Highly involved in nautical trade and expanding Huodese influence
 
-![NAME image](images/cult-of-oren/unknown.png)
+![NAME image](images/cult-of-oren/shi-long.png)
 
 [Return to Top](#top)
 

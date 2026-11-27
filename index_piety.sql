@@ -183,7 +183,7 @@ select
     '15' as "Yuma";
 select
     '[Fortuna](#fortuna)' as "God",
-    '5' as "Aelin Helskar",
+    '15' as "Aelin Helskar",
     '-' as "Gao Yao",
     '15' as "Kairo Janus",
     '30' as "Augustus Valerius",
@@ -227,7 +227,7 @@ select
     '5' as "Gao Yao",
     '15' as "Kairo Janus",
     '15' as "Augustus Valerius",
-    '15' as "Maestro",
+    '30' as "Maestro",
     '30' as "Yuma";
 select
     '[Minerva](#minerva)' as "God",
@@ -236,7 +236,7 @@ select
     '5' as "Kairo Janus",
     '-' as "Augustus Valerius",
     '15' as "Maestro",
-    '-' as "Yuma";
+    '5' as "Yuma";
 select
     '[Mithras](#mithras)' as "God",
     '15' as "Aelin Helskar",
@@ -271,7 +271,7 @@ select
     '15' as "Yuma";
 select
     '[Venus](#venus)' as "God",
-    '-' as "Aelin Helskar",
+    '5' as "Aelin Helskar",
     '-' as "Gao Yao",
     '-' as "Kairo Janus",
     '-' as "Augustus Valerius",
